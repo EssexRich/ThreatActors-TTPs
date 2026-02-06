@@ -1,0 +1,213 @@
+name: Enrich CVEs with NVD Data
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'  # Sundays 02:00 UTC, before Monday Redis sync
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Enrichment mode'
+        required: true
+        default: 'only-missing'
+        type: choice
+        options:
+          - only-missing
+          - all
+          - dry-run
+      single_cve:
+        description: 'Single CVE to enrich (optional, e.g. CVE-2024-7262)'
+        required: false
+        type: string
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run NVD enrichment
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'only-missing' }}
+          SINGLE_CVE: ${{ inputs.single_cve || '' }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+
+          import { readFile, writeFile } from "fs/promises";
+
+          const API_BASE = "https://services.nvd.nist.gov/rest/json/cves/2.0";
+          const API_KEY = process.env.NVD_API_KEY || null;
+          const RATE_MS = API_KEY ? 700 : 6500;
+          const MODE = process.env.MODE || "only-missing";
+          const SINGLE = process.env.SINGLE_CVE || null;
+          const CVE_PATH = "cve-index.json";
+
+          const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+          const log = (m) => console.log(`[${new Date().toISOString().slice(11, 19)}] ${m}`);
+
+          async function fetchNVD(cveId, retries = 2) {
+            const headers = { Accept: "application/json", "User-Agent": "IncidentBuddy-CVE-Enrichment/1.0" };
+            if (API_KEY) headers.apiKey = API_KEY;
+
+            const resp = await fetch(`${API_BASE}?cveId=${cveId}`, { headers });
+
+            if (resp.status === 403 || resp.status === 429) {
+              if (retries > 0) {
+                log(`  Rate limited, waiting 30s...`);
+                await sleep(30000);
+                return fetchNVD(cveId, retries - 1);
+              }
+              throw new Error(`Rate limited on ${cveId} after retries`);
+            }
+
+            if (!resp.ok) throw new Error(`NVD returned ${resp.status} for ${cveId}`);
+
+            const data = await resp.json();
+            return data.vulnerabilities?.[0]?.cve || null;
+          }
+
+          function extract(nvd) {
+            if (!nvd) return null;
+            const out = { nvdEnriched: true, nvdEnrichedDate: new Date().toISOString().split("T")[0] };
+
+            // CVSS
+            const m = nvd.metrics || {};
+            const cvss = m.cvssMetricV31?.[0]?.cvssData || m.cvssMetricV30?.[0]?.cvssData;
+            const cvss2 = m.cvssMetricV2?.[0]?.cvssData;
+
+            if (cvss) {
+              out.cvss = {
+                version: cvss.version, score: cvss.baseScore, severity: cvss.baseSeverity,
+                vector: cvss.vectorString, attackVector: cvss.attackVector,
+                attackComplexity: cvss.attackComplexity, privilegesRequired: cvss.privilegesRequired,
+                userInteraction: cvss.userInteraction, scope: cvss.scope,
+                confidentialityImpact: cvss.confidentialityImpact,
+                integrityImpact: cvss.integrityImpact, availabilityImpact: cvss.availabilityImpact,
+              };
+            } else if (cvss2) {
+              out.cvss = {
+                version: "2.0", score: cvss2.baseScore, vector: cvss2.vectorString,
+                severity: cvss2.baseScore >= 7 ? "HIGH" : cvss2.baseScore >= 4 ? "MEDIUM" : "LOW",
+              };
+            }
+
+            // References
+            const refs = nvd.references || [];
+            out.references = refs.map((r) => ({ url: r.url, source: r.source || null, tags: r.tags || [] }));
+            out.patchUrls = refs.filter((r) => r.tags?.some((t) => ["Patch", "Vendor Advisory", "Mitigation"].includes(t))).map((r) => r.url);
+            out.exploitUrls = refs.filter((r) => r.tags?.some((t) => ["Exploit", "Third Party Advisory"].includes(t))).map((r) => r.url);
+
+            // Affected products from CPE configurations
+            const products = new Map();
+            for (const cfg of nvd.configurations || []) {
+              for (const node of cfg.nodes || []) {
+                for (const match of node.cpeMatch || []) {
+                  if (!match.vulnerable) continue;
+                  const p = match.criteria?.split(":") || [];
+                  const key = `${p[3] || ""}|${p[4] || ""}`;
+                  if (!products.has(key)) products.set(key, { vendor: p[3] || "", product: p[4] || "", versions: [] });
+                  const entry = products.get(key);
+                  const ver = p[5] && p[5] !== "*" ? p[5] : null;
+                  const range = (match.versionStartIncluding || match.versionStartExcluding || "") + " to " + (match.versionEndIncluding || match.versionEndExcluding || "");
+                  if (ver) entry.versions.push(ver);
+                  else if (range !== " to ") entry.versions.push(range.trim());
+                }
+              }
+            }
+            out.affectedProducts = [...products.values()].map((p) => ({ ...p, versions: [...new Set(p.versions)].slice(0, 20) }));
+
+            // CWEs
+            out.cwes = [...new Set((nvd.weaknesses || []).flatMap((w) => (w.description || []).map((d) => d.value)).filter((v) => v?.startsWith("CWE-")))];
+
+            return out;
+          }
+
+          // ── Main ──
+
+          log("=== NVD CVE Enrichment ===");
+          log(`API key: ${API_KEY ? "yes (fast)" : "no (slow, ~6.5s/req)"}`);
+          log(`Mode: ${MODE}${SINGLE ? `, single CVE: ${SINGLE}` : ""}`);
+
+          const cveIndex = JSON.parse(await readFile(CVE_PATH, "utf8"));
+
+          // Collect unique CVEs
+          const allCVEs = new Map();
+          for (const [actor, data] of Object.entries(cveIndex)) {
+            for (const cve of data.cves || []) {
+              const id = cve.id || cve.cveId;
+              if (!id) continue;
+              if (!allCVEs.has(id)) allCVEs.set(id, { enriched: !!cve.nvdEnriched });
+            }
+          }
+
+          let toProcess = [...allCVEs.entries()];
+          if (SINGLE) toProcess = toProcess.filter(([id]) => id.toUpperCase() === SINGLE.toUpperCase());
+          if (MODE === "only-missing") toProcess = toProcess.filter(([, d]) => !d.enriched);
+
+          log(`${allCVEs.size} unique CVEs, processing ${toProcess.length}`);
+
+          let enriched = 0, failed = 0;
+
+          for (let i = 0; i < toProcess.length; i++) {
+            const [cveId] = toProcess[i];
+            const progress = `[${i + 1}/${toProcess.length}]`;
+
+            try {
+              log(`${progress} ${cveId}...`);
+
+              if (MODE === "dry-run") { log(`  (dry run)`); continue; }
+
+              const nvd = await fetchNVD(cveId);
+              const data = extract(nvd);
+              if (!data) { log(`  No NVD data`); await sleep(RATE_MS); continue; }
+
+              // Write back to all actors referencing this CVE
+              for (const [actor, actorData] of Object.entries(cveIndex)) {
+                for (let j = 0; j < (actorData.cves || []).length; j++) {
+                  if ((actorData.cves[j].id || actorData.cves[j].cveId) === cveId) {
+                    Object.assign(cveIndex[actor].cves[j], data);
+                  }
+                }
+              }
+
+              log(`  ✓ CVSS ${data.cvss?.score || "?"} (${data.cvss?.severity || "?"}), ${data.patchUrls?.length || 0} patches, ${data.affectedProducts?.length || 0} products`);
+              enriched++;
+              await sleep(RATE_MS);
+
+            } catch (err) {
+              console.error(`  ✗ ${cveId}: ${err.message}`);
+              failed++;
+              await sleep(RATE_MS);
+            }
+          }
+
+          log(`\nDone: ${enriched} enriched, ${failed} failed`);
+
+          if (MODE !== "dry-run" && enriched > 0) {
+            await writeFile(CVE_PATH, JSON.stringify(cveIndex, null, 2));
+            log(`Written to ${CVE_PATH}`);
+          }
+
+          if (MODE === "dry-run") {
+            log(`Estimated full run: ~${Math.ceil(toProcess.length * RATE_MS / 60000)} minutes`);
+          }
+
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          git diff --quiet cve-index.json && echo "No changes" && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cve-index.json
+          git commit -m "chore: enrich CVEs with NVD data (CVSS, references, affected products)"
+          git push

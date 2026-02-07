@@ -46,6 +46,11 @@
       "id": "CVE-2019-9670",
       "source": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf",
       "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-36884",
+      "source": "https://www.securityweek.com/cisa-warns-of-attacks-exploiting-sophos-web-appliance-vulnerability/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "group": "Earth Lamia (China-nexus)",
+  "cves": [
+    {
+      "id": "CVE-2017-9805",
+      "source": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

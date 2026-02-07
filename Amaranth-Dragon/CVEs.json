@@ -1,0 +1,10 @@
+{
+  "group": "Amaranth-Dragon",
+  "cves": [
+    {
+      "id": "CVE-2025-8088",
+      "source": "https://research.checkpoint.com/2026/amaranth-dragon-weaponizes-cve-2025-8088-for-targeted-espionage/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

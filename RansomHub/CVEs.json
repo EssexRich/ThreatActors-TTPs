@@ -36,6 +36,26 @@
         "CWE-306"
       ],
       "dateEnriched": "2026-02-07"
+    },
+    {
+      "id": "CVE-2018-13379",
+      "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-0669",
+      "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2024-20353",
+      "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2024-20359",
+      "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

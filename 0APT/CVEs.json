@@ -1,0 +1,15 @@
+{
+  "group": "0APT Ransomware",
+  "cves": [
+    {
+      "id": "CVE-2026-1281",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-january-27-february-2-2026",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-24858",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-january-27-february-2-2026",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

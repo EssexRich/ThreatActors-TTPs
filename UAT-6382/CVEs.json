@@ -1,0 +1,10 @@
+{
+  "group": "UAT-6382 - Chinese-Speaking APT",
+  "cves": [
+    {
+      "id": "CVE-2025-0994",
+      "source": "https://blog.talosintelligence.com/category/apt/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "group": "Cuba",
+  "cves": [
+    {
+      "id": "CVE-2026-1281",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-1340",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-24858",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-27532",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

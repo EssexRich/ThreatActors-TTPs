@@ -51,6 +51,11 @@
       "id": "CVE-2023-36884",
       "source": "https://www.securityweek.com/cisa-warns-of-attacks-exploiting-sophos-web-appliance-vulnerability/",
       "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://blog.qualys.com/vulnerabilities-threat-research/2021/02/01/unpacking-the-fireeye-breach-start-here-first",
+      "dateFound": "2026-02-07"
     }
   ]
 }

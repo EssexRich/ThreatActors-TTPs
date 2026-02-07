@@ -1,0 +1,123 @@
+name: Rebuild CVEs.json from Git History
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild all CVEs.json from history
+        run: |
+          python3 << 'SCRIPT'
+          import subprocess, json, os
+
+          def git(cmd):
+              result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+              return result.stdout.strip()
+
+          # Find every CVEs.json that has ever been committed
+          raw = git("git log --all --pretty=format: --name-only --diff-filter=ACM -- '*/CVEs.json'")
+          cve_files = sorted(set(line.strip() for line in raw.splitlines() if line.strip().endswith('CVEs.json')))
+
+          print(f"Found {len(cve_files)} CVEs.json files in git history\n")
+
+          total_recovered = 0
+          total_files = 0
+
+          for cve_file in cve_files:
+              folder = os.path.dirname(cve_file)
+
+              # Get all commits that touched this file
+              commits_raw = git(f"git log --all --pretty=format:'%H' -- '{cve_file}'")
+              commits = [c.strip().strip("'") for c in commits_raw.splitlines() if c.strip()]
+
+              if not commits:
+                  continue
+
+              # Extract all CVEs from every version
+              all_cves = {}
+              group_name = folder
+
+              for commit in commits:
+                  try:
+                      content = git(f"git show {commit}:'{cve_file}'")
+                      if not content:
+                          continue
+                      data = json.loads(content)
+                      if data.get('group'):
+                          group_name = data['group']
+                      for cve in data.get('cves', []):
+                          cve_id = cve.get('id', '')
+                          if not cve_id:
+                              continue
+                          if cve_id not in all_cves:
+                              all_cves[cve_id] = {
+                                  'id': cve_id,
+                                  'source': cve.get('source', ''),
+                                  'dateFound': cve.get('dateFound', '')
+                              }
+                          else:
+                              existing = all_cves[cve_id]
+                              # Keep earlier dateFound
+                              if cve.get('dateFound', 'z') < existing.get('dateFound', 'z'):
+                                  existing['dateFound'] = cve['dateFound']
+                              # Fill in missing source
+                              if not existing.get('source') and cve.get('source'):
+                                  existing['source'] = cve['source']
+                  except Exception as e:
+                      continue
+
+              if not all_cves:
+                  continue
+
+              # Count current CVEs for comparison
+              current_count = 0
+              if os.path.exists(cve_file):
+                  try:
+                      with open(cve_file) as f:
+                          current_count = len(json.load(f).get('cves', []))
+                  except:
+                      pass
+
+              merged = sorted(all_cves.values(), key=lambda x: x['id'])
+              recovered = len(merged) - current_count
+
+              print(f"{folder}: {current_count} -> {len(merged)} CVEs ({'+' + str(recovered) if recovered > 0 else recovered} recovered) from {len(commits)} commits")
+
+              # Write merged file
+              os.makedirs(os.path.dirname(cve_file), exist_ok=True)
+              with open(cve_file, 'w') as f:
+                  json.dump({'group': group_name, 'cves': merged}, f, indent=2)
+                  f.write('\n')
+
+              if recovered > 0:
+                  total_recovered += recovered
+              total_files += 1
+
+          print(f"\n=== Done: {total_files} files processed, {total_recovered} CVEs recovered ===")
+          SCRIPT
+
+      - name: Commit changes
+        run: |
+          git config user.name "IncidentBuddy Bot"
+          git config user.email "bot@incidentbuddy.ai"
+          git add "*/CVEs.json"
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            RECOVERED=$(git diff --cached --stat | tail -1)
+            git commit -m "Rebuild CVEs.json from git history - recover overwritten CVE data"
+            git push
+            echo "Committed: $RECOVERED"
+          fi

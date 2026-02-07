@@ -2,17 +2,17 @@
   "group": "AvosLocker",
   "cves": [
     {
+      "id": "CVE-2021-40539",
+      "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
+      "dateFound": "2026-02-07"
+    },
+    {
       "id": "CVE-2022-26500",
       "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
       "dateFound": "2026-02-07"
     },
     {
       "id": "CVE-2022-26501",
-      "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
-      "dateFound": "2026-02-07"
-    },
-    {
-      "id": "CVE-2021-40539",
       "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
       "dateFound": "2026-02-07"
     }

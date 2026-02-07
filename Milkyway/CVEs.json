@@ -2,22 +2,7 @@
   "group": "Milkyway Ransomware",
   "cves": [
     {
-      "id": "CVE-2023-22518",
-      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
-      "dateFound": "2026-02-07"
-    },
-    {
       "id": "CVE-2017-17215",
-      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
-      "dateFound": "2026-02-07"
-    },
-    {
-      "id": "CVE-2023-4966",
-      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
-      "dateFound": "2026-02-07"
-    },
-    {
-      "id": "CVE-2023-36884",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
       "dateFound": "2026-02-07"
     },
@@ -28,6 +13,21 @@
     },
     {
       "id": "CVE-2020-1472",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-22518",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-36884",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-4966",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-06-february-2026/",
       "dateFound": "2026-02-07"
     },

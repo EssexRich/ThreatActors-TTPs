@@ -2,22 +2,12 @@
   "group": "LV Ransomware",
   "cves": [
     {
-      "id": "CVE-2026-21509",
-      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
-      "dateFound": "2026-02-07"
-    },
-    {
-      "id": "CVE-2026-21858",
-      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
-      "dateFound": "2026-02-07"
-    },
-    {
       "id": "CVE-2025-55182",
       "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
       "dateFound": "2026-02-07"
     },
     {
-      "id": "CVE-2025-66478",
+      "id": "CVE-2025-59287",
       "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
       "dateFound": "2026-02-07"
     },
@@ -27,7 +17,17 @@
       "dateFound": "2026-02-07"
     },
     {
-      "id": "CVE-2025-59287",
+      "id": "CVE-2025-66478",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-21858",
       "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
       "dateFound": "2026-02-07"
     }

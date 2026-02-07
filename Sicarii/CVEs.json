@@ -2,7 +2,7 @@
   "group": "Sicarii Ransomware",
   "cves": [
     {
-      "id": "CVE-2017-11882",
+      "id": "CVE-2017-0199",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
       "dateFound": "2026-02-07"
     },
@@ -12,12 +12,12 @@
       "dateFound": "2026-02-07"
     },
     {
-      "id": "CVE-2023-22518",
+      "id": "CVE-2017-11882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
       "dateFound": "2026-02-07"
     },
     {
-      "id": "CVE-2017-0199",
+      "id": "CVE-2023-22518",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
       "dateFound": "2026-02-07"
     },

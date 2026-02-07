@@ -28,6 +28,11 @@
       "id": "CVE-2019-3610",
       "source": "MITRE ATT&CK",
       "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2023-20867",
+      "source": "https://www.techtarget.com/searchsecurity/news/366541738/Mandiant-New-VMware-ESXi-zero-day-used-by-Chinese-APT",
+      "dateFound": "2026-02-07"
     }
   ]
 }

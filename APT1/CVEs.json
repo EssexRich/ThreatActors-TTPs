@@ -1,0 +1,10 @@
+{
+  "group": "APT1",
+  "cves": [
+    {
+      "id": "CVE-2024-8963",
+      "source": "https://industrialcyber.co/ransomware/sentinelone-links-shadowpad-and-purplehaze-attacks-to-china-aligned-threat-actors/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

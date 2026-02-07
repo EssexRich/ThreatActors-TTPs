@@ -1,0 +1,10 @@
+{
+  "group": "WannaCry",
+  "cves": [
+    {
+      "id": "CVE-2017-0144",
+      "source": "https://www.attackiq.com/2022/01/19/the-trick-to-handling-ransomware-prepare/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

@@ -4,7 +4,20 @@
     {
       "id": "CVE-2017-9805",
       "source": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Apache",
+      "product": "Struts",
+      "vulnerabilityName": "Apache Struts Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Apache Struts REST Plugin uses an XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-9805",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-02-07"
     }
   ]
 }

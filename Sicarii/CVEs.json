@@ -4,37 +4,124 @@
     {
       "id": "CVE-2017-0199",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Office and WordPad",
+      "vulnerabilityName": "Microsoft Office and WordPad Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
+      "cwes": [],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2017-10271",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "vulnerabilityName": "Oracle Corporation WebLogic Server Remote Code Execution Vulnerability",
+      "shortDescription": "Oracle Corporation WebLogic Server contains a vulnerability that allows for remote code execution.",
+      "dateAdded": "2022-02-10",
+      "dueDate": "2022-08-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-10271",
+      "cwes": [],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2017-11882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2023-22518",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Atlassian",
+      "product": "Confluence Data Center and Server",
+      "vulnerabilityName": "Atlassian Confluence Data Center and Server Improper Authorization Vulnerability",
+      "shortDescription": "Atlassian Confluence Data Center and Server contain an improper authorization vulnerability that can result in significant data loss when exploited by an unauthenticated attacker. There is no impact on confidentiality since the attacker cannot exfiltrate any data.",
+      "dateAdded": "2023-11-07",
+      "dueDate": "2023-11-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://confluence.atlassian.com/security/cve-2023-22518-improper-authorization-vulnerability-in-confluence-data-center-and-server-1311473907.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22518",
+      "cwes": [
+        "CWE-863"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2023-36884",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Search Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Search contains an unspecified vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file, leading to remote code execution.",
+      "dateAdded": "2023-07-17",
+      "dueDate": "2023-08-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884;  https://nvd.nist.gov/vuln/detail/CVE-2023-36884",
+      "cwes": [
+        "CWE-362"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2023-42793",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "vulnerabilityName": "JetBrains TeamCity Authentication Bypass Vulnerability",
+      "shortDescription": "JetBrains TeamCity contains an authentication bypass vulnerability that allows for remote code execution on TeamCity Server.",
+      "dateAdded": "2023-10-04",
+      "dueDate": "2023-10-25",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/ ;  https://nvd.nist.gov/vuln/detail/CVE-2023-42793",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2026-24061",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-30-january-2026/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "GNU",
+      "product": "InetUtils",
+      "vulnerabilityName": "GNU InetUtils Argument Injection Vulnerability",
+      "shortDescription": "GNU InetUtils contains an argument injection vulnerability in telnetd that could allow for remote authentication bypass via a \"-f root\" value for the USER environment variable.",
+      "dateAdded": "2026-01-26",
+      "dueDate": "2026-02-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://cgit.git.savannah.gnu.org/cgit/inetutils.git ; https://codeberg.org/inetutils/inetutils/commit/ccba9f748aa8d50a38d7748e2e60362edd6a32cc; https://codeberg.org/inetutils/inetutils/commit/fd702c02497b2f398e739e3119bed0b23dd7aa7b ; https://nvd.nist.gov/vuln/detail/CVE-2026-24061",
+      "cwes": [
+        "CWE-88"
+      ],
+      "dateEnriched": "2026-02-07"
     }
   ]
 }

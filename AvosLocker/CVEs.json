@@ -4,17 +4,56 @@
     {
       "id": "CVE-2021-40539",
       "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Zoho",
+      "product": "ManageEngine",
+      "vulnerabilityName": "Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
+      "shortDescription": "Zoho ManageEngine ADSelfService Plus contains an authentication bypass vulnerability affecting the REST API URLs which allow for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-40539",
+      "cwes": [
+        "CWE-55"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2022-26500",
       "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Veeam",
+      "product": "Backup & Replication",
+      "vulnerabilityName": "Veeam Backup & Replication Remote Code Execution Vulnerability",
+      "shortDescription": "The Veeam Distribution Service in the Backup & Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.",
+      "dateAdded": "2022-12-13",
+      "dueDate": "2023-01-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.veeam.com/kb4288;  https://nvd.nist.gov/vuln/detail/CVE-2022-26500",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-07"
     },
     {
       "id": "CVE-2022-26501",
       "source": "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Veeam",
+      "product": "Backup & Replication",
+      "vulnerabilityName": "Veeam Backup & Replication Remote Code Execution Vulnerability",
+      "shortDescription": "The Veeam Distribution Service in the Backup & Replication application allows unauthenticated users to access internal API functions. A remote attacker can send input to the internal API which may lead to uploading and executing of malicious code.",
+      "dateAdded": "2022-12-13",
+      "dueDate": "2023-01-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.veeam.com/kb4288;  https://nvd.nist.gov/vuln/detail/CVE-2022-26501",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-02-07"
     }
   ]
 }

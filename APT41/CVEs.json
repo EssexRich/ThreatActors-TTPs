@@ -56,6 +56,11 @@
       "id": "CVE-2021-44228",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/apt41-us-state-governments",
       "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2019-1653",
+      "source": "https://www.infosecurity-magazine.com/news/apt41-exploited-cisco-citrix-and/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

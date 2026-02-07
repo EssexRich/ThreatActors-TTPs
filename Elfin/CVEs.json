@@ -1,0 +1,10 @@
+{
+  "group": "Elfin (APT33)",
+  "cves": [
+    {
+      "id": "CVE-2018-20250",
+      "source": "https://www.csoonline.com/article/567091/apt-group-elfin-switches-from-data-destruction-to-data-stealing-via-winrar-vulnerability.html",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

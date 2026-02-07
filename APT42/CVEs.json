@@ -1,0 +1,10 @@
+{
+  "group": "APT42",
+  "cves": [
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/untangling-iran-apt42-operations",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

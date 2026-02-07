@@ -1,0 +1,10 @@
+{
+  "group": "BlueDelta (APT28) - Russian GRU",
+  "cves": [
+    {
+      "id": "CVE-2023-23397",
+      "source": "https://www.recordedfuture.com/research/gru-linked-bluedelta-evolves-credential-harvesting",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

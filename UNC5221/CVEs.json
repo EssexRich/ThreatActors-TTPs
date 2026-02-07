@@ -1,0 +1,10 @@
+{
+  "group": "UNC5221",
+  "cves": [
+    {
+      "id": "CVE-2023-46805",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/suspected-apt-targets-ivanti-zero-day/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

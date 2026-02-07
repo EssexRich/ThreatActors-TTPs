@@ -46,6 +46,11 @@
         "CWE-119"
       ],
       "dateEnriched": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+      "dateFound": "2026-02-07"
     }
   ]
 }

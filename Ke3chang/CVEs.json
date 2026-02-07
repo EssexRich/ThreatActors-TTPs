@@ -23,6 +23,11 @@
       "id": "CVE-2016-6662",
       "source": "MITRE ATT&CK",
       "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2012-4681",
+      "source": "https://github.com/lukaszbb/apt-analysis/blob/master/reports_txt/2013/fireeye-operation-ke3chang.txt",
+      "dateFound": "2026-02-07"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "group": "INC Ransomware",
+  "group": "Brain Cipher",
   "cves": [
     {
       "id": "CVE-2017-11882",
@@ -28,6 +28,11 @@
       "id": "CVE-2025-12819",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/",
       "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2023-3519",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-inc",
+      "dateFound": "2026-02-07"
     }
   ]
 }

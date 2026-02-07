@@ -46,6 +46,11 @@
         "CWE-502"
       ],
       "dateEnriched": "2026-02-07"
+    },
+    {
+      "id": "CVE-2019-19781",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/apt41-initiates-global-intrusion-campaign-using-multiple-exploits/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

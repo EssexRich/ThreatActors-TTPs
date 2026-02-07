@@ -25,6 +25,21 @@
       "id": "CVE-2023-22518",
       "source": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
       "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-1281",
+      "source": "https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-1340",
+      "source": "https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2026-24858",
+      "source": "https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

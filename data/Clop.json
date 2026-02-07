@@ -1,11 +1,9 @@
 {
-  "name": "Nokoyawa",
+  "name": "Clop",
   "techniques": [
-    "T1003",
-    "T1486",
-    "T1548.004"
+    "T1009"
   ],
-  "techniqueCount": 3,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -15,9 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1003",
-          "T1486",
-          "T1548.004"
+          "T1009"
         ]
       }
     ]

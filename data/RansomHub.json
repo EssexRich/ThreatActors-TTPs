@@ -62,6 +62,7 @@
     "T1490",
     "T1529",
     "T1531",
+    "T1537",
     "T1547",
     "T1547.001",
     "T1547.004",
@@ -80,7 +81,7 @@
     "T1570",
     "T1620"
   ],
-  "techniqueCount": 78,
+  "techniqueCount": 79,
   "cveCount": 0,
   "metadata": {
     "description": "|     Tactic    \t|     Technique    \t|     Details    \t|",
@@ -162,6 +163,7 @@
           "T1484.001",
           "T1529",
           "T1531",
+          "T1537",
           "T1547",
           "T1547.001",
           "T1547.004",

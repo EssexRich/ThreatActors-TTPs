@@ -1,9 +1,11 @@
 {
   "name": "Storm-2460",
   "techniques": [
+    "T1050",
+    "T1547.001",
     "T1548.004"
   ],
-  "techniqueCount": 1,
+  "techniqueCount": 3,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -13,6 +15,8 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
+          "T1050",
+          "T1547.001",
           "T1548.004"
         ]
       }

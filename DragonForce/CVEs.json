@@ -1,0 +1,10 @@
+{
+  "group": "DragonForce",
+  "cves": [
+    {
+      "id": "CVE-2021-44228",
+      "source": "https://socradar.io/blog/dark-web-profile-dragonforce-ransomware/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

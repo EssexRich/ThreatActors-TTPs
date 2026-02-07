@@ -1,0 +1,10 @@
+{
+  "group": "CL-CRI-1040 / Storm-2603 - Chinese-nexus APT",
+  "cves": [
+    {
+      "id": "CVE-2025-53770",
+      "source": "https://unit42.paloaltonetworks.com/microsoft-sharepoint-cve-2025-49704-cve-2025-49706-cve-2025-53770/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

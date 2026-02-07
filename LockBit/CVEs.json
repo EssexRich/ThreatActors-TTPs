@@ -1,10 +1,30 @@
 {
-  "group": "LockBit 3.0",
+  "group": "LockBit",
   "cves": [
     {
       "id": "CVE-2026-21962",
       "source": "https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/",
       "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-22527",
+      "source": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2017-0199",
+      "source": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-22515",
+      "source": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
+      "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2023-22518",
+      "source": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/",
+      "dateFound": "2026-02-07"
     }
   ]
 }

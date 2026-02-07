@@ -41,6 +41,11 @@
         "CWE-351"
       ],
       "dateEnriched": "2026-02-07"
+    },
+    {
+      "id": "CVE-2019-9670",
+      "source": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf",
+      "dateFound": "2026-02-07"
     }
   ]
 }

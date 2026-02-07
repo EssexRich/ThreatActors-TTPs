@@ -1,0 +1,10 @@
+{
+  "group": "Static Tundra (Russia)",
+  "cves": [
+    {
+      "id": "CVE-2018-0171",
+      "source": "https://blog.talosintelligence.com/static-tundra/",
+      "dateFound": "2026-02-07"
+    }
+  ]
+}

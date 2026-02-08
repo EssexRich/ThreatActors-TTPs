@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-07T03:25:14.354Z",
-  "actorCount": 263,
+  "generated": "2026-02-08T03:54:23.548Z",
+  "actorCount": 262,
   "totalTechniques": 540,
   "actors": [
     {
@@ -1551,7 +1551,7 @@
     },
     {
       "name": "Beast",
-      "techniqueCount": 19,
+      "techniqueCount": 20,
       "cveCount": 0,
       "techniques": [
         "T1016",
@@ -1567,6 +1567,7 @@
         "T1106",
         "T1119",
         "T1135",
+        "T1190",
         "T1486",
         "T1489",
         "T1490",
@@ -1726,7 +1727,7 @@
     },
     {
       "name": "BianLian",
-      "techniqueCount": 47,
+      "techniqueCount": 48,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -1775,7 +1776,8 @@
         "T1136.003",
         "T1190",
         "T1204",
-        "T1219"
+        "T1219",
+        "T1486"
       ],
       "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
       "descriptionPreview": "| Tatica ID | Tecnica ID | Nome | Descricao |",
@@ -2122,13 +2124,14 @@
     },
     {
       "name": "BlackSuit",
-      "techniqueCount": 56,
+      "techniqueCount": 73,
       "cveCount": 0,
       "techniques": [
         "T1003",
         "T1003.001",
         "T1003.003",
         "T1003.006",
+        "T1018",
         "T1021",
         "T1021.001",
         "T1021.002",
@@ -2137,17 +2140,24 @@
         "T1036",
         "T1047",
         "T1048",
+        "T1055",
         "T1057",
         "T1059",
         "T1059.001",
+        "T1059.003",
         "T1059.007",
+        "T1069.002",
         "T1070.001",
         "T1071",
+        "T1071.001",
         "T1078",
         "T1078.002",
+        "T1082",
         "T1083",
+        "T1090",
         "T1105",
         "T1110",
+        "T1112",
         "T1119",
         "T1133",
         "T1140",
@@ -2155,17 +2165,25 @@
         "T1190",
         "T1195",
         "T1195.002",
+        "T1204.002",
         "T1218",
         "T1218.010",
+        "T1482",
         "T1484",
         "T1484.001",
         "T1486",
         "T1490",
+        "T1518",
+        "T1518.001",
+        "T1547.001",
+        "T1548",
+        "T1550.002",
         "T1557",
         "T1558",
         "T1558.002",
         "T1558.003",
         "T1558.004",
+        "T1560",
         "T1562",
         "T1562.001",
         "T1564",
@@ -2176,6 +2194,7 @@
         "T1566.004",
         "T1567",
         "T1567.002",
+        "T1569.002",
         "T1570",
         "T1572",
         "T1608",
@@ -2336,6 +2355,17 @@
       ],
       "description": "| TACTIC                          \t| TECHNIQUE                                                                                                     \t| DETAILS   \t|",
       "descriptionPreview": "| TACTIC                          \t| TECHNIQUE                                                      ",
+      "aliases": []
+    },
+    {
+      "name": "COBALT MIRAGE",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1190"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
       "aliases": []
     },
     {
@@ -2903,7 +2933,7 @@
     },
     {
       "name": "Cuba",
-      "techniqueCount": 37,
+      "techniqueCount": 38,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -2935,6 +2965,7 @@
         "T1212",
         "T1218.011",
         "T1219",
+        "T1486",
         "T1543.003",
         "T1548.002",
         "T1558.003",
@@ -2946,18 +2977,6 @@
       ],
       "description": "|  TÁTICA                               \t|  TÉCNICA                                                                                                        \t|  DETALHES                                 ",
       "descriptionPreview": "|  TÁTICA                               \t|  TÉCNICA                                                 ",
-      "aliases": []
-    },
-    {
-      "name": "DFIR Report",
-      "techniqueCount": 2,
-      "cveCount": 0,
-      "techniques": [
-        "T1078",
-        "T1486"
-      ],
-      "description": "| Technique | Name | Source | Date |",
-      "descriptionPreview": "| Technique | Name | Source | Date |",
       "aliases": []
     },
     {
@@ -3236,14 +3255,23 @@
     },
     {
       "name": "DragonForce",
-      "techniqueCount": 5,
+      "techniqueCount": 14,
       "cveCount": 0,
       "techniques": [
         "T1005.002",
+        "T1053.005",
+        "T1059.001",
+        "T1070.001",
         "T1070.004",
         "T1083",
+        "T1190",
+        "T1199",
         "T1486",
-        "T1562.001"
+        "T1543.003",
+        "T1547.001",
+        "T1562.001",
+        "T1566",
+        "T1657"
       ],
       "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
       "descriptionPreview": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
@@ -3473,10 +3501,14 @@
     },
     {
       "name": "Emotet",
-      "techniqueCount": 1,
+      "techniqueCount": 5,
       "cveCount": 0,
       "techniques": [
-        "T1486"
+        "T1219",
+        "T1482",
+        "T1486",
+        "T1490",
+        "T1566"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4703,10 +4735,11 @@
     },
     {
       "name": "Interlock",
-      "techniqueCount": 1,
+      "techniqueCount": 2,
       "cveCount": 0,
       "techniques": [
-        "T1005"
+        "T1005",
+        "T1071"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -5561,24 +5594,6 @@
       "aliases": []
     },
     {
-      "name": "MUSTANG PANDA",
-      "techniqueCount": 8,
-      "cveCount": 0,
-      "techniques": [
-        "T1016",
-        "T1018",
-        "T1027",
-        "T1059",
-        "T1059.001",
-        "T1078",
-        "T1087",
-        "T1571"
-      ],
-      "description": "| Technique | Name | Source | Date |",
-      "descriptionPreview": "| Technique | Name | Source | Date |",
-      "aliases": []
-    },
-    {
       "name": "Machete",
       "techniqueCount": 11,
       "cveCount": 0,
@@ -6400,11 +6415,12 @@
     },
     {
       "name": "Nokoyawa",
-      "techniqueCount": 3,
+      "techniqueCount": 4,
       "cveCount": 0,
       "techniques": [
         "T1003",
         "T1486",
+        "T1547",
         "T1548.004"
       ],
       "description": "| Technique | Name | Source | Date |",
@@ -6661,31 +6677,6 @@
         "T1588.002",
         "T1598.003",
         "T1680"
-      ],
-      "description": "| Technique | Name | Source | Date |",
-      "descriptionPreview": "| Technique | Name | Source | Date |",
-      "aliases": []
-    },
-    {
-      "name": "Picus Red Report 2025",
-      "techniqueCount": 15,
-      "cveCount": 0,
-      "techniques": [
-        "T1027",
-        "T1036",
-        "T1047",
-        "T1055",
-        "T1059",
-        "T1078",
-        "T1078.001",
-        "T1078.002",
-        "T1078.003",
-        "T1078.004",
-        "T1112",
-        "T1204",
-        "T1486",
-        "T1490",
-        "T1562"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -7018,17 +7009,6 @@
       ],
       "description": "|     Tactic    \t|     Technique    \t|     Details    \t|",
       "descriptionPreview": "|     Tactic    \t|     Technique    \t|     Details    \t|",
-      "aliases": []
-    },
-    {
-      "name": "Red Piranha Tracked Groups",
-      "techniqueCount": 1,
-      "cveCount": 0,
-      "techniques": [
-        "T1486"
-      ],
-      "description": "| Technique | Name | Source | Date |",
-      "descriptionPreview": "| Technique | Name | Source | Date |",
       "aliases": []
     },
     {
@@ -7864,6 +7844,18 @@
       "aliases": []
     },
     {
+      "name": "ShinyHunters",
+      "techniqueCount": 2,
+      "cveCount": 0,
+      "techniques": [
+        "T1486",
+        "T1598.002"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
       "name": "Sicarii",
       "techniqueCount": 146,
       "cveCount": 0,
@@ -8401,10 +8393,12 @@
     },
     {
       "name": "Storm-2460",
-      "techniqueCount": 3,
+      "techniqueCount": 5,
       "cveCount": 0,
       "techniques": [
         "T1050",
+        "T1190",
+        "T1547",
         "T1547.001",
         "T1548.004"
       ],
@@ -9412,10 +9406,13 @@
     },
     {
       "name": "WannaCry",
-      "techniqueCount": 1,
+      "techniqueCount": 4,
       "cveCount": 0,
       "techniques": [
-        "T1190"
+        "T1190",
+        "T1486",
+        "T1573",
+        "T1595"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9429,6 +9426,33 @@
         "T1486",
         "T1585.001",
         "T1657"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "Water Ouroboros",
+      "techniqueCount": 17,
+      "cveCount": 0,
+      "techniques": [
+        "T1003.002",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1041",
+        "T1059.003",
+        "T1069.002",
+        "T1071.001",
+        "T1078",
+        "T1087",
+        "T1105",
+        "T1189",
+        "T1190",
+        "T1486",
+        "T1490",
+        "T1562.001",
+        "T1595.002"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",

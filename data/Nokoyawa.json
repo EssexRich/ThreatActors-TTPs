@@ -3,9 +3,10 @@
   "techniques": [
     "T1003",
     "T1486",
+    "T1547",
     "T1548.004"
   ],
-  "techniqueCount": 3,
+  "techniqueCount": 4,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -17,6 +18,7 @@
         "techniques": [
           "T1003",
           "T1486",
+          "T1547",
           "T1548.004"
         ]
       }

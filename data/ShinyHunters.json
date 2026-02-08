@@ -1,8 +1,8 @@
 {
-  "name": "Interlock",
+  "name": "ShinyHunters",
   "techniques": [
-    "T1005",
-    "T1071"
+    "T1486",
+    "T1598.002"
   ],
   "techniqueCount": 2,
   "cveCount": 0,
@@ -12,14 +12,10 @@
     "cves": [],
     "files": [
       {
-        "name": "README.md",
-        "techniques": []
-      },
-      {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1005",
-          "T1071"
+          "T1486",
+          "T1598.002"
         ]
       }
     ]

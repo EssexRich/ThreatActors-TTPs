@@ -1,10 +1,9 @@
 {
-  "name": "Interlock",
+  "name": "COBALT MIRAGE",
   "techniques": [
-    "T1005",
-    "T1071"
+    "T1190"
   ],
-  "techniqueCount": 2,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -12,14 +11,9 @@
     "cves": [],
     "files": [
       {
-        "name": "README.md",
-        "techniques": []
-      },
-      {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1005",
-          "T1071"
+          "T1190"
         ]
       }
     ]

@@ -47,9 +47,10 @@
     "T1136.003",
     "T1190",
     "T1204",
-    "T1219"
+    "T1219",
+    "T1486"
   ],
-  "techniqueCount": 47,
+  "techniqueCount": 48,
   "cveCount": 0,
   "metadata": {
     "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
@@ -110,7 +111,8 @@
           "T1136.002",
           "T1136.003",
           "T1190",
-          "T1219"
+          "T1219",
+          "T1486"
         ]
       }
     ]

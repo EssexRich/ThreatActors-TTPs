@@ -2,12 +2,21 @@
   "name": "DragonForce",
   "techniques": [
     "T1005.002",
+    "T1053.005",
+    "T1059.001",
+    "T1070.001",
     "T1070.004",
     "T1083",
+    "T1190",
+    "T1199",
     "T1486",
-    "T1562.001"
+    "T1543.003",
+    "T1547.001",
+    "T1562.001",
+    "T1566",
+    "T1657"
   ],
-  "techniqueCount": 5,
+  "techniqueCount": 14,
   "cveCount": 0,
   "metadata": {
     "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
@@ -22,6 +31,20 @@
           "T1083",
           "T1486",
           "T1562.001"
+        ]
+      },
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1053.005",
+          "T1059.001",
+          "T1070.001",
+          "T1190",
+          "T1199",
+          "T1543.003",
+          "T1547.001",
+          "T1566",
+          "T1657"
         ]
       },
       {

@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2016-6662",
@@ -45,12 +45,25 @@
       "cwes": [
         "CWE-119"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2026-21509",
       "source": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Office contains a security feature bypass vulnerability in which reliance on untrusted inputs in a security decision in Microsoft Office could allow an unauthorized attacker to bypass a security feature locally. Some of the impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "dateAdded": "2026-01-26",
+      "dueDate": "2026-02-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "Please adhere to Microsoft’s recommended guidelines to address this vulnerability. Implement all final mitigations provided by the vendor for Office 2021, and apply the interim corresponding mitigations for Office 2016 and Office 2019 until the final patch becomes available. For more information please see: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21509 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21509",
+      "cwes": [
+        "CWE-807"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

@@ -4,7 +4,20 @@
     {
       "id": "CVE-2017-0144",
       "source": "https://www.attackiq.com/2022/01/19/the-trick-to-handling-ransomware-prepare/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "SMBv1",
+      "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
+      "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
+      "dateAdded": "2022-02-10",
+      "dueDate": "2022-08-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0144",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

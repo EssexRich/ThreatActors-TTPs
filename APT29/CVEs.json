@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2016-6662",
@@ -40,22 +40,61 @@
       "cwes": [
         "CWE-351"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2019-9670",
       "source": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Synacor",
+      "product": "Zimbra Collaboration Suite (ZCS)",
+      "vulnerabilityName": "Synacor Zimbra Collaboration Suite (ZCS) Improper Restriction of XML External Entity Reference",
+      "shortDescription": "Synacor Zimbra Collaboration Suite (ZCS) contains an improper restriction of XML external entity (XXE) vulnerability in the mailboxd component.",
+      "dateAdded": "2022-01-10",
+      "dueDate": "2022-07-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-9670",
+      "cwes": [
+        "CWE-611"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2023-36884",
       "source": "https://www.securityweek.com/cisa-warns-of-attacks-exploiting-sophos-web-appliance-vulnerability/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Search Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Search contains an unspecified vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file, leading to remote code execution.",
+      "dateAdded": "2023-07-17",
+      "dueDate": "2023-08-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884;  https://nvd.nist.gov/vuln/detail/CVE-2023-36884",
+      "cwes": [
+        "CWE-362"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2020-1472",
       "source": "https://blog.qualys.com/vulnerabilities-threat-research/2021/02/01/unpacking-the-fireeye-breach-start-here-first",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Microsoft",
+      "product": "Netlogon",
+      "vulnerabilityName": "Microsoft Netlogon Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft's Netlogon Remote Protocol (MS-NRPC) contains a privilege escalation vulnerability when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploits the vulnerability could run a specially crafted application on a device on the network. The vulnerability is also known under the moniker of Zerologon.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 20-04. https://nvd.nist.gov/vuln/detail/CVE-2020-1472",
+      "cwes": [
+        "CWE-330"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

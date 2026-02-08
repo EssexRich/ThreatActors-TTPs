@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2023-27532",
@@ -35,27 +35,79 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2018-13379",
       "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS SSL VPN Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiOS SSL VPN web portal contains a path traversal vulnerability that may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2023-0669",
       "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "vulnerabilityName": "Fortra GoAnywhere MFT Remote Code Execution Vulnerability",
+      "shortDescription": "Fortra (formerly, HelpSystems) GoAnywhere MFT contains a pre-authentication remote code execution vulnerability in the License Response Servlet due to deserializing an attacker-controlled object.",
+      "dateAdded": "2023-02-10",
+      "dueDate": "2023-03-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a. Please see the AA for associated IOCs. Additional information is available at: https://my.goanywhere.com/webclient/DownloadProductFiles.xhtml. Fortra users must have an account in order to login and access the patch.;  https://nvd.nist.gov/vuln/detail/CVE-2023-0669",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2024-20353",
       "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Cisco",
+      "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+      "vulnerabilityName": "Cisco ASA and FTD Denial of Service Vulnerability",
+      "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition.",
+      "dateAdded": "2024-04-24",
+      "dueDate": "2024-05-01",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-websrvs-dos-X8gNucD2;   https://nvd.nist.gov/vuln/detail/CVE-2024-20353",
+      "cwes": [
+        "CWE-835"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2024-20359",
       "source": "https://blog.talosintelligence.com/common-ransomware-actor-ttps-playbooks/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Cisco",
+      "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+      "vulnerabilityName": "Cisco ASA and FTD Privilege Escalation Vulnerability",
+      "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain a privilege escalation vulnerability that can allow local privilege escalation from Administrator to root.",
+      "dateAdded": "2024-04-24",
+      "dueDate": "2024-05-01",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-persist-rce-FLsNXF4h;  https://nvd.nist.gov/vuln/detail/CVE-2024-20359",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2016-6662",
@@ -45,22 +45,63 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2019-19781",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/apt41-initiates-global-intrusion-campaign-using-multiple-exploits/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Citrix",
+      "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
+      "vulnerabilityName": "Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability",
+      "shortDescription": "Citrix ADC, Citrix Gateway, and multiple Citrix SD-WAN WANOP appliance models contain an unspecified vulnerability that could allow an unauthenticated attacker to perform code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-19781",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2021-44228",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/apt41-us-state-governments",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Apache",
+      "product": "Log4j2",
+      "vulnerabilityName": "Apache Log4j2 Remote Code Execution Vulnerability",
+      "shortDescription": "Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution.",
+      "dateAdded": "2021-12-10",
+      "dueDate": "2021-12-24",
+      "requiredAction": "For all affected software assets for which updates exist, the only acceptable remediation actions are: 1) Apply updates; OR 2) remove affected assets from agency networks. Temporary mitigations using one of the measures provided at https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures are only acceptable until updates are available.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+      "cwes": [
+        "CWE-20",
+        "CWE-400",
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2019-1653",
       "source": "https://www.infosecurity-magazine.com/news/apt41-exploited-cisco-citrix-and/",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "Cisco",
+      "product": "Small Business RV320 and RV325 Routers",
+      "vulnerabilityName": "Cisco Small Business RV320 and RV325 Routers Information Disclosure Vulnerability",
+      "shortDescription": "Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers contain improper access controls for URLs. Exploitation could allow an attacker to download the router configuration or detailed diagnostic information.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-1653",
+      "cwes": [
+        "CWE-284"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

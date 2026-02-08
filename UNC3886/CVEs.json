@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-07"
+      "dateEnriched": "2026-02-08"
     },
     {
       "id": "CVE-2016-6662",
@@ -32,7 +32,20 @@
     {
       "id": "CVE-2023-20867",
       "source": "https://www.techtarget.com/searchsecurity/news/366541738/Mandiant-New-VMware-ESXi-zero-day-used-by-Chinese-APT",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "VMware",
+      "product": "Tools",
+      "vulnerabilityName": "VMware Tools Authentication Bypass Vulnerability",
+      "shortDescription": "VMware Tools contains an authentication bypass vulnerability in the vgauth module. A fully compromised ESXi host can force VMware Tools to fail to authenticate host-to-guest operations, impacting the confidentiality and integrity of the guest virtual machine. An attacker must have root access over ESXi to exploit this vulnerability.",
+      "dateAdded": "2023-06-23",
+      "dueDate": "2023-07-14",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.vmware.com/security/advisories/VMSA-2023-0013.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-20867",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

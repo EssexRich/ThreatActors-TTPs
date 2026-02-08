@@ -4,7 +4,20 @@
     {
       "id": "CVE-2018-20250",
       "source": "https://www.csoonline.com/article/567091/apt-group-elfin-switches-from-data-destruction-to-data-stealing-via-winrar-vulnerability.html",
-      "dateFound": "2026-02-07"
+      "dateFound": "2026-02-07",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "WinRAR Absolute Path Traversal Vulnerability",
+      "shortDescription": "WinRAR Absolute Path Traversal vulnerability leads to Remote Code Execution",
+      "dateAdded": "2022-02-15",
+      "dueDate": "2022-08-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-20250",
+      "cwes": [
+        "CWE-36"
+      ],
+      "dateEnriched": "2026-02-08"
     }
   ]
 }

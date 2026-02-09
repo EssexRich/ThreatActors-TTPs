@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2023-38951",
@@ -45,7 +45,7 @@
       "cwes": [
         "CWE-79"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2024-27443",
@@ -63,7 +63,7 @@
       "cwes": [
         "CWE-79"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2025-27920",
@@ -81,7 +81,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2025-4427",
@@ -99,7 +99,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2025-4428",
@@ -117,7 +117,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     },
     {
       "id": "CVE-2025-4632",
@@ -135,7 +135,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-08"
+      "dateEnriched": "2026-02-09"
     }
   ]
 }

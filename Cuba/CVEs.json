@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-02-11"
+      "dateEnriched": "2026-02-12"
     },
     {
       "id": "CVE-2023-27532",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-02-11"
+      "dateEnriched": "2026-02-12"
     },
     {
       "id": "CVE-2026-1281",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-02-11"
+      "dateEnriched": "2026-02-12"
     },
     {
       "id": "CVE-2026-1340",
@@ -76,7 +76,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-02-11"
+      "dateEnriched": "2026-02-12"
     }
   ]
 }

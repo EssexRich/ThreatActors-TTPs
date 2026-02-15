@@ -1,0 +1,60 @@
+{
+  "group": "Ghost (Cring)",
+  "cves": [
+    {
+      "id": "CVE-2018-13379",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2010-2861",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2009-3960",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-34473",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-34523",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-31207",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2019-0604",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2014-1812",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2017-0143",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2017-0144",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
+      "dateFound": "2026-02-15"
+    }
+  ]
+}

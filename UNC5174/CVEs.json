@@ -1,0 +1,10 @@
+{
+  "group": "UNC5174 (China-nexus APT)",
+  "cves": [
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://mazehq.com/blog/2025-wrapped-the-year-vulnerabilities-broke-every-record",
+      "dateFound": "2026-02-15"
+    }
+  ]
+}

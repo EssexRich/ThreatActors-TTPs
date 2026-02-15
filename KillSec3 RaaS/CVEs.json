@@ -1,0 +1,50 @@
+{
+  "group": "KillSec3 RaaS",
+  "cves": [
+    {
+      "id": "CVE-2021-43798",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-27915",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-22555",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2010-3962",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-43226",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2013-3918",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2011-3402",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2010-3765",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-61882",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-october-7-october-13-2025",
+      "dateFound": "2026-02-15"
+    }
+  ]
+}

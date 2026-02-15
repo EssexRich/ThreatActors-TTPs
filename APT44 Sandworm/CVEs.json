@@ -36,6 +36,11 @@
         "CWE-918"
       ],
       "dateEnriched": "2026-02-15"
+    },
+    {
+      "id": "CVE-2021-4034",
+      "source": "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
+      "dateFound": "2026-02-15"
     }
   ]
 }

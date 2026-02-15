@@ -108,6 +108,51 @@
         "CWE-94"
       ],
       "dateEnriched": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-0282",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-4428",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-22457",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-32433",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-24813",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-41713",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-55550",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-56145",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-34102",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-02-15"
     }
   ]
 }

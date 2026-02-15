@@ -1,0 +1,30 @@
+{
+  "group": "Palo Alto Edge Devices",
+  "cves": [
+    {
+      "id": "CVE-2024-0012",
+      "source": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-threat-campaign-targeting-palo-alto-networks-firewall-devices/",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-9474",
+      "source": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-threat-campaign-targeting-palo-alto-networks-firewall-devices/",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2026-1731",
+      "source": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-threat-campaign-targeting-palo-alto-networks-firewall-devices/",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2026-21643",
+      "source": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-threat-campaign-targeting-palo-alto-networks-firewall-devices/",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "source": "https://arcticwolf.com/resources/blog/arctic-wolf-observes-threat-campaign-targeting-palo-alto-networks-firewall-devices/",
+      "dateFound": "2026-02-15"
+    }
+  ]
+}

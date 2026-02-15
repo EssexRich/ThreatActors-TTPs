@@ -18,6 +18,11 @@
         "CWE-416"
       ],
       "dateEnriched": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-49039",
+      "source": "https://www.eset.com/us/about/newsroom/press-releases/eset-research-discovers-mozilla-and-windows-zero-day-zero-click-vulnerabilities-exploited-by-russia-aligned-romcom-apt-group-2/",
+      "dateFound": "2026-02-15"
     }
   ]
 }

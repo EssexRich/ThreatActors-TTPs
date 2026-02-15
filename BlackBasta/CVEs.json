@@ -1,5 +1,5 @@
 {
-  "group": "Black Basta",
+  "group": "BlackBasta",
   "cves": [
     {
       "id": "CVE-2023-34362",
@@ -18,6 +18,51 @@
         "CWE-89"
       ],
       "dateEnriched": "2026-02-15"
+    },
+    {
+      "id": "CVE-2022-37969",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2024-1708",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2026-21858",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-66478",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-64446",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
+    },
+    {
+      "id": "CVE-2025-59287",
+      "source": "https://www.picussecurity.com/resource/blog/mitre-attck-t1059-command-and-scripting-interpreter",
+      "dateFound": "2026-02-15"
     }
   ]
 }

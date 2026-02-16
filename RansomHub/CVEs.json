@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2023-27532",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2018-13379",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2023-0669",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-20353",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-835"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-20359",
@@ -107,52 +107,170 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2025-0282",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "vulnerabilityName": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contain a stack-based buffer overflow which can lead to unauthenticated remote code execution.",
+      "dateAdded": "2025-01-08",
+      "dueDate": "2025-01-15",
+      "requiredAction": "Apply mitigations as set forth in the CISA instructions linked below to include conducting hunt activities, taking remediation actions if applicable, and applying updates prior to returning a device to service.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-CVE-2025-0282 Additional References: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283 ; https://nvd.nist.gov/vuln/detail/CVE-2025-0282",
+      "cwes": [
+        "CWE-121"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2025-4428",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability in the API component that allows an authenticated attacker to remotely execute arbitrary code via crafted API requests. This vulnerability results from an insecure implementation of the Hibernate Validator open-source library, as represented by CVE-2025-35036.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM ; https://nvd.nist.gov/vuln/detail/CVE-2025-4428",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2025-22457",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "vulnerabilityName": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contains a stack-based buffer overflow vulnerability that allows a remote unauthenticated attacker to achieve remote code execution. ",
+      "dateAdded": "2025-04-04",
+      "dueDate": "2025-04-11",
+      "requiredAction": "Apply mitigations as set forth in the CISA instructions linked below.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-22457 ; Additional References: https://forums.ivanti.com/s/article/April-Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-22457 ; https://nvd.nist.gov/vuln/detail/CVE-2025-22457",
+      "cwes": [
+        "CWE-121"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2025-32433",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Erlang",
+      "product": "Erlang/OTP",
+      "vulnerabilityName": "Erlang Erlang/OTP SSH Server Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Erlang Erlang/OTP SSH server contains a missing authentication for critical function vulnerability. This could allow an attacker to execute arbitrary commands without valid credentials, potentially leading to unauthenticated remote code execution (RCE). By exploiting a flaw in how SSH protocol messages are handled, a malicious actor could gain unauthorized access to affected systems. This vulnerability could affect various products that implement Erlang/OTP SSH server, including—but not limited to—Cisco, NetApp, and SUSE.",
+      "dateAdded": "2025-06-09",
+      "dueDate": "2025-06-30",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects a common open-source project, third-party library, or a protocol used by different products. For more information, please see: https://github.com/erlang/otp/security/advisories/GHSA-37cp-fgq5-7wc2 ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-erlang-otp-ssh-xyZZy ; https://nvd.nist.gov/vuln/detail/CVE-2025-32433",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2025-24813",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Apache",
+      "product": "Tomcat",
+      "vulnerabilityName": "Apache Tomcat Path Equivalence Vulnerability",
+      "shortDescription": "Apache Tomcat contains a path equivalence vulnerability that allows a remote attacker to execute code, disclose information, or inject malicious content via a partial PUT request.",
+      "dateAdded": "2025-04-01",
+      "dueDate": "2025-04-22",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://lists.apache.org/thread/j5fkjv2k477os90nczf2v9l61fb0kkgq ; https://nvd.nist.gov/vuln/detail/CVE-2025-24813",
+      "cwes": [
+        "CWE-44",
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-41713",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Path Traversal Vulnerability",
+      "shortDescription": "Mitel MiCollab contains a path traversal vulnerability that could allow an attacker to gain unauthorized and unauthenticated access. This vulnerability can be chained with CVE-2024-55550, which allows an unauthenticated, remote attacker to read arbitrary files on the server.",
+      "dateAdded": "2025-01-07",
+      "dueDate": "2025-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-41713 ",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-55550",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Path Traversal Vulnerability",
+      "shortDescription": "Mitel MiCollab contains a path traversal vulnerability that could allow an authenticated attacker with administrative privileges to read local files within the system due to insufficient input sanitization. This vulnerability can be chained with CVE-2024-41713, which allows an unauthenticated, remote attacker to read arbitrary files on the server.",
+      "dateAdded": "2025-01-07",
+      "dueDate": "2025-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-55550",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-56145",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Craft CMS",
+      "product": "Craft CMS",
+      "vulnerabilityName": "Craft CMS Code Injection Vulnerability",
+      "shortDescription": "Craft CMS contains a code injection vulnerability. Users with affected versions are vulnerable to remote code execution if their php.ini configuration has `register_argc_argv` enabled.",
+      "dateAdded": "2025-06-02",
+      "dueDate": "2025-06-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/craftcms/cms/security/advisories/GHSA-2p6p-9rc9-62j9 ; https://nvd.nist.gov/vuln/detail/CVE-2024-56145",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2024-34102",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Adobe",
+      "product": "Commerce and Magento Open Source",
+      "vulnerabilityName": "Adobe Commerce and Magento Open Source Improper Restriction of XML External Entity Reference (XXE) Vulnerability",
+      "shortDescription": "Adobe Commerce and Magento Open Source contain an improper restriction of XML external entity reference (XXE) vulnerability that allows for remote code execution.",
+      "dateAdded": "2024-07-17",
+      "dueDate": "2024-08-07",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://helpx.adobe.com/security/products/magento/apsb24-40.html;  https://nvd.nist.gov/vuln/detail/CVE-2024-34102",
+      "cwes": [
+        "CWE-611"
+      ],
+      "dateEnriched": "2026-02-16"
     }
   ]
 }

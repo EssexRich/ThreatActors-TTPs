@@ -4,57 +4,199 @@
     {
       "id": "CVE-2018-13379",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS SSL VPN Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiOS SSL VPN web portal contains a path traversal vulnerability that may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2010-2861",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Adobe",
+      "product": "ColdFusion",
+      "vulnerabilityName": "Adobe ColdFusion Directory Traversal Vulnerability",
+      "shortDescription": "A directory traversal vulnerability exists in the administrator console in Adobe ColdFusion which allows remote attackers to read arbitrary files.",
+      "dateAdded": "2022-03-25",
+      "dueDate": "2022-04-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2010-2861",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2009-3960",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Adobe",
+      "product": "BlazeDS",
+      "vulnerabilityName": "Adobe BlazeDS Information Disclosure Vulnerability",
+      "shortDescription": "Adobe BlazeDS, which is utilized in LifeCycle and Coldfusion, contains a vulnerability that allows for information disclosure.",
+      "dateAdded": "2022-03-07",
+      "dueDate": "2022-09-07",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2009-3960",
+      "cwes": [],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2021-34473",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Exchange Server contains an unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-34473",
+      "cwes": [
+        "CWE-918"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2021-34523",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Exchange Server contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-34523",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2021-31207",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Exchange Server contains an unspecified vulnerability that allows for security feature bypass.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-31207",
+      "cwes": [
+        "CWE-20",
+        "CWE-434"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2019-0604",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "vulnerabilityName": "Microsoft SharePoint Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft SharePoint fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run remote code in the context of the SharePoint application pool and the SharePoint server farm account.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0604",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2020-1472",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Netlogon",
+      "vulnerabilityName": "Microsoft Netlogon Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft's Netlogon Remote Protocol (MS-NRPC) contains a privilege escalation vulnerability when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploits the vulnerability could run a specially crafted application on a device on the network. The vulnerability is also known under the moniker of Zerologon.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 20-04. https://nvd.nist.gov/vuln/detail/CVE-2020-1472",
+      "cwes": [
+        "CWE-330"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2014-1812",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Group Policy Preferences Password Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Windows Active Directory contains a privilege escalation vulnerability due to the way it distributes passwords that are configured using Group Policy preferences. An authenticated attacker who successfully exploits the vulnerability could decrypt the passwords and use them to elevate privileges on the domain.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-1812",
+      "cwes": [
+        "CWE-255"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2017-0143",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Server Message Block (SMBv1) Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Server Message Block 1.0 (SMBv1) contains an unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0143",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2017-0144",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-050a",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Microsoft",
+      "product": "SMBv1",
+      "vulnerabilityName": "Microsoft SMBv1 Remote Code Execution Vulnerability",
+      "shortDescription": "The SMBv1 server in multiple Microsoft Windows versions allows remote attackers to execute arbitrary code via crafted packets.",
+      "dateAdded": "2022-02-10",
+      "dueDate": "2022-08-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0144",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-02-16"
     }
   ]
 }

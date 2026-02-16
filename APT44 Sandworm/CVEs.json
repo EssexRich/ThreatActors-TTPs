@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-35"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2021-26855",
@@ -35,12 +35,25 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-02-15"
+      "dateEnriched": "2026-02-16"
     },
     {
       "id": "CVE-2021-4034",
       "source": "https://services.google.com/fh/files/misc/apt44-unearthing-sandworm.pdf",
-      "dateFound": "2026-02-15"
+      "dateFound": "2026-02-15",
+      "vendor": "Red Hat",
+      "product": "Polkit",
+      "vulnerabilityName": "Red Hat Polkit Out-of-Bounds Read and Write Vulnerability",
+      "shortDescription": "The Red Hat polkit pkexec utility contains an out-of-bounds read and write vulnerability that allows for privilege escalation with administrative rights.",
+      "dateAdded": "2022-06-27",
+      "dueDate": "2022-07-18",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-4034",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-02-16"
     }
   ]
 }

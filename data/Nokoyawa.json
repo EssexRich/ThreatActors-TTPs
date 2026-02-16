@@ -2,11 +2,12 @@
   "name": "Nokoyawa",
   "techniques": [
     "T1003",
+    "T1190",
     "T1486",
     "T1547",
     "T1548.004"
   ],
-  "techniqueCount": 4,
+  "techniqueCount": 5,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -17,6 +18,7 @@
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T1003",
+          "T1190",
           "T1486",
           "T1547",
           "T1548.004"

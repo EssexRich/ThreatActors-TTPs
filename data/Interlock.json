@@ -2,9 +2,10 @@
   "name": "Interlock",
   "techniques": [
     "T1005",
-    "T1071"
+    "T1071",
+    "T1190"
   ],
-  "techniqueCount": 2,
+  "techniqueCount": 3,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -19,7 +20,8 @@
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T1005",
-          "T1071"
+          "T1071",
+          "T1190"
         ]
       }
     ]

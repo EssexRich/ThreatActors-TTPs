@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-89"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2022-37969",
@@ -36,7 +36,7 @@
         "CWE-20",
         "CWE-787"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2024-1709",
@@ -54,7 +54,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2024-1708",
@@ -77,7 +77,7 @@
       "cwes": [
         "CWE-807"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2026-21858",
@@ -98,7 +98,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2025-66478",
@@ -121,7 +121,7 @@
       "cwes": [
         "CWE-23"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2025-59287",
@@ -139,7 +139,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     }
   ]
 }

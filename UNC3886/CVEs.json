@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     },
     {
       "id": "CVE-2016-6662",
@@ -45,7 +45,7 @@
       "cwes": [
         "CWE-287"
       ],
-      "dateEnriched": "2026-02-17"
+      "dateEnriched": "2026-02-18"
     }
   ]
 }

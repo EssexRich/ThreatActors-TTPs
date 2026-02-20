@@ -18,6 +18,11 @@
         "CWE-20"
       ],
       "dateEnriched": "2026-02-20"
+    },
+    {
+      "id": "CVE-2024-20353",
+      "source": "https://www.rescana.com/post/critical-cve-2024-20353-zero-day-exploited-by-china-linked-apt-hits-cisco-secure-email-gateway-and-s",
+      "dateFound": "2026-02-20"
     }
   ]
 }

@@ -95,6 +95,11 @@
         "CWE-330"
       ],
       "dateEnriched": "2026-02-20"
+    },
+    {
+      "id": "CVE-2023-42793",
+      "source": "https://media.defense.gov/2023/Dec/13/2003358237/-1/-1/0/JCSA-SVR-EXPLOIT-JETBRAINS-TEAMCITY-CVE.PDF",
+      "dateFound": "2026-02-20"
     }
   ]
 }

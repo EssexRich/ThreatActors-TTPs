@@ -90,6 +90,11 @@
         "CWE-119"
       ],
       "dateEnriched": "2026-02-20"
+    },
+    {
+      "id": "CVE-2024-57727",
+      "source": "https://blog.talosintelligence.com/talos-ir-ransomware-engagements-and-the-significance-of-timeliness-in-incident-response/",
+      "dateFound": "2026-02-20"
     }
   ]
 }

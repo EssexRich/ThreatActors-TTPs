@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-200"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2020-3580",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-79"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2023-20269",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2023-27532",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2023-28252",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-122"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2024-37085",
@@ -107,7 +107,7 @@
       "cwes": [
         "CWE-305"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2024-40711",
@@ -125,7 +125,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2024-40766",
@@ -143,7 +143,7 @@
       "cwes": [
         "CWE-284"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2026-1731",
@@ -156,12 +156,12 @@
       "dateAdded": "2026-02-13",
       "dueDate": "2026-02-16",
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731",
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-02-19"
+      "dateEnriched": "2026-02-20"
     },
     {
       "id": "CVE-2026-21643",

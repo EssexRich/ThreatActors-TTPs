@@ -1,10 +1,15 @@
 {
-  "group": "HoneyMyte (Mustang Panda)",
+  "group": "HoneyMyte",
   "cves": [
     {
       "id": "CVE-2025-1533",
       "source": "https://securelist.com/vulnerabilities-and-exploits-in-q2-2025/117333/",
       "dateFound": "2026-02-07"
+    },
+    {
+      "id": "CVE-2025-31324",
+      "source": "https://securelist.com/vulnerabilities-and-exploits-in-q2-2025/117333/",
+      "dateFound": "2026-02-20"
     }
   ]
 }

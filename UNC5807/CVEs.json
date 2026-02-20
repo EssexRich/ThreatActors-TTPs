@@ -1,0 +1,10 @@
+{
+  "group": "Salt Typhoon / OPERATOR PANDA / RedMike / UNC5807 / GhostEmperor",
+  "cves": [
+    {
+      "id": "CVE-2024-21887",
+      "source": "https://www.cisa.gov/news-events/news/cisa-and-partners-release-joint-advisory-countering-chinese-state-sponsored-actors-compromise",
+      "dateFound": "2026-02-20"
+    }
+  ]
+}

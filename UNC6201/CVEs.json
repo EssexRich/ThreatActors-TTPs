@@ -1,0 +1,10 @@
+{
+  "group": "UNC6201 (China-nexus)",
+  "cves": [
+    {
+      "id": "CVE-2026-22769",
+      "source": "https://www.infosecurity-magazine.com/news/chinese-apt-exploits-dell-zeroday/",
+      "dateFound": "2026-02-20"
+    }
+  ]
+}

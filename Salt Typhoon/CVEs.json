@@ -23,6 +23,11 @@
       "id": "CVE-2016-6662",
       "source": "MITRE ATT&CK",
       "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2024-21887",
+      "source": "https://securityaffairs.com/181650/intelligence/nsa-ncsc-and-allies-detailed-ttps-associated-with-chinese-apt-actors-targeting-critical-infrastructure-orgs.html",
+      "dateFound": "2026-02-20"
     }
   ]
 }

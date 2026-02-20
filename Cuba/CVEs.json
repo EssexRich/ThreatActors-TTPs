@@ -77,6 +77,16 @@
         "CWE-288"
       ],
       "dateEnriched": "2026-02-20"
+    },
+    {
+      "id": "CVE-2026-1731",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-20"
+    },
+    {
+      "id": "CVE-2026-21643",
+      "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
+      "dateFound": "2026-02-20"
     }
   ]
 }

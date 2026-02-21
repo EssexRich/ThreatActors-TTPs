@@ -2,9 +2,11 @@
   "name": "Fog",
   "techniques": [
     "T1020",
+    "T1078",
+    "T1133",
     "T1486"
   ],
-  "techniqueCount": 2,
+  "techniqueCount": 4,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -15,6 +17,8 @@
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T1020",
+          "T1078",
+          "T1133",
           "T1486"
         ]
       }

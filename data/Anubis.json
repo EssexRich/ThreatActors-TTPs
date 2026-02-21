@@ -1,0 +1,47 @@
+{
+  "name": "Anubis",
+  "techniques": [
+    "T1048",
+    "T1059",
+    "T1070",
+    "T1078",
+    "T1133",
+    "T1134",
+    "T1485",
+    "T1486",
+    "T1490",
+    "T1548.002",
+    "T1562.001",
+    "T1566",
+    "T1567",
+    "T1569.002"
+  ],
+  "techniqueCount": 14,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1048",
+          "T1059",
+          "T1070",
+          "T1078",
+          "T1133",
+          "T1134",
+          "T1485",
+          "T1486",
+          "T1490",
+          "T1548.002",
+          "T1562.001",
+          "T1566",
+          "T1567",
+          "T1569.002"
+        ]
+      }
+    ]
+  }
+}

@@ -2,6 +2,7 @@
   "name": "Cephalus",
   "techniques": [
     "T1020",
+    "T1021",
     "T1041",
     "T1053.005",
     "T1059.001",
@@ -23,7 +24,7 @@
     "T1567.002",
     "T1574.002"
   ],
-  "techniqueCount": 21,
+  "techniqueCount": 22,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -34,6 +35,7 @@
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T1020",
+          "T1021",
           "T1041",
           "T1053.005",
           "T1059.001",

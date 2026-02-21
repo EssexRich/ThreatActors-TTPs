@@ -17,6 +17,7 @@
     "T1087.002",
     "T1090",
     "T1098",
+    "T1105",
     "T1136",
     "T1140",
     "T1190",
@@ -42,7 +43,7 @@
     "T1574.001",
     "T1622"
   ],
-  "techniqueCount": 40,
+  "techniqueCount": 41,
   "cveCount": 0,
   "metadata": {
     "description": "| Tactic \t| Technique \t| Details \t|",
@@ -96,7 +97,8 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1056"
+          "T1056",
+          "T1105"
         ]
       },
       {

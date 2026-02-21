@@ -1,12 +1,9 @@
 {
-  "name": "Interlock",
+  "name": "UNC6201",
   "techniques": [
-    "T1005",
-    "T1071",
-    "T1113",
     "T1190"
   ],
-  "techniqueCount": 4,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -14,15 +11,8 @@
     "cves": [],
     "files": [
       {
-        "name": "README.md",
-        "techniques": []
-      },
-      {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1005",
-          "T1071",
-          "T1113",
           "T1190"
         ]
       }

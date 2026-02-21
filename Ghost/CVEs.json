@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2010-2861",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2009-3960",
@@ -51,7 +51,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://nvd.nist.gov/vuln/detail/CVE-2009-3960",
       "cwes": [],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2021-34473",
@@ -69,7 +69,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2021-34523",
@@ -87,7 +87,7 @@
       "cwes": [
         "CWE-287"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2021-31207",
@@ -106,7 +106,7 @@
         "CWE-20",
         "CWE-434"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2019-0604",
@@ -124,7 +124,7 @@
       "cwes": [
         "CWE-20"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2020-1472",
@@ -142,7 +142,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2014-1812",
@@ -160,7 +160,7 @@
       "cwes": [
         "CWE-255"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2017-0143",
@@ -178,7 +178,7 @@
       "cwes": [
         "CWE-20"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2017-0144",
@@ -196,7 +196,7 @@
       "cwes": [
         "CWE-20"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     }
   ]
 }

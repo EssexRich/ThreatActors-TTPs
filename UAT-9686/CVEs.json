@@ -17,12 +17,25 @@
       "cwes": [
         "CWE-20"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2024-20353",
       "source": "https://www.rescana.com/post/critical-cve-2024-20353-zero-day-exploited-by-china-linked-apt-hits-cisco-secure-email-gateway-and-s",
-      "dateFound": "2026-02-20"
+      "dateFound": "2026-02-20",
+      "vendor": "Cisco",
+      "product": "Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD)",
+      "vulnerabilityName": "Cisco ASA and FTD Denial of Service Vulnerability",
+      "shortDescription": "Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) contain an infinite loop vulnerability that can lead to remote denial of service condition.",
+      "dateAdded": "2024-04-24",
+      "dueDate": "2024-05-01",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-websrvs-dos-X8gNucD2;   https://nvd.nist.gov/vuln/detail/CVE-2024-20353",
+      "cwes": [
+        "CWE-835"
+      ],
+      "dateEnriched": "2026-02-21"
     }
   ]
 }

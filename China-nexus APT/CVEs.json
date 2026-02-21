@@ -17,12 +17,25 @@
       "cwes": [
         "CWE-434"
       ],
-      "dateEnriched": "2026-02-20"
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2026-22769",
       "source": "https://www.infosecurity-magazine.com/news/chinese-apt-exploits-dell-zeroday/",
-      "dateFound": "2026-02-20"
+      "dateFound": "2026-02-20",
+      "vendor": "Dell",
+      "product": "RecoverPoint for Virtual Machines (RP4VMs)",
+      "vulnerabilityName": "Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability",
+      "shortDescription": "Dell RecoverPoint for Virtual Machines (RP4VMs) contains an use of hard-coded credentials vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access to the underlying operating system and root-level persistence.",
+      "dateAdded": "2026-02-18",
+      "dueDate": "2026-02-21",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.dell.com/support/kbdoc/en-us/000426773/dsa-2026-079 ; https://www.dell.com/support/kbdoc/en-us/000426742/recoverpoint-for-vms-apply-the-remediation-script-for-dsa ; https://cloud.google.com/blog/topics/threat-intelligence/unc6201-exploiting-dell-recoverpoint-zero-day ; https://nvd.nist.gov/vuln/detail/CVE-2026-22769",
+      "cwes": [
+        "CWE-798"
+      ],
+      "dateEnriched": "2026-02-21"
     }
   ]
 }

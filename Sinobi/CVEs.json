@@ -4,12 +4,38 @@
     {
       "id": "CVE-2024-53704",
       "source": "https://socradar.io/blog/dark-web-profile-sinobi-ransomware/",
-      "dateFound": "2026-02-20"
+      "dateFound": "2026-02-20",
+      "vendor": "SonicWall",
+      "product": "SonicOS",
+      "vulnerabilityName": "SonicWall SonicOS SSLVPN Improper Authentication Vulnerability",
+      "shortDescription": "SonicWall SonicOS contains an improper authentication vulnerability in the SSLVPN authentication mechanism that allows a remote attacker to bypass authentication.",
+      "dateAdded": "2025-02-18",
+      "dueDate": "2025-03-11",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003 ; https://nvd.nist.gov/vuln/detail/CVE-2024-53704",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-02-21"
     },
     {
       "id": "CVE-2024-40766",
       "source": "https://socradar.io/blog/dark-web-profile-sinobi-ransomware/",
-      "dateFound": "2026-02-20"
+      "dateFound": "2026-02-20",
+      "vendor": "SonicWall",
+      "product": "SonicOS",
+      "vulnerabilityName": "SonicWall SonicOS Improper Access Control Vulnerability",
+      "shortDescription": "SonicWall SonicOS contains an improper access control vulnerability that could lead to unauthorized resource access and, under certain conditions, may cause the firewall to crash.",
+      "dateAdded": "2024-09-09",
+      "dueDate": "2024-09-30",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015; https://www.sonicwall.com/support/notices/gen-7-and-newer-sonicwall-firewalls-sslvpn-recent-threat-activity/kA1VN0000000RDG0A2 ; https://nvd.nist.gov/vuln/detail/CVE-2024-40766",
+      "cwes": [
+        "CWE-284"
+      ],
+      "dateEnriched": "2026-02-21"
     }
   ]
 }

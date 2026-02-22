@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-843"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-20333",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-120"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-20362",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-862"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-0282",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-121"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-4428",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-22457",
@@ -107,7 +107,7 @@
       "cwes": [
         "CWE-121"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-32433",
@@ -125,7 +125,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2025-24813",
@@ -144,7 +144,7 @@
         "CWE-44",
         "CWE-502"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2024-41713",
@@ -162,7 +162,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2024-55550",
@@ -180,7 +180,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2024-56145",
@@ -198,7 +198,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     },
     {
       "id": "CVE-2024-34102",
@@ -216,7 +216,7 @@
       "cwes": [
         "CWE-611"
       ],
-      "dateEnriched": "2026-02-21"
+      "dateEnriched": "2026-02-22"
     }
   ]
 }

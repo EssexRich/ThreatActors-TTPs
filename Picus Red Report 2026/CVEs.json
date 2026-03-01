@@ -1,0 +1,35 @@
+{
+  "group": "Picus Red Report 2026",
+  "cves": [
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2026-21858",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2025-66478",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2025-64446",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2025-59287",
+      "source": "https://www.picussecurity.com/resource/the-most-common-ransomware-ttp-mitre-attck-t1486-data-encrypted-for-impact",
+      "dateFound": "2026-03-01"
+    }
+  ]
+}

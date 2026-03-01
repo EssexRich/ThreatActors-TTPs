@@ -141,7 +141,20 @@
     {
       "id": "CVE-2023-46604",
       "source": "https://thedfirreport.com/2026/02/23/apache-activemq-exploit-leads-to-lockbit-ransomware/",
-      "dateFound": "2026-03-01"
+      "dateFound": "2026-03-01",
+      "vendor": "Apache",
+      "product": "ActiveMQ",
+      "vulnerabilityName": "Apache ActiveMQ Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Apache ActiveMQ contains a deserialization of untrusted data vulnerability that may allow a remote attacker with network access to a broker to run shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath.",
+      "dateAdded": "2023-11-02",
+      "dueDate": "2023-11-23",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt; https://nvd.nist.gov/vuln/detail/CVE-2023-46604",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-03-01"
     }
   ]
 }

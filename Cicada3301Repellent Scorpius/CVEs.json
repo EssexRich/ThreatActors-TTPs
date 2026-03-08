@@ -1,5 +1,5 @@
 {
-  "group": "Cicada3301/Repellent Scorpius",
+  "group": "Cicada3301Repellent Scorpius",
   "cves": [
     {
       "id": "CVE-2024-1708",
@@ -23,6 +23,11 @@
         "CWE-288"
       ],
       "dateEnriched": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://www.security.com/threat-intelligence/cicada-apt10-japan-espionage",
+      "dateFound": "2026-03-08"
     }
   ]
 }

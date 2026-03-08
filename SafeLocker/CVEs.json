@@ -1,0 +1,10 @@
+{
+  "group": "SafeLocker",
+  "cves": [
+    {
+      "id": "CVE-2025-5335",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-june-2025/",
+      "dateFound": "2026-03-08"
+    }
+  ]
+}

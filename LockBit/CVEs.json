@@ -155,6 +155,26 @@
         "CWE-502"
       ],
       "dateEnriched": "2026-03-08"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-26828",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2025-48572",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2025-48633",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
+      "dateFound": "2026-03-08"
     }
   ]
 }

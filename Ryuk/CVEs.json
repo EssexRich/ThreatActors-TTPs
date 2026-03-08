@@ -1,0 +1,10 @@
+{
+  "group": "Ryuk",
+  "cves": [
+    {
+      "id": "CVE-2023-22527",
+      "source": "https://thedfirreport.com/reports/",
+      "dateFound": "2026-03-08"
+    }
+  ]
+}

@@ -18,6 +18,11 @@
         "CWE-288"
       ],
       "dateEnriched": "2026-03-08"
+    },
+    {
+      "id": "CVE-2024-9680",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/untangling-iran-apt42-operations",
+      "dateFound": "2026-03-08"
     }
   ]
 }

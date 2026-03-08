@@ -1,0 +1,175 @@
+{
+  "group": "Karma (MedusaLocker)",
+  "cves": [
+    {
+      "id": "CVE-2023-38831",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-4034",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2016-5195",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-0688",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2015-2545",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2017-11882",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-32315",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-44228",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2018-13379",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-23397",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2018-8174",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-2021",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-5902",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2014-4114",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-15505",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2019-19781",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2022-30190",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2022-38028",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2024-21412",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2022-21587",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-1675",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2020-1380",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-27350",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2012-0158",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2009-3129",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-22555",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-36025",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-27351",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-27992",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-32231",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2019-11510",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2014-1761",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2026-21445",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
+      "dateFound": "2026-03-08"
+    }
+  ]
+}

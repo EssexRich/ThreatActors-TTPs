@@ -82,6 +82,11 @@
         "CWE-294"
       ],
       "dateEnriched": "2026-03-08"
+    },
+    {
+      "id": "CVE-2026-21513",
+      "source": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
+      "dateFound": "2026-03-08"
     }
   ]
 }

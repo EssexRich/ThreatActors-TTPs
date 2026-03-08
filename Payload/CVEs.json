@@ -1,0 +1,40 @@
+{
+  "group": "Payload Ransomware",
+  "cves": [
+    {
+      "id": "CVE-2024-21412",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2016-5195",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2023-32315",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2024-23897",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2022-21587",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2021-22555",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    },
+    {
+      "id": "CVE-2026-28400",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-05-march-2026/",
+      "dateFound": "2026-03-08"
+    }
+  ]
+}

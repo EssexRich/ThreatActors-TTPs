@@ -4,52 +4,182 @@
     {
       "id": "CVE-2024-21762",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS Out-of-Bound Write Vulnerability",
+      "shortDescription": "Fortinet FortiOS contains an out-of-bound write vulnerability that allows a remote unauthenticated attacker to execute code or commands via specially crafted HTTP requests.",
+      "dateAdded": "2024-02-09",
+      "dueDate": "2024-02-16",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-24-015 ;   https://nvd.nist.gov/vuln/detail/CVE-2024-21762",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2024-21887",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Ivanti",
+      "product": "Connect Secure and Policy Secure",
+      "vulnerabilityName": "Ivanti Connect Secure and Policy Secure Command Injection Vulnerability",
+      "shortDescription": "Ivanti Connect Secure (ICS, formerly known as Pulse Connect Secure) and Ivanti Policy Secure contain a command injection vulnerability in the web components of these products, which can allow an authenticated administrator to send crafted requests to execute code on affected appliances. This vulnerability can be leveraged in conjunction with CVE-2023-46805, an authenticated bypass issue.",
+      "dateAdded": "2024-01-10",
+      "dueDate": "2024-01-22",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Please apply mitigations per vendor instructions. For more information, please see: https://forums.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2024-21887",
+      "cwes": [
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-42475",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS Heap-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Multiple versions of Fortinet FortiOS SSL-VPN contain a heap-based buffer overflow vulnerability which can allow an unauthenticated, remote attacker to execute arbitrary code or commands via specifically crafted requests.",
+      "dateAdded": "2022-12-13",
+      "dueDate": "2023-01-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-22-398;  https://nvd.nist.gov/vuln/detail/CVE-2022-42475",
+      "cwes": [
+        "CWE-197"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-34048",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "VMware",
+      "product": "vCenter Server",
+      "vulnerabilityName": "VMware vCenter Server Out-of-Bounds Write Vulnerability",
+      "shortDescription": "VMware vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol that allows an attacker to conduct remote code execution.",
+      "dateAdded": "2024-01-22",
+      "dueDate": "2024-02-12",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.vmware.com/security/advisories/VMSA-2023-0023.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-34048",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-20867",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "VMware",
+      "product": "Tools",
+      "vulnerabilityName": "VMware Tools Authentication Bypass Vulnerability",
+      "shortDescription": "VMware Tools contains an authentication bypass vulnerability in the vgauth module. A fully compromised ESXi host can force VMware Tools to fail to authenticate host-to-guest operations, impacting the confidentiality and integrity of the guest virtual machine. An attacker must have root access over ESXi to exploit this vulnerability.",
+      "dateAdded": "2023-06-23",
+      "dueDate": "2023-07-14",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.vmware.com/security/advisories/VMSA-2023-0013.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-20867",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-41328",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiOS contains a path traversal vulnerability that may allow a local privileged attacker to read and write files via crafted CLI commands.",
+      "dateAdded": "2023-03-14",
+      "dueDate": "2023-04-04",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-22-369;  https://nvd.nist.gov/vuln/detail/CVE-2022-41328",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-22948",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "VMware",
+      "product": "vCenter Server",
+      "vulnerabilityName": "VMware vCenter Server Incorrect Default File Permissions Vulnerability ",
+      "shortDescription": "VMware vCenter Server contains an incorrect default file permissions vulnerability that allows a remote, privileged attacker to gain access to sensitive information.",
+      "dateAdded": "2024-07-17",
+      "dueDate": "2024-08-07",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.vmware.com/security/advisories/VMSA-2022-0009.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-22948",
+      "cwes": [
+        "CWE-276"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-27997",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "FortiOS and FortiProxy SSL-VPN",
+      "vulnerabilityName": "Fortinet FortiOS and FortiProxy SSL-VPN Heap-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Fortinet FortiOS and FortiProxy SSL-VPN contain a heap-based buffer overflow vulnerability which can allow an unauthenticated, remote attacker to execute code or commands via specifically crafted requests.",
+      "dateAdded": "2023-06-13",
+      "dueDate": "2023-07-04",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-23-097;  https://nvd.nist.gov/vuln/detail/CVE-2023-27997",
+      "cwes": [
+        "CWE-122"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-40539",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Zoho",
+      "product": "ManageEngine",
+      "vulnerabilityName": "Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
+      "shortDescription": "Zoho ManageEngine ADSelfService Plus contains an authentication bypass vulnerability affecting the REST API URLs which allow for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-40539",
+      "cwes": [
+        "CWE-55"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2024-23113",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Fortinet Multiple Products Format String Vulnerability",
+      "shortDescription": "Fortinet FortiOS, FortiPAM, FortiProxy, and FortiWeb contain a format string vulnerability that allows a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted requests.",
+      "dateAdded": "2024-10-09",
+      "dueDate": "2024-10-30",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-24-029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-23113",
+      "cwes": [
+        "CWE-134"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2024-22024",
@@ -59,7 +189,20 @@
     {
       "id": "CVE-2024-39717",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-20-february-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Versa",
+      "product": "Director",
+      "vulnerabilityName": "Versa Director Dangerous File Type Upload Vulnerability",
+      "shortDescription": "The Versa Director GUI contains an unrestricted upload of file with dangerous type vulnerability that allows administrators with Provider-Data-Center-Admin or Provider-Data-Center-System-Admin privileges to customize the user interface. The “Change Favicon” (Favorite Icon) enables the upload of a .png file, which can be exploited to upload a malicious file with a .png extension disguised as an image.",
+      "dateAdded": "2024-08-23",
+      "dueDate": "2024-09-13",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://versa-networks.com/blog/versa-security-bulletin-update-on-cve-2024-39717-versa-director-dangerous-file-type-upload-vulnerability/;   https://nvd.nist.gov/vuln/detail/CVE-2024-39717",
+      "cwes": [
+        "CWE-434"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2025-36511",

@@ -22,7 +22,7 @@
       "cwes": [
         "CWE-74"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2017-0199",
@@ -38,7 +38,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
       "cwes": [],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-22515",
@@ -54,7 +54,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://confluence.atlassian.com/security/cve-2023-22515-privilege-escalation-vulnerability-in-confluence-data-center-and-server-1295682276.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22515",
       "cwes": [],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-22518",
@@ -72,7 +72,7 @@
       "cwes": [
         "CWE-863"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2026-1281",
@@ -90,7 +90,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2026-1340",
@@ -113,7 +113,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2026-1731",
@@ -131,7 +131,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2026-21643",
@@ -154,27 +154,73 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2025-55182",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Meta",
+      "product": "React Server Components",
+      "vulnerabilityName": "Meta React Server Components Remote Code Execution Vulnerability",
+      "shortDescription": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.",
+      "dateAdded": "2025-12-05",
+      "dueDate": "2025-12-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
+      "cwes": [],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-26828",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "OpenPLC",
+      "product": "ScadaBR",
+      "vulnerabilityName": "OpenPLC ScadaBR Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "shortDescription": "OpenPLC ScadaBR contains an unrestricted upload of file with dangerous type vulnerability that allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.",
+      "dateAdded": "2025-12-03",
+      "dueDate": "2025-12-24",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/SCADA-LTS/Scada-LTS/pull/2174 ; https://nvd.nist.gov/vuln/detail/CVE-2021-26828",
+      "cwes": [
+        "CWE-434"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2025-48572",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Android",
+      "product": "Framework",
+      "vulnerabilityName": "Android Framework Privilege Escalation Vulnerability",
+      "shortDescription": "Android Framework contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2025-12-02",
+      "dueDate": "2025-12-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48572",
+      "cwes": [],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2025-48633",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Android",
+      "product": "Framework",
+      "vulnerabilityName": "Android Framework Information Disclosure Vulnerability",
+      "shortDescription": "Android Framework contains an unspecified vulnerability that allows for information disclosure.",
+      "dateAdded": "2025-12-02",
+      "dueDate": "2025-12-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633",
+      "cwes": [],
+      "dateEnriched": "2026-03-09"
     }
   ]
 }

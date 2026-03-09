@@ -4,142 +4,504 @@
     {
       "id": "CVE-2023-38831",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "RARLAB WinRAR Code Execution Vulnerability",
+      "shortDescription": "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
+      "dateAdded": "2023-08-24",
+      "dueDate": "2023-09-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "http://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=232&cHash=c5bf79590657e32554c6683296a8e8aa;  https://nvd.nist.gov/vuln/detail/CVE-2023-38831",
+      "cwes": [
+        "CWE-351"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-4034",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Red Hat",
+      "product": "Polkit",
+      "vulnerabilityName": "Red Hat Polkit Out-of-Bounds Read and Write Vulnerability",
+      "shortDescription": "The Red Hat polkit pkexec utility contains an out-of-bounds read and write vulnerability that allows for privilege escalation with administrative rights.",
+      "dateAdded": "2022-06-27",
+      "dueDate": "2022-07-18",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-4034",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2016-5195",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Race Condition Vulnerability",
+      "shortDescription": "Race condition in mm/gup.c in the Linux kernel allows local users to escalate privileges.",
+      "dateAdded": "2022-03-03",
+      "dueDate": "2022-03-24",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2016-5195",
+      "cwes": [
+        "CWE-362"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-0688",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Validation Key Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Exchange Server Validation Key fails to properly create unique keys at install time, allowing for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-0688",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2015-2545",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Malformed EPS File Vulnerability",
+      "shortDescription": "Microsoft Office allows remote attackers to execute arbitrary code via a crafted EPS image.",
+      "dateAdded": "2022-03-03",
+      "dueDate": "2022-03-24",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2015-2545",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2017-11882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-32315",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Ignite Realtime",
+      "product": "Openfire",
+      "vulnerabilityName": "Ignite Realtime Openfire Path Traversal Vulnerability",
+      "shortDescription": "Ignite Realtime Openfire contains a path traversal vulnerability that allows an unauthenticated attacker to access restricted pages in the Openfire Admin Console reserved for administrative users.",
+      "dateAdded": "2023-08-24",
+      "dueDate": "2023-09-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.igniterealtime.org/downloads/#openfire;  https://nvd.nist.gov/vuln/detail/CVE-2023-32315",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-44228",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Apache",
+      "product": "Log4j2",
+      "vulnerabilityName": "Apache Log4j2 Remote Code Execution Vulnerability",
+      "shortDescription": "Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution.",
+      "dateAdded": "2021-12-10",
+      "dueDate": "2021-12-24",
+      "requiredAction": "For all affected software assets for which updates exist, the only acceptable remediation actions are: 1) Apply updates; OR 2) remove affected assets from agency networks. Temporary mitigations using one of the measures provided at https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures are only acceptable until updates are available.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+      "cwes": [
+        "CWE-20",
+        "CWE-400",
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2018-13379",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS SSL VPN Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiOS SSL VPN web portal contains a path traversal vulnerability that may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-23397",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Outlook Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user.",
+      "dateAdded": "2023-03-14",
+      "dueDate": "2023-04-04",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397, https://msrc.microsoft.com/blog/2023/03/microsoft-mitigates-outlook-elevation-of-privilege-vulnerability/, ;  https://nvd.nist.gov/vuln/detail/CVE-2023-23397",
+      "cwes": [
+        "CWE-294"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-1472",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Netlogon",
+      "vulnerabilityName": "Microsoft Netlogon Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft's Netlogon Remote Protocol (MS-NRPC) contains a privilege escalation vulnerability when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploits the vulnerability could run a specially crafted application on a device on the network. The vulnerability is also known under the moniker of Zerologon.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 20-04. https://nvd.nist.gov/vuln/detail/CVE-2020-1472",
+      "cwes": [
+        "CWE-330"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2018-8174",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows VBScript Engine Out-of-Bounds Write Vulnerability",
+      "shortDescription": "A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka \"Windows VBScript Engine Remote Code Execution\"",
+      "dateAdded": "2022-02-15",
+      "dueDate": "2022-08-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-8174",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-2021",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "vulnerabilityName": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+      "shortDescription": "Palo Alto Networks PAN-OS contains a vulnerability in SAML which allows an attacker to bypass authentication.",
+      "dateAdded": "2022-03-25",
+      "dueDate": "2022-04-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-2021",
+      "cwes": [
+        "CWE-347"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-5902",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "vulnerabilityName": "F5 BIG-IP Traffic Management User Interface (TMUI) Remote Code Execution Vulnerability",
+      "shortDescription": "F5 BIG-IP Traffic Management User Interface (TMUI) contains a remote code execution vulnerability in undisclosed pages.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-5902",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2014-4114",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Object Linking & Embedding (OLE) Remote Code Execution Vulnerability",
+      "shortDescription": "A vulnerability exists in Windows Object Linking & Embedding (OLE) that could allow remote code execution if a user opens a file that contains a specially crafted OLE object.",
+      "dateAdded": "2022-03-03",
+      "dueDate": "2022-03-24",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-4114",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-15505",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Ivanti",
+      "product": "MobileIron Multiple Products",
+      "vulnerabilityName": "Ivanti MobileIron Multiple Products Remote Code Execution Vulnerability",
+      "shortDescription": "Ivanti MobileIron's Core & Connector, Sentry, and Monitor and Reporting Database (RDB) products contain an unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-15505",
+      "cwes": [
+        "CWE-706"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2019-19781",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Citrix",
+      "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
+      "vulnerabilityName": "Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability",
+      "shortDescription": "Citrix ADC, Citrix Gateway, and multiple Citrix SD-WAN WANOP appliance models contain an unspecified vulnerability that could allow an unauthenticated attacker to perform code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-19781",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-30190",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability",
+      "shortDescription": "A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run code with the privileges of the calling application.",
+      "dateAdded": "2022-06-14",
+      "dueDate": "2022-07-05",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-30190",
+      "cwes": [
+        "CWE-610"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-38028",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability ",
+      "shortDescription": "Microsoft Windows Print Spooler service contains a privilege escalation vulnerability. An attacker may modify a JavaScript constraints file and execute it with SYSTEM-level permissions.",
+      "dateAdded": "2024-04-23",
+      "dueDate": "2024-05-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.  ",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-38028;  https://nvd.nist.gov/vuln/detail/CVE-2022-38028",
+      "cwes": [],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2024-21412",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Windows Internet Shortcut Files contains an unspecified vulnerability that allows for a security feature bypass.",
+      "dateAdded": "2024-02-13",
+      "dueDate": "2024-03-05",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21412; https://nvd.nist.gov/vuln/detail/CVE-2024-21412",
+      "cwes": [
+        "CWE-693"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2022-21587",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Oracle",
+      "product": "E-Business Suite",
+      "vulnerabilityName": "Oracle E-Business Suite Unspecified Vulnerability",
+      "shortDescription": "Oracle E-Business Suite contains an unspecified vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Web Applications Desktop Integrator.",
+      "dateAdded": "2023-02-02",
+      "dueDate": "2023-02-23",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.oracle.com/security-alerts/cpuoct2022.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-21587",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-1675",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Print Spooler Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Print Spooler contains an unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-1675",
+      "cwes": [
+        "CWE-285"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2020-1380",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "vulnerabilityName": "Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Internet Explorer contains a memory corruption vulnerability which can allow for remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-1380",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-27350",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "PaperCut",
+      "product": "MF/NG",
+      "vulnerabilityName": "PaperCut MF/NG Improper Access Control Vulnerability",
+      "shortDescription": "PaperCut MF/NG contains an improper access control vulnerability within the SetupCompleted class that allows authentication bypass and code execution in the context of system.",
+      "dateAdded": "2023-04-21",
+      "dueDate": "2023-05-12",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.papercut.com/kb/Main/PO-1216-and-PO-1219;  https://nvd.nist.gov/vuln/detail/CVE-2023-27350",
+      "cwes": [
+        "CWE-284"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2012-0158",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "MSCOMCTL.OCX",
+      "vulnerabilityName": "Microsoft MSCOMCTL.OCX Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft MSCOMCTL.OCX contains an unspecified vulnerability that allows for remote code execution, allowing an attacker to take complete control of an affected system under the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2012-0158",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2009-3129",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Excel",
+      "vulnerabilityName": "Microsoft Excel Featheader Record Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office Excel allows remote attackers to execute arbitrary code via a spreadsheet with a FEATHEADER record containing an invalid cbHdrData size element that affects a pointer offset.",
+      "dateAdded": "2022-03-03",
+      "dueDate": "2022-03-24",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2009-3129",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2021-22555",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Heap Out-of-Bounds Write Vulnerability",
+      "shortDescription": "Linux Kernel contains a heap out-of-bounds write vulnerability that could allow an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space.",
+      "dateAdded": "2025-10-06",
+      "dueDate": "2025-10-27",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/net/netfilter/x_tables.c?id=9fa492cdc160cd27ce1046cb36f47d3b2b1efa21 ; https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/net/netfilter/x_tables.c?id=b29c457a6511435960115c0f548c4360d5f4801d ; https://security.netapp.com/advisory/ntap-20210805-0010/ ; https://github.com/google/security-research/security/advisories/GHSA-xxx5-8mvq-3528 ; https://nvd.nist.gov/vuln/detail/CVE-2021-22555",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-36025",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows SmartScreen Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Windows SmartScreen contains a security feature bypass vulnerability that could allow an attacker to bypass Windows Defender SmartScreen checks and their associated prompts.",
+      "dateAdded": "2023-11-14",
+      "dueDate": "2023-12-05",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-36025;  https://nvd.nist.gov/vuln/detail/CVE-2023-36025",
+      "cwes": [],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-27351",
@@ -149,7 +511,20 @@
     {
       "id": "CVE-2023-27992",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Zyxel",
+      "product": "Multiple Network-Attached Storage (NAS) Devices",
+      "vulnerabilityName": "Zyxel Multiple NAS Devices Command Injection Vulnerability",
+      "shortDescription": "Multiple Zyxel network-attached storage (NAS) devices contain a pre-authentication command injection vulnerability that could allow an unauthenticated attacker to execute commands remotely via a crafted HTTP request.",
+      "dateAdded": "2023-06-23",
+      "dueDate": "2023-07-14",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-pre-authentication-command-injection-vulnerability-in-nas-products;  https://nvd.nist.gov/vuln/detail/CVE-2023-27992",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2023-32231",
@@ -159,12 +534,38 @@
     {
       "id": "CVE-2019-11510",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Ivanti",
+      "product": "Pulse Connect Secure",
+      "vulnerabilityName": "Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability",
+      "shortDescription": "Ivanti Pulse Connect Secure contains an arbitrary file read vulnerability that allows an unauthenticated remote attacker with network access via HTTPS to send a specially crafted URI.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-03. https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2014-1761",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-16-january-2026/",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Microsoft",
+      "product": "Word",
+      "vulnerabilityName": "Microsoft Word Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Word contains a memory corruption vulnerability which when exploited could allow for remote code execution.",
+      "dateAdded": "2022-02-15",
+      "dueDate": "2022-08-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-1761",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2026-21445",

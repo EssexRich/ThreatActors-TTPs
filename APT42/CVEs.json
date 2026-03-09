@@ -17,12 +17,25 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-03-08"
+      "dateEnriched": "2026-03-09"
     },
     {
       "id": "CVE-2024-9680",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/untangling-iran-apt42-operations",
-      "dateFound": "2026-03-08"
+      "dateFound": "2026-03-08",
+      "vendor": "Mozilla",
+      "product": "Firefox",
+      "vulnerabilityName": "Mozilla Firefox Use-After-Free Vulnerability",
+      "shortDescription": "Mozilla Firefox and Firefox ESR contain a use-after-free vulnerability in Animation timelines that allows for code execution in the content process.",
+      "dateAdded": "2024-10-15",
+      "dueDate": "2024-11-05",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/ ; https://nvd.nist.gov/vuln/detail/CVE-2024-9680",
+      "cwes": [
+        "CWE-416"
+      ],
+      "dateEnriched": "2026-03-09"
     }
   ]
 }

@@ -6,9 +6,10 @@
     "T1190",
     "T1486",
     "T1547",
+    "T1548",
     "T1548.004"
   ],
-  "techniqueCount": 6,
+  "techniqueCount": 7,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -23,6 +24,7 @@
           "T1190",
           "T1486",
           "T1547",
+          "T1548",
           "T1548.004"
         ]
       }

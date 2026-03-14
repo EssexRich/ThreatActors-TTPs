@@ -62,6 +62,36 @@
       "id": "CVE-2026-21858",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
       "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-26855",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2026-22548",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2021-45461",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2025-0944",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2025-12480",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2026-2893",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
+      "dateFound": "2026-03-14"
     }
   ]
 }

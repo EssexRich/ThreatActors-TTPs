@@ -6,6 +6,7 @@
     "T1059.001",
     "T1070.001",
     "T1070.004",
+    "T1078",
     "T1083",
     "T1190",
     "T1199",
@@ -17,7 +18,7 @@
     "T1566",
     "T1657"
   ],
-  "techniqueCount": 15,
+  "techniqueCount": 16,
   "cveCount": 0,
   "metadata": {
     "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
@@ -40,6 +41,7 @@
           "T1053.005",
           "T1059.001",
           "T1070.001",
+          "T1078",
           "T1190",
           "T1199",
           "T1489",

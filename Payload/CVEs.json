@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-693"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2016-5195",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-362"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2023-32315",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2024-23897",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-27"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2022-21587",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2021-22555",
@@ -107,7 +107,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-03-16"
+      "dateEnriched": "2026-03-17"
     },
     {
       "id": "CVE-2026-28400",

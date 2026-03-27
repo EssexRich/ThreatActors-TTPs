@@ -36,6 +36,11 @@
         "CWE-835"
       ],
       "dateEnriched": "2026-03-27"
+    },
+    {
+      "id": "CVE-2026-20127",
+      "source": "https://blog.talosintelligence.com/uat-9686/",
+      "dateFound": "2026-03-27"
     }
   ]
 }

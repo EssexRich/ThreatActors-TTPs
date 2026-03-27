@@ -118,6 +118,11 @@
       "id": "CVE-2026-2893",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-13-march-2026/",
       "dateFound": "2026-03-14"
+    },
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-03-27"
     }
   ]
 }

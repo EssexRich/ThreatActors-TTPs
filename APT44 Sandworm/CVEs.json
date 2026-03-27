@@ -54,6 +54,11 @@
         "CWE-787"
       ],
       "dateEnriched": "2026-03-27"
+    },
+    {
+      "id": "CVE-2022-47966",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-250a",
+      "dateFound": "2026-03-27"
     }
   ]
 }

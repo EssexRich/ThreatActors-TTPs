@@ -23,6 +23,11 @@
       "id": "CVE-2024-9047",
       "source": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html",
       "dateFound": "2026-03-01"
+    },
+    {
+      "id": "CVE-2025-31324",
+      "source": "https://www.trendmicro.com/en_us/research/25/e/earth-lamia.html",
+      "dateFound": "2026-03-27"
     }
   ]
 }

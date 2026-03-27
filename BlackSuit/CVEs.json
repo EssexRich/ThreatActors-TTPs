@@ -18,6 +18,11 @@
         "CWE-74"
       ],
       "dateEnriched": "2026-03-27"
+    },
+    {
+      "id": "CVE-2023-34362",
+      "source": "https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis",
+      "dateFound": "2026-03-27"
     }
   ]
 }

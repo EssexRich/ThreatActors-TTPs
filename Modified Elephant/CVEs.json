@@ -1,0 +1,10 @@
+{
+  "group": "Modified Elephant",
+  "cves": [
+    {
+      "id": "CVE-2012-0158",
+      "source": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence/",
+      "dateFound": "2026-03-27"
+    }
+  ]
+}

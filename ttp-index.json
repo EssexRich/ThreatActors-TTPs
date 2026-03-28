@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-27T03:49:54.034Z",
-  "actorCount": 278,
+  "generated": "2026-03-28T03:36:58.904Z",
+  "actorCount": 279,
   "totalTechniques": 554,
   "actors": [
     {
@@ -2141,13 +2141,14 @@
     },
     {
       "name": "BlackSuit",
-      "techniqueCount": 73,
+      "techniqueCount": 78,
       "cveCount": 0,
       "techniques": [
         "T1003",
         "T1003.001",
         "T1003.003",
         "T1003.006",
+        "T1005",
         "T1018",
         "T1021",
         "T1021.001",
@@ -2157,6 +2158,8 @@
         "T1036",
         "T1047",
         "T1048",
+        "T1049",
+        "T1053",
         "T1055",
         "T1057",
         "T1059",
@@ -2185,6 +2188,7 @@
         "T1204.002",
         "T1218",
         "T1218.010",
+        "T1219",
         "T1482",
         "T1484",
         "T1484.001",
@@ -2192,6 +2196,7 @@
         "T1490",
         "T1518",
         "T1518.001",
+        "T1543.003",
         "T1547.001",
         "T1548",
         "T1550.002",
@@ -2543,11 +2548,12 @@
     },
     {
       "name": "Cephalus",
-      "techniqueCount": 22,
+      "techniqueCount": 25,
       "cveCount": 0,
       "techniques": [
         "T1020",
         "T1021",
+        "T1021.001",
         "T1041",
         "T1053.005",
         "T1059.001",
@@ -2563,6 +2569,8 @@
         "T1486",
         "T1490",
         "T1497.001",
+        "T1537",
+        "T1547.001",
         "T1562.001",
         "T1566",
         "T1567",
@@ -3637,6 +3645,17 @@
         "T1547.001",
         "T1570",
         "T1588.002"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "FIN11",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1190"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -5215,13 +5234,14 @@
     },
     {
       "name": "KillSec3 RaaS",
-      "techniqueCount": 16,
+      "techniqueCount": 17,
       "cveCount": 0,
       "techniques": [
         "T1003",
         "T1020",
         "T1021",
         "T1041",
+        "T1053",
         "T1053.005",
         "T1059",
         "T1059.007",
@@ -9149,7 +9169,7 @@
     },
     {
       "name": "Storm-2460",
-      "techniqueCount": 7,
+      "techniqueCount": 8,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -9157,6 +9177,7 @@
         "T1190",
         "T1547",
         "T1547.001",
+        "T1548",
         "T1548.004",
         "T1574.012"
       ],

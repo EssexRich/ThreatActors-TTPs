@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-11182",
       "source": "https://www.eset.com/afr/business/resource-center/reports/apt-activity-report-q4-2024-q1-2025/",
-      "dateFound": "2026-03-27"
+      "dateFound": "2026-03-27",
+      "vendor": "MDaemon",
+      "product": "Email Server",
+      "vulnerabilityName": "MDaemon Email Server Cross-Site Scripting (XSS) Vulnerability",
+      "shortDescription": "MDaemon Email Server contains a cross-site scripting (XSS) vulnerability that allows a remote attacker to load arbitrary JavaScript code via an HTML e-mail message.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://files.mdaemon.com/mdaemon/beta/RelNotes_en.html ; https://mdaemon.com/pages/downloads-critical-updates ; https://nvd.nist.gov/vuln/detail/CVE-2024-11182",
+      "cwes": [
+        "CWE-79"
+      ],
+      "dateEnriched": "2026-03-28"
     }
   ]
 }

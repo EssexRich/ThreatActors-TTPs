@@ -15,7 +15,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2025-59287",
@@ -33,7 +33,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2025-64446",
@@ -51,7 +51,7 @@
       "cwes": [
         "CWE-23"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2025-66478",
@@ -79,7 +79,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2026-22548",
@@ -112,7 +112,7 @@
       "cwes": [
         "CWE-284"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2026-2893",
@@ -122,7 +122,20 @@
     {
       "id": "CVE-2026-21509",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-03-27"
+      "dateFound": "2026-03-27",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Office contains a security feature bypass vulnerability in which reliance on untrusted inputs in a security decision in Microsoft Office could allow an unauthorized attacker to bypass a security feature locally. Some of the impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "dateAdded": "2026-01-26",
+      "dueDate": "2026-02-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "Please adhere to Microsoft’s recommended guidelines to address this vulnerability. Implement all final mitigations provided by the vendor for Office 2021, and apply the interim corresponding mitigations for Office 2016 and Office 2019 until the final patch becomes available. For more information please see: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21509 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21509",
+      "cwes": [
+        "CWE-807"
+      ],
+      "dateEnriched": "2026-03-28"
     }
   ]
 }

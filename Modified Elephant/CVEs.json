@@ -4,7 +4,20 @@
     {
       "id": "CVE-2012-0158",
       "source": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence/",
-      "dateFound": "2026-03-27"
+      "dateFound": "2026-03-27",
+      "vendor": "Microsoft",
+      "product": "MSCOMCTL.OCX",
+      "vulnerabilityName": "Microsoft MSCOMCTL.OCX Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft MSCOMCTL.OCX contains an unspecified vulnerability that allows for remote code execution, allowing an attacker to take complete control of an affected system under the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2012-0158",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-03-28"
     }
   ]
 }

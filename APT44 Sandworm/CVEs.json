@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-35"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2021-26855",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2021-4034",
@@ -53,17 +53,43 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-03-27"
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2022-47966",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-250a",
-      "dateFound": "2026-03-27"
+      "dateFound": "2026-03-27",
+      "vendor": "Zoho",
+      "product": "ManageEngine",
+      "vulnerabilityName": "Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability",
+      "shortDescription": "Multiple Zoho ManageEngine products contain an unauthenticated remote code execution vulnerability due to the usage of an outdated third-party dependency, Apache Santuario.",
+      "dateAdded": "2023-01-23",
+      "dueDate": "2023-02-13",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
+      "cwes": [],
+      "dateEnriched": "2026-03-28"
     },
     {
       "id": "CVE-2021-44228",
       "source": "https://www.techtarget.com/searchsecurity/news/366581178/Mandiant-upgrades-Sandworm-to-APT44-due-to-increasing-threat",
-      "dateFound": "2026-03-27"
+      "dateFound": "2026-03-27",
+      "vendor": "Apache",
+      "product": "Log4j2",
+      "vulnerabilityName": "Apache Log4j2 Remote Code Execution Vulnerability",
+      "shortDescription": "Apache Log4j2 contains a vulnerability where JNDI features do not protect against attacker-controlled JNDI-related endpoints, allowing for remote code execution.",
+      "dateAdded": "2021-12-10",
+      "dueDate": "2021-12-24",
+      "requiredAction": "For all affected software assets for which updates exist, the only acceptable remediation actions are: 1) Apply updates; OR 2) remove affected assets from agency networks. Temporary mitigations using one of the measures provided at https://www.cisa.gov/uscert/ed-22-02-apache-log4j-recommended-mitigation-measures are only acceptable until updates are available.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+      "cwes": [
+        "CWE-20",
+        "CWE-400",
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-03-28"
     }
   ]
 }

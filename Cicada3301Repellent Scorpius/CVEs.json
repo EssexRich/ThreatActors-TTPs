@@ -22,7 +22,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-03-29"
+      "dateEnriched": "2026-03-30"
     },
     {
       "id": "CVE-2020-1472",
@@ -40,7 +40,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-03-29"
+      "dateEnriched": "2026-03-30"
     }
   ]
 }

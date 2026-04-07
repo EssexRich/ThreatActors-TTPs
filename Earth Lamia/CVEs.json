@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-04-06"
+      "dateEnriched": "2026-04-07"
     },
     {
       "id": "CVE-2024-9047",
@@ -40,7 +40,7 @@
       "cwes": [
         "CWE-434"
       ],
-      "dateEnriched": "2026-04-06"
+      "dateEnriched": "2026-04-07"
     }
   ]
 }

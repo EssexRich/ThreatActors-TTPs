@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-330"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2023-27532",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2026-1281",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2026-1340",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-94"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2026-24858",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-288"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2026-1731",
@@ -107,12 +107,25 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-04-13"
+      "dateEnriched": "2026-04-14"
     },
     {
       "id": "CVE-2026-21643",
       "source": "https://arcticwolf.com/resources/blog/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa/",
-      "dateFound": "2026-02-20"
+      "dateFound": "2026-02-20",
+      "vendor": "Fortinet",
+      "product": "FortiClient EMS",
+      "vulnerabilityName": "Fortinet SQL Injection Vulnerability",
+      "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
+      "dateAdded": "2026-04-13",
+      "dueDate": "2026-04-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-25-1142 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-04-14"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-35"
       ],
-      "dateEnriched": "2026-04-22"
+      "dateEnriched": "2026-04-23"
     },
     {
       "id": "CVE-2021-26855",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-04-22"
+      "dateEnriched": "2026-04-23"
     },
     {
       "id": "CVE-2021-4034",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-04-22"
+      "dateEnriched": "2026-04-23"
     },
     {
       "id": "CVE-2022-47966",
@@ -69,7 +69,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
       "cwes": [],
-      "dateEnriched": "2026-04-22"
+      "dateEnriched": "2026-04-23"
     },
     {
       "id": "CVE-2021-44228",
@@ -89,7 +89,7 @@
         "CWE-400",
         "CWE-502"
       ],
-      "dateEnriched": "2026-04-22"
+      "dateEnriched": "2026-04-23"
     }
   ]
 }

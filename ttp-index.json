@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-02T04:18:54.366Z",
-  "actorCount": 279,
-  "totalTechniques": 554,
+  "generated": "2026-05-03T04:41:07.971Z",
+  "actorCount": 281,
+  "totalTechniques": 569,
   "actors": [
     {
       "name": "0APT",
@@ -201,18 +201,47 @@
     },
     {
       "name": "APT-C-36",
-      "techniqueCount": 9,
+      "techniqueCount": 38,
       "cveCount": 0,
       "techniques": [
         "T1027",
+        "T1027.003",
+        "T1027.013",
+        "T1027.016",
         "T1036.004",
+        "T1036.005",
+        "T1047",
         "T1053.005",
+        "T1055.012",
+        "T1059.001",
         "T1059.005",
+        "T1059.007",
         "T1105",
+        "T1133",
+        "T1204.001",
         "T1204.002",
+        "T1480",
+        "T1534",
+        "T1564.003",
         "T1566.001",
+        "T1566.002",
+        "T1568",
         "T1571",
-        "T1588.002"
+        "T1574.001",
+        "T1583.001",
+        "T1583.003",
+        "T1583.006",
+        "T1584.005",
+        "T1586.002",
+        "T1586.003",
+        "T1587.001",
+        "T1588.001",
+        "T1588.002",
+        "T1593",
+        "T1608.001",
+        "T1683.001",
+        "T1683.002",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -344,7 +373,7 @@
     },
     {
       "name": "APT28",
-      "techniqueCount": 91,
+      "techniqueCount": 94,
       "cveCount": 0,
       "techniques": [
         "T1001.001",
@@ -431,13 +460,16 @@
         "T1584.008",
         "T1586.002",
         "T1588.002",
+        "T1588.007",
         "T1589.001",
         "T1591",
         "T1595.002",
         "T1596",
         "T1598",
         "T1598.003",
-        "T1669"
+        "T1669",
+        "T1684.001",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -445,7 +477,7 @@
     },
     {
       "name": "APT29",
-      "techniqueCount": 66,
+      "techniqueCount": 67,
       "cveCount": 0,
       "techniques": [
         "T1003.002",
@@ -513,7 +545,8 @@
         "T1621",
         "T1649",
         "T1651",
-        "T1665"
+        "T1665",
+        "T1685.002"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -587,7 +620,7 @@
     },
     {
       "name": "APT32",
-      "techniqueCount": 78,
+      "techniqueCount": 79,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -667,7 +700,8 @@
         "T1589.002",
         "T1598.003",
         "T1608.001",
-        "T1608.004"
+        "T1608.004",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -755,7 +789,7 @@
     },
     {
       "name": "APT38",
-      "techniqueCount": 56,
+      "techniqueCount": 61,
       "cveCount": 0,
       "techniques": [
         "T1005",
@@ -813,7 +847,12 @@
         "T1566.001",
         "T1569.002",
         "T1583.001",
-        "T1588.002"
+        "T1588.002",
+        "T1685",
+        "T1685.005",
+        "T1686",
+        "T1686.002",
+        "T1690"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -884,7 +923,7 @@
     },
     {
       "name": "APT41",
-      "techniqueCount": 82,
+      "techniqueCount": 85,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -968,7 +1007,10 @@
         "T1595.003",
         "T1596.005",
         "T1599",
-        "T1656"
+        "T1656",
+        "T1684.001",
+        "T1685",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -976,7 +1018,7 @@
     },
     {
       "name": "APT42",
-      "techniqueCount": 31,
+      "techniqueCount": 33,
       "cveCount": 0,
       "techniques": [
         "T1016",
@@ -1009,7 +1051,9 @@
         "T1585.002",
         "T1588.002",
         "T1608.001",
-        "T1656"
+        "T1656",
+        "T1682",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1017,7 +1061,7 @@
     },
     {
       "name": "APT5",
-      "techniqueCount": 29,
+      "techniqueCount": 30,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -1048,7 +1092,8 @@
         "T1560.001",
         "T1562.006",
         "T1583.005",
-        "T1654"
+        "T1654",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1065,7 +1110,7 @@
     },
     {
       "name": "Agrius",
-      "techniqueCount": 22,
+      "techniqueCount": 23,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -1089,7 +1134,8 @@
         "T1560.001",
         "T1562.001",
         "T1570",
-        "T1583"
+        "T1583",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1113,7 +1159,7 @@
     },
     {
       "name": "Akira",
-      "techniqueCount": 84,
+      "techniqueCount": 85,
       "cveCount": 7,
       "techniques": [
         "T1003",
@@ -1199,7 +1245,8 @@
         "T1572",
         "T1573",
         "T1573.002",
-        "T1657"
+        "T1657",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1299,7 +1346,7 @@
     },
     {
       "name": "Aquatic Panda",
-      "techniqueCount": 35,
+      "techniqueCount": 37,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -1336,7 +1383,9 @@
         "T1588.001",
         "T1588.002",
         "T1595.002",
-        "T1654"
+        "T1654",
+        "T1685",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1501,7 +1550,7 @@
     },
     {
       "name": "BRONZE BUTLER",
-      "techniqueCount": 40,
+      "techniqueCount": 41,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -1543,7 +1592,8 @@
         "T1566.001",
         "T1573.001",
         "T1574.001",
-        "T1588.002"
+        "T1588.002",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -1861,7 +1911,7 @@
     },
     {
       "name": "BlackByte",
-      "techniqueCount": 59,
+      "techniqueCount": 61,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -1922,7 +1972,9 @@
         "T1583.003",
         "T1598",
         "T1608.001",
-        "T1614.001"
+        "T1614.001",
+        "T1685",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -2529,7 +2581,7 @@
     },
     {
       "name": "Carbanak",
-      "techniqueCount": 9,
+      "techniqueCount": 10,
       "cveCount": 0,
       "techniques": [
         "T1036.004",
@@ -2540,7 +2592,8 @@
         "T1219",
         "T1543.003",
         "T1562.004",
-        "T1588.002"
+        "T1588.002",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -2611,7 +2664,7 @@
     },
     {
       "name": "Chimera",
-      "techniqueCount": 59,
+      "techniqueCount": 60,
       "cveCount": 0,
       "techniques": [
         "T1003.003",
@@ -2672,7 +2725,8 @@
         "T1574.001",
         "T1588.002",
         "T1589.001",
-        "T1680"
+        "T1680",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -2869,7 +2923,7 @@
     },
     {
       "name": "Contagious Interview",
-      "techniqueCount": 52,
+      "techniqueCount": 56,
       "cveCount": 0,
       "techniques": [
         "T1027.010",
@@ -2923,7 +2977,11 @@
         "T1608.001",
         "T1656",
         "T1657",
-        "T1681"
+        "T1681",
+        "T1683.001",
+        "T1683.002",
+        "T1684.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -3359,7 +3417,7 @@
     },
     {
       "name": "Dragonfly",
-      "techniqueCount": 56,
+      "techniqueCount": 58,
       "cveCount": 0,
       "techniques": [
         "T1003.002",
@@ -3417,7 +3475,9 @@
         "T1595.002",
         "T1598.002",
         "T1598.003",
-        "T1608.004"
+        "T1608.004",
+        "T1685.005",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -3748,7 +3808,7 @@
     },
     {
       "name": "FIN5",
-      "techniqueCount": 11,
+      "techniqueCount": 12,
       "cveCount": 0,
       "techniques": [
         "T1018",
@@ -3761,7 +3821,8 @@
         "T1110",
         "T1119",
         "T1133",
-        "T1588.002"
+        "T1588.002",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -3769,7 +3830,7 @@
     },
     {
       "name": "FIN6",
-      "techniqueCount": 40,
+      "techniqueCount": 41,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -3811,7 +3872,8 @@
         "T1569.002",
         "T1572",
         "T1573.002",
-        "T1588.002"
+        "T1588.002",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -3819,7 +3881,7 @@
     },
     {
       "name": "FIN7",
-      "techniqueCount": 67,
+      "techniqueCount": 68,
       "cveCount": 0,
       "techniques": [
         "T1005",
@@ -3888,7 +3950,8 @@
         "T1608.004",
         "T1608.005",
         "T1620",
-        "T1674"
+        "T1674",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -3896,7 +3959,7 @@
     },
     {
       "name": "FIN8",
-      "techniqueCount": 37,
+      "techniqueCount": 38,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -3935,7 +3998,8 @@
         "T1566.002",
         "T1573.002",
         "T1588.002",
-        "T1588.003"
+        "T1588.003",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4155,7 +4219,7 @@
     },
     {
       "name": "Gamaredon Group",
-      "techniqueCount": 70,
+      "techniqueCount": 71,
       "cveCount": 0,
       "techniques": [
         "T1001",
@@ -4227,7 +4291,8 @@
         "T1587.003",
         "T1588.002",
         "T1608.001",
-        "T1620"
+        "T1620",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4327,7 +4392,7 @@
     },
     {
       "name": "Gorgon Group",
-      "techniqueCount": 16,
+      "techniqueCount": 17,
       "cveCount": 0,
       "techniques": [
         "T1055.002",
@@ -4345,7 +4410,8 @@
         "T1562.001",
         "T1564.003",
         "T1566.001",
-        "T1588.002"
+        "T1588.002",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4396,7 +4462,7 @@
     },
     {
       "name": "HAFNIUM",
-      "techniqueCount": 44,
+      "techniqueCount": 45,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -4442,7 +4508,8 @@
         "T1590",
         "T1590.005",
         "T1592.004",
-        "T1593.003"
+        "T1593.003",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4707,7 +4774,7 @@
     },
     {
       "name": "INC Ransom",
-      "techniqueCount": 92,
+      "techniqueCount": 93,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -4801,7 +4868,8 @@
         "T1583.006",
         "T1588.002",
         "T1614",
-        "T1657"
+        "T1657",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4916,7 +4984,7 @@
     },
     {
       "name": "Indrik Spider",
-      "techniqueCount": 33,
+      "techniqueCount": 35,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -4951,7 +5019,9 @@
         "T1584.004",
         "T1585.002",
         "T1587.001",
-        "T1590"
+        "T1590",
+        "T1685",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -5261,7 +5331,7 @@
     },
     {
       "name": "Kimsuky",
-      "techniqueCount": 109,
+      "techniqueCount": 134,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -5269,13 +5339,18 @@
         "T1007",
         "T1012",
         "T1016",
+        "T1020",
         "T1021.001",
         "T1027",
         "T1027.001",
         "T1027.002",
+        "T1027.007",
         "T1027.010",
         "T1027.012",
+        "T1027.013",
+        "T1027.015",
         "T1027.016",
+        "T1033",
         "T1036.004",
         "T1036.005",
         "T1036.007",
@@ -5283,8 +5358,10 @@
         "T1041",
         "T1053.005",
         "T1055",
+        "T1055.001",
         "T1055.012",
         "T1056.001",
+        "T1056.003",
         "T1057",
         "T1059.001",
         "T1059.003",
@@ -5304,11 +5381,15 @@
         "T1102.001",
         "T1102.002",
         "T1105",
+        "T1106",
         "T1111",
         "T1112",
         "T1113",
         "T1114.002",
         "T1114.003",
+        "T1115",
+        "T1124",
+        "T1132.002",
         "T1133",
         "T1136.001",
         "T1140",
@@ -5317,11 +5398,16 @@
         "T1190",
         "T1204.001",
         "T1204.002",
+        "T1204.004",
         "T1205",
+        "T1217",
         "T1218.005",
         "T1218.010",
         "T1218.011",
         "T1219.002",
+        "T1480.002",
+        "T1489",
+        "T1497.001",
         "T1505.003",
         "T1518.001",
         "T1534",
@@ -5331,19 +5417,23 @@
         "T1547.001",
         "T1550.002",
         "T1552.001",
+        "T1552.004",
         "T1553.002",
         "T1555.003",
         "T1557",
+        "T1559.001",
         "T1560.001",
         "T1560.003",
         "T1562.001",
         "T1562.004",
         "T1564.002",
         "T1564.003",
+        "T1564.011",
         "T1566",
         "T1566.001",
         "T1566.002",
         "T1567.002",
+        "T1568",
         "T1583",
         "T1583.001",
         "T1583.004",
@@ -5372,7 +5462,12 @@
         "T1620",
         "T1656",
         "T1657",
-        "T1680"
+        "T1678",
+        "T1680",
+        "T1682",
+        "T1684.001",
+        "T1685",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -5380,7 +5475,7 @@
     },
     {
       "name": "LAPSUS$",
-      "techniqueCount": 43,
+      "techniqueCount": 44,
       "cveCount": 0,
       "techniques": [
         "T1003.003",
@@ -5425,7 +5520,8 @@
         "T1597.002",
         "T1598.004",
         "T1621",
-        "T1656"
+        "T1656",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -5433,7 +5529,7 @@
     },
     {
       "name": "Lazarus Group",
-      "techniqueCount": 93,
+      "techniqueCount": 95,
       "cveCount": 0,
       "techniques": [
         "T1001.003",
@@ -5528,7 +5624,9 @@
         "T1589.002",
         "T1591",
         "T1620",
-        "T1680"
+        "T1680",
+        "T1685",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -6047,7 +6145,7 @@
     },
     {
       "name": "Magic Hound",
-      "techniqueCount": 79,
+      "techniqueCount": 82,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -6128,7 +6226,10 @@
         "T1591.001",
         "T1592.002",
         "T1595.002",
-        "T1598.003"
+        "T1598.003",
+        "T1685",
+        "T1685.001",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -6208,7 +6309,7 @@
     },
     {
       "name": "Medusa Group",
-      "techniqueCount": 57,
+      "techniqueCount": 60,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -6267,7 +6368,10 @@
         "T1608.002",
         "T1650",
         "T1652",
-        "T1657"
+        "T1657",
+        "T1685",
+        "T1686",
+        "T1690"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -6372,6 +6476,59 @@
         "T1598.003",
         "T1608.004",
         "T1620"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "MirrorFace",
+      "techniqueCount": 43,
+      "cveCount": 0,
+      "techniques": [
+        "T1003.001",
+        "T1003.002",
+        "T1003.003",
+        "T1005",
+        "T1007",
+        "T1016",
+        "T1018",
+        "T1021.001",
+        "T1021.002",
+        "T1027.013",
+        "T1033",
+        "T1036.008",
+        "T1047",
+        "T1048.002",
+        "T1057",
+        "T1059.003",
+        "T1059.005",
+        "T1070.004",
+        "T1071.002",
+        "T1074.002",
+        "T1082",
+        "T1083",
+        "T1087.002",
+        "T1090",
+        "T1114.001",
+        "T1190",
+        "T1204.002",
+        "T1221",
+        "T1482",
+        "T1553.002",
+        "T1556.002",
+        "T1560.001",
+        "T1566.001",
+        "T1566.002",
+        "T1574.001",
+        "T1587.001",
+        "T1588.002",
+        "T1591",
+        "T1614.001",
+        "T1684.001",
+        "T1685",
+        "T1685.005",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -6538,7 +6695,7 @@
     },
     {
       "name": "Moses Staff",
-      "techniqueCount": 12,
+      "techniqueCount": 13,
       "cveCount": 0,
       "techniques": [
         "T1016",
@@ -6552,7 +6709,8 @@
         "T1553.002",
         "T1562.004",
         "T1587.001",
-        "T1588.002"
+        "T1588.002",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -6622,7 +6780,7 @@
     },
     {
       "name": "MuddyWater",
-      "techniqueCount": 58,
+      "techniqueCount": 70,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -6649,6 +6807,7 @@
         "T1082",
         "T1083",
         "T1087.002",
+        "T1090",
         "T1090.002",
         "T1102.002",
         "T1104",
@@ -6661,13 +6820,16 @@
         "T1203",
         "T1204.001",
         "T1204.002",
+        "T1204.004",
         "T1210",
         "T1218.003",
         "T1218.005",
         "T1218.011",
         "T1219",
+        "T1219.002",
         "T1518",
         "T1518.001",
+        "T1534",
         "T1547.001",
         "T1548.002",
         "T1552.001",
@@ -6677,12 +6839,20 @@
         "T1559.002",
         "T1560.001",
         "T1562.001",
+        "T1566",
         "T1566.001",
         "T1566.002",
+        "T1567.002",
+        "T1571",
         "T1573.001",
         "T1574.001",
+        "T1583.001",
         "T1583.006",
-        "T1588.002"
+        "T1588.001",
+        "T1588.002",
+        "T1590.004",
+        "T1684.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -7027,7 +7197,7 @@
     },
     {
       "name": "OilRig",
-      "techniqueCount": 76,
+      "techniqueCount": 77,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -7105,7 +7275,8 @@
         "T1587.001",
         "T1588.002",
         "T1588.003",
-        "T1608.001"
+        "T1608.001",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -7376,7 +7547,7 @@
     },
     {
       "name": "Play",
-      "techniqueCount": 38,
+      "techniqueCount": 40,
       "cveCount": 4,
       "techniques": [
         "T1003",
@@ -7416,7 +7587,9 @@
         "T1570",
         "T1587.001",
         "T1588.002",
-        "T1657"
+        "T1657",
+        "T1685",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -7442,13 +7615,14 @@
     },
     {
       "name": "Putter Panda",
-      "techniqueCount": 4,
+      "techniqueCount": 5,
       "cveCount": 0,
       "techniques": [
         "T1027.013",
         "T1055.001",
         "T1547.001",
-        "T1562.001"
+        "T1562.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -7899,7 +8073,7 @@
     },
     {
       "name": "Rocke",
-      "techniqueCount": 36,
+      "techniqueCount": 39,
       "cveCount": 0,
       "techniques": [
         "T1014",
@@ -7937,7 +8111,10 @@
         "T1562.004",
         "T1564.001",
         "T1571",
-        "T1574.006"
+        "T1574.006",
+        "T1685",
+        "T1685.006",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -8214,7 +8391,7 @@
     },
     {
       "name": "Saint Bear",
-      "techniqueCount": 18,
+      "techniqueCount": 20,
       "cveCount": 0,
       "techniques": [
         "T1027.002",
@@ -8234,7 +8411,9 @@
         "T1583.006",
         "T1589.002",
         "T1608.001",
-        "T1656"
+        "T1656",
+        "T1684.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -8242,7 +8421,7 @@
     },
     {
       "name": "Salt Typhoon",
-      "techniqueCount": 14,
+      "techniqueCount": 16,
       "cveCount": 0,
       "techniques": [
         "T1021.004",
@@ -8258,7 +8437,9 @@
         "T1587.001",
         "T1588.002",
         "T1590.004",
-        "T1602.002"
+        "T1602.002",
+        "T1685.006",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -8433,7 +8614,7 @@
     },
     {
       "name": "Scattered Spider",
-      "techniqueCount": 68,
+      "techniqueCount": 70,
       "cveCount": 0,
       "techniques": [
         "T1003.003",
@@ -8503,7 +8684,9 @@
         "T1598.004",
         "T1621",
         "T1656",
-        "T1657"
+        "T1657",
+        "T1684.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -8511,7 +8694,7 @@
     },
     {
       "name": "Sea Turtle",
-      "techniqueCount": 27,
+      "techniqueCount": 29,
       "cveCount": 0,
       "techniques": [
         "T1027.004",
@@ -8540,7 +8723,9 @@
         "T1584.002",
         "T1588.002",
         "T1588.004",
-        "T1608.003"
+        "T1608.003",
+        "T1685.006",
+        "T1690"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9021,7 +9206,7 @@
     },
     {
       "name": "Star Blizzard",
-      "techniqueCount": 19,
+      "techniqueCount": 20,
       "cveCount": 0,
       "techniques": [
         "T1059.007",
@@ -9042,7 +9227,8 @@
         "T1593",
         "T1598.002",
         "T1598.003",
-        "T1608.001"
+        "T1608.001",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9128,7 +9314,7 @@
     },
     {
       "name": "Storm-1811",
-      "techniqueCount": 31,
+      "techniqueCount": 32,
       "cveCount": 0,
       "techniques": [
         "T1021.002",
@@ -9161,7 +9347,8 @@
         "T1585.003",
         "T1588.002",
         "T1656",
-        "T1667"
+        "T1667",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9261,7 +9448,7 @@
     },
     {
       "name": "TA2541",
-      "techniqueCount": 28,
+      "techniqueCount": 29,
       "cveCount": 0,
       "techniques": [
         "T1016.001",
@@ -9291,7 +9478,8 @@
         "T1583.006",
         "T1588.001",
         "T1588.002",
-        "T1608.001"
+        "T1608.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9314,7 +9502,7 @@
     },
     {
       "name": "TA505",
-      "techniqueCount": 34,
+      "techniqueCount": 35,
       "cveCount": 0,
       "techniques": [
         "T1027.002",
@@ -9350,7 +9538,8 @@
         "T1583.001",
         "T1588.001",
         "T1588.002",
-        "T1608.001"
+        "T1608.001",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9412,7 +9601,7 @@
     },
     {
       "name": "TeamTNT",
-      "techniqueCount": 56,
+      "techniqueCount": 59,
       "cveCount": 0,
       "techniques": [
         "T1007",
@@ -9470,7 +9659,10 @@
         "T1610",
         "T1611",
         "T1613",
-        "T1680"
+        "T1680",
+        "T1685",
+        "T1685.006",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9565,7 +9757,7 @@
     },
     {
       "name": "Threat Group-3390",
-      "techniqueCount": 57,
+      "techniqueCount": 58,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -9624,7 +9816,8 @@
         "T1588.003",
         "T1608.001",
         "T1608.002",
-        "T1608.004"
+        "T1608.004",
+        "T1685.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9646,7 +9839,7 @@
     },
     {
       "name": "ToddyCat",
-      "techniqueCount": 25,
+      "techniqueCount": 26,
       "cveCount": 0,
       "techniques": [
         "T1005",
@@ -9673,7 +9866,8 @@
         "T1564.003",
         "T1566.003",
         "T1567.002",
-        "T1680"
+        "T1680",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9821,7 +10015,7 @@
     },
     {
       "name": "Turla",
-      "techniqueCount": 68,
+      "techniqueCount": 69,
       "cveCount": 0,
       "techniques": [
         "T1005",
@@ -9891,7 +10085,8 @@
         "T1587.001",
         "T1588.001",
         "T1588.002",
-        "T1615"
+        "T1615",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9913,7 +10108,7 @@
     },
     {
       "name": "UNC3886",
-      "techniqueCount": 49,
+      "techniqueCount": 52,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -9964,7 +10159,10 @@
         "T1588.004",
         "T1673",
         "T1675",
-        "T1681"
+        "T1681",
+        "T1685",
+        "T1686",
+        "T1690"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -9998,6 +10196,79 @@
       "cveCount": 0,
       "techniques": [
         "T1190"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "VOID MANTICORE",
+      "techniqueCount": 63,
+      "cveCount": 0,
+      "techniques": [
+        "T1003.001",
+        "T1005",
+        "T1021.001",
+        "T1027.015",
+        "T1036.004",
+        "T1036.005",
+        "T1041",
+        "T1047",
+        "T1059.001",
+        "T1059.006",
+        "T1071.001",
+        "T1072",
+        "T1074",
+        "T1078",
+        "T1078.002",
+        "T1078.004",
+        "T1082",
+        "T1087.002",
+        "T1098",
+        "T1102",
+        "T1105",
+        "T1110",
+        "T1110.001",
+        "T1110.004",
+        "T1113",
+        "T1114.002",
+        "T1119",
+        "T1123",
+        "T1125",
+        "T1133",
+        "T1190",
+        "T1199",
+        "T1204.002",
+        "T1213.002",
+        "T1219.002",
+        "T1484.001",
+        "T1485",
+        "T1486",
+        "T1490",
+        "T1547.001",
+        "T1552.002",
+        "T1560.001",
+        "T1561.001",
+        "T1561.002",
+        "T1564.003",
+        "T1566",
+        "T1572",
+        "T1583.001",
+        "T1583.003",
+        "T1583.004",
+        "T1583.006",
+        "T1585.001",
+        "T1585.002",
+        "T1587.001",
+        "T1588.001",
+        "T1588.002",
+        "T1589",
+        "T1595.002",
+        "T1651",
+        "T1657",
+        "T1679",
+        "T1684.001",
+        "T1686.003"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10050,7 +10321,7 @@
     },
     {
       "name": "Velvet Ant",
-      "techniqueCount": 22,
+      "techniqueCount": 24,
       "cveCount": 0,
       "techniques": [
         "T1021.002",
@@ -10074,7 +10345,9 @@
         "T1570",
         "T1571",
         "T1573.002",
-        "T1574.001"
+        "T1574.001",
+        "T1685",
+        "T1686"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10141,7 +10414,7 @@
     },
     {
       "name": "Volt Typhoon",
-      "techniqueCount": 81,
+      "techniqueCount": 82,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -10224,7 +10497,8 @@
         "T1596.005",
         "T1614",
         "T1654",
-        "T1680"
+        "T1680",
+        "T1685.005"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10232,20 +10506,35 @@
     },
     {
       "name": "WIRTE",
-      "techniqueCount": 11,
+      "techniqueCount": 26,
       "cveCount": 0,
       "techniques": [
+        "T1027.010",
+        "T1027.015",
         "T1036.005",
+        "T1041",
         "T1059.001",
+        "T1059.003",
         "T1059.005",
         "T1071.001",
+        "T1074.001",
         "T1105",
+        "T1106",
+        "T1114.001",
         "T1140",
+        "T1204.001",
         "T1204.002",
         "T1218.010",
+        "T1497.001",
         "T1566.001",
+        "T1566.002",
         "T1571",
-        "T1588.002"
+        "T1574.001",
+        "T1583.001",
+        "T1586.002",
+        "T1588.002",
+        "T1608.001",
+        "T1684.001"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10425,7 +10714,7 @@
     },
     {
       "name": "Wizard Spider",
-      "techniqueCount": 64,
+      "techniqueCount": 65,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -10491,7 +10780,8 @@
         "T1570",
         "T1585.002",
         "T1588.002",
-        "T1588.003"
+        "T1588.003",
+        "T1685"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",

@@ -56,15 +56,30 @@
     "T1566.001",
     "T1569.002",
     "T1583.001",
-    "T1588.002"
+    "T1588.002",
+    "T1685",
+    "T1685.005",
+    "T1686",
+    "T1686.002",
+    "T1690"
   ],
-  "techniqueCount": 56,
+  "techniqueCount": 61,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
     "aliases": [],
     "cves": [],
     "files": [
+      {
+        "name": "TTPs-mitre-sync.md",
+        "techniques": [
+          "T1685",
+          "T1685.005",
+          "T1686",
+          "T1686.002",
+          "T1690"
+        ]
+      },
       {
         "name": "TTPs-mitre.md",
         "techniques": [

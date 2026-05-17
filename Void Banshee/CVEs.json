@@ -18,6 +18,11 @@
         "CWE-451"
       ],
       "dateEnriched": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-43461",
+      "source": "https://www.quorumcyber.com/threat-intelligence/carderbee-software-supply-chain-certificate-abuse",
+      "dateFound": "2026-05-17"
     }
   ]
 }

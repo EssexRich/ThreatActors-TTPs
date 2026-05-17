@@ -1,0 +1,10 @@
+{
+  "group": "Egregor",
+  "cves": [
+    {
+      "id": "CVE-2019-0708",
+      "source": "https://unit42.paloaltonetworks.com/egregor-ransomware-courses-of-action/",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

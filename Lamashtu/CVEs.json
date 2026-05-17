@@ -1,0 +1,75 @@
+{
+  "group": "Lamashtu",
+  "cves": [
+    {
+      "id": "CVE-2025-29635",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-7399",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-57728",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-57726",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-39987",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-33825",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-20122",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-20133",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-2749",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2023-27351",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-48700",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-20128",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-32975",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-27199",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-21-april-27-2026/",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

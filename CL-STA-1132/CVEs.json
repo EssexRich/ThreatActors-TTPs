@@ -1,0 +1,10 @@
+{
+  "group": "CL-STA-1132 (China-nexus)",
+  "cves": [
+    {
+      "id": "CVE-2026-0300",
+      "source": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

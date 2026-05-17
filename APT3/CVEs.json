@@ -52,6 +52,11 @@
         "CWE-119"
       ],
       "dateEnriched": "2026-05-17"
+    },
+    {
+      "id": "CVE-2020-12271",
+      "source": "https://industrialcyber.co/critical-infrastructure/sophos-reports-five-year-investigation-into-china-based-cyber-threats-targeting-critical-infrastructure-fbi-weighs-in/",
+      "dateFound": "2026-05-17"
     }
   ]
 }

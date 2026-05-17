@@ -1,0 +1,10 @@
+{
+  "group": "UAT-4356 (Chinese APT)",
+  "cves": [
+    {
+      "id": "CVE-2025-20333",
+      "source": "https://blog.talosintelligence.com/uat-8302/",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

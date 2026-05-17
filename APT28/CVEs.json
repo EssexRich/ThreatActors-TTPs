@@ -118,6 +118,11 @@
         "CWE-119"
       ],
       "dateEnriched": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-21510",
+      "source": "https://www.theregister.com/2026/04/29/microsoft_zero_click_exploit/",
+      "dateFound": "2026-05-17"
     }
   ]
 }

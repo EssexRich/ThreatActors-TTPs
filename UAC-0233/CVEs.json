@@ -1,0 +1,10 @@
+{
+  "group": "UAC-0233",
+  "cves": [
+    {
+      "id": "CVE-2025-48700",
+      "source": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

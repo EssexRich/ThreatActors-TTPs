@@ -1,0 +1,170 @@
+{
+  "group": "Interlock",
+  "cves": [
+    {
+      "id": "CVE-2017-7921",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-27483",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-27944",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-68613",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-20131",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-21262",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-26127",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-3909",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-3910",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-3564",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-33017",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-3055",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-33634",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-25187",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-33032",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-21385",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-53521",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-32432",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-54068",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-43510",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-43520",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-31277",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-66376",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-20963",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-47813",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2021-22054",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2025-26399",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-1603",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2021-22681",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2023-43000",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2021-30952",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2023-41974",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2026-22719",
+      "source": "https://www.recordedfuture.com/blog/march-2026-cve-landscape",
+      "dateFound": "2026-05-17"
+    }
+  ]
+}

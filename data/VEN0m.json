@@ -1,11 +1,10 @@
 {
-  "name": "Cicada3301Repellent Scorpius",
+  "name": "VEN0m",
   "techniques": [
-    "T1021.001",
-    "T1078",
-    "T1078.002"
+    "T1486",
+    "T1548"
   ],
-  "techniqueCount": 3,
+  "techniqueCount": 2,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -15,9 +14,8 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1021.001",
-          "T1078",
-          "T1078.002"
+          "T1486",
+          "T1548"
         ]
       }
     ]

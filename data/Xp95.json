@@ -1,0 +1,41 @@
+{
+  "name": "Xp95",
+  "techniques": [
+    "T1041",
+    "T1059.001",
+    "T1071.001",
+    "T1095",
+    "T1113",
+    "T1204.002",
+    "T1219.002",
+    "T1547.001",
+    "T1562.001",
+    "T1567",
+    "T1656"
+  ],
+  "techniqueCount": 11,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1041",
+          "T1059.001",
+          "T1071.001",
+          "T1095",
+          "T1113",
+          "T1204.002",
+          "T1219.002",
+          "T1547.001",
+          "T1562.001",
+          "T1567",
+          "T1656"
+        ]
+      }
+    ]
+  }
+}

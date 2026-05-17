@@ -1,0 +1,49 @@
+{
+  "name": "Egregor",
+  "techniques": [
+    "T1027",
+    "T1055",
+    "T1059",
+    "T1059.001",
+    "T1078",
+    "T1083",
+    "T1087",
+    "T1218",
+    "T1218.011",
+    "T1482",
+    "T1486",
+    "T1566",
+    "T1566.001",
+    "T1574",
+    "T1574.002"
+  ],
+  "techniqueCount": 15,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1027",
+          "T1055",
+          "T1059",
+          "T1059.001",
+          "T1078",
+          "T1083",
+          "T1087",
+          "T1218",
+          "T1218.011",
+          "T1482",
+          "T1486",
+          "T1566",
+          "T1566.001",
+          "T1574",
+          "T1574.002"
+        ]
+      }
+    ]
+  }
+}

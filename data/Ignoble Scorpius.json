@@ -21,6 +21,7 @@
     "T1071",
     "T1078",
     "T1083",
+    "T1090",
     "T1110",
     "T1140",
     "T1189",
@@ -50,7 +51,7 @@
     "T1608",
     "T1608.006"
   ],
-  "techniqueCount": 48,
+  "techniqueCount": 49,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -80,6 +81,7 @@
           "T1071",
           "T1078",
           "T1083",
+          "T1090",
           "T1110",
           "T1140",
           "T1189",

@@ -1,11 +1,9 @@
 {
-  "name": "Cicada3301Repellent Scorpius",
+  "name": "Everest",
   "techniques": [
-    "T1021.001",
-    "T1078",
-    "T1078.002"
+    "T1486"
   ],
-  "techniqueCount": 3,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -15,9 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1021.001",
-          "T1078",
-          "T1078.002"
+          "T1486"
         ]
       }
     ]

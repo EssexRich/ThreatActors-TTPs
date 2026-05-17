@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T04:53:23.296Z",
-  "actorCount": 281,
+  "generated": "2026-05-17T20:24:25.440Z",
+  "actorCount": 287,
   "totalTechniques": 569,
   "actors": [
     {
@@ -2734,9 +2734,10 @@
     },
     {
       "name": "Cicada3301Repellent Scorpius",
-      "techniqueCount": 2,
+      "techniqueCount": 3,
       "cveCount": 0,
       "techniques": [
+        "T1021.001",
         "T1078",
         "T1078.002"
       ],
@@ -3563,6 +3564,31 @@
       "aliases": []
     },
     {
+      "name": "Egregor",
+      "techniqueCount": 15,
+      "cveCount": 0,
+      "techniques": [
+        "T1027",
+        "T1055",
+        "T1059",
+        "T1059.001",
+        "T1078",
+        "T1083",
+        "T1087",
+        "T1218",
+        "T1218.011",
+        "T1482",
+        "T1486",
+        "T1566",
+        "T1566.001",
+        "T1574",
+        "T1574.002"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
       "name": "Elderwood",
       "techniqueCount": 9,
       "cveCount": 0,
@@ -3663,6 +3689,17 @@
         "T1480.001",
         "T1542.002",
         "T1564.005"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "Everest",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1486"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -4877,7 +4914,7 @@
     },
     {
       "name": "Ignoble Scorpius",
-      "techniqueCount": 48,
+      "techniqueCount": 49,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -4900,6 +4937,7 @@
         "T1071",
         "T1078",
         "T1083",
+        "T1090",
         "T1110",
         "T1140",
         "T1189",
@@ -5522,6 +5560,28 @@
         "T1621",
         "T1656",
         "T1684.001"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "Lamashtu",
+      "techniqueCount": 12,
+      "cveCount": 0,
+      "techniques": [
+        "T1027.010",
+        "T1041",
+        "T1048",
+        "T1059.001",
+        "T1059.003",
+        "T1070.004",
+        "T1071.001",
+        "T1074",
+        "T1082",
+        "T1119",
+        "T1204.004",
+        "T1567.002"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10169,6 +10229,17 @@
       "aliases": []
     },
     {
+      "name": "UNC5221",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1190"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
       "name": "UNC5227",
       "techniqueCount": 1,
       "cveCount": 0,
@@ -10196,6 +10267,18 @@
       "cveCount": 0,
       "techniques": [
         "T1190"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "VEN0m",
+      "techniqueCount": 2,
+      "cveCount": 0,
+      "techniques": [
+        "T1486",
+        "T1548"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",
@@ -10542,12 +10625,13 @@
     },
     {
       "name": "WannaCry",
-      "techniqueCount": 4,
+      "techniqueCount": 5,
       "cveCount": 0,
       "techniques": [
         "T1190",
         "T1486",
         "T1573",
+        "T1573.002",
         "T1595"
       ],
       "description": "| Technique | Name | Source | Date |",
@@ -10782,6 +10866,27 @@
         "T1588.002",
         "T1588.003",
         "T1685"
+      ],
+      "description": "| Technique | Name | Source | Date |",
+      "descriptionPreview": "| Technique | Name | Source | Date |",
+      "aliases": []
+    },
+    {
+      "name": "Xp95",
+      "techniqueCount": 11,
+      "cveCount": 0,
+      "techniques": [
+        "T1041",
+        "T1059.001",
+        "T1071.001",
+        "T1095",
+        "T1113",
+        "T1204.002",
+        "T1219.002",
+        "T1547.001",
+        "T1562.001",
+        "T1567",
+        "T1656"
       ],
       "description": "| Technique | Name | Source | Date |",
       "descriptionPreview": "| Technique | Name | Source | Date |",

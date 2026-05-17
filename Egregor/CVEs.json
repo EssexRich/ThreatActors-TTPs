@@ -4,7 +4,20 @@
     {
       "id": "CVE-2019-0708",
       "source": "https://unit42.paloaltonetworks.com/egregor-ransomware-courses-of-action/",
-      "dateFound": "2026-05-17"
+      "dateFound": "2026-05-17",
+      "vendor": "Microsoft",
+      "product": "Remote Desktop Services",
+      "vulnerabilityName": "Microsoft Remote Desktop Services Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Remote Desktop Services, formerly known as Terminal Service, contains an unspecified vulnerability that allows an unauthenticated attacker to connect to the target system using RDP and send specially crafted requests. Successful exploitation allows for remote code execution. The vulnerability is also known under the moniker of BlueKeep.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0708",
+      "cwes": [
+        "CWE-416"
+      ],
+      "dateEnriched": "2026-05-17"
     }
   ]
 }

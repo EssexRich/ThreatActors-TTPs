@@ -22,7 +22,20 @@
     {
       "id": "CVE-2024-43461",
       "source": "https://www.quorumcyber.com/threat-intelligence/carderbee-software-supply-chain-certificate-abuse",
-      "dateFound": "2026-05-17"
+      "dateFound": "2026-05-17",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows MSHTML Platform Spoofing Vulnerability",
+      "shortDescription": "Microsoft Windows MSHTML Platform contains a user interface (UI) misrepresentation of critical information vulnerability that allows an attacker to spoof a web page. This vulnerability was exploited in conjunction with CVE-2024-38112.",
+      "dateAdded": "2024-09-16",
+      "dueDate": "2024-10-07",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43461 ; https://nvd.nist.gov/vuln/detail/CVE-2024-43461",
+      "cwes": [
+        "CWE-451"
+      ],
+      "dateEnriched": "2026-05-17"
     }
   ]
 }

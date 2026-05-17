@@ -56,7 +56,20 @@
     {
       "id": "CVE-2020-12271",
       "source": "https://industrialcyber.co/critical-infrastructure/sophos-reports-five-year-investigation-into-china-based-cyber-threats-targeting-critical-infrastructure-fbi-weighs-in/",
-      "dateFound": "2026-05-17"
+      "dateFound": "2026-05-17",
+      "vendor": "Sophos",
+      "product": "SFOS",
+      "vulnerabilityName": "Sophos SFOS SQL Injection Vulnerability",
+      "shortDescription": "Sophos Firewall operating system (SFOS) firmware contains a SQL injection vulnerability when configured with either the administration (HTTPS) service or the User Portal is exposed on the WAN zone. Successful exploitation may cause remote code execution to exfiltrate usernames and hashed passwords for the local device admin(s), portal admins, and user accounts used for remote access (but not external Active Directory or LDAP passwords).",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-12271",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-05-17"
     }
   ]
 }

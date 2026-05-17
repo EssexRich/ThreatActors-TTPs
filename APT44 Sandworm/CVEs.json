@@ -94,12 +94,39 @@
     {
       "id": "CVE-2023-48788",
       "source": "https://www.techtarget.com/searchsecurity/news/366581178/Mandiant-upgrades-Sandworm-to-APT44-due-to-increasing-threat",
-      "dateFound": "2026-05-17"
+      "dateFound": "2026-05-17",
+      "vendor": "Fortinet",
+      "product": "FortiClient EMS",
+      "vulnerabilityName": "Fortinet FortiClient EMS SQL Injection Vulnerability",
+      "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.",
+      "dateAdded": "2024-03-25",
+      "dueDate": "2024-04-15",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-24-007;  https://nvd.nist.gov/vuln/detail/CVE-2023-48788",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-05-17"
     },
     {
       "id": "CVE-2024-3400",
       "source": "https://mandiant.com/resources/blog/separating-signal-noise-how-mandiant-intelligence-rates-vulnerabilities-intelligence",
-      "dateFound": "2026-05-17"
+      "dateFound": "2026-05-17",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "vulnerabilityName": "Palo Alto Networks PAN-OS Command Injection Vulnerability",
+      "shortDescription": "Palo Alto Networks PAN-OS GlobalProtect feature contains a command injection vulnerability that allows an unauthenticated attacker to execute commands with root privileges on the firewall.",
+      "dateAdded": "2024-04-12",
+      "dueDate": "2024-04-19",
+      "requiredAction": "Apply mitigations per vendor instructions as they become available. Otherwise, users with vulnerable versions of affected devices should enable Threat Prevention IDs available from the vendor. See the vendor bulletin for more details and a patch release schedule.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://security.paloaltonetworks.com/CVE-2024-3400 ;   https://nvd.nist.gov/vuln/detail/CVE-2024-3400",
+      "cwes": [
+        "CWE-20",
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-05-17"
     }
   ]
 }

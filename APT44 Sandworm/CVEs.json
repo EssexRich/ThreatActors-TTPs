@@ -95,6 +95,11 @@
       "id": "CVE-2023-48788",
       "source": "https://www.techtarget.com/searchsecurity/news/366581178/Mandiant-upgrades-Sandworm-to-APT44-due-to-increasing-threat",
       "dateFound": "2026-05-17"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "source": "https://mandiant.com/resources/blog/separating-signal-noise-how-mandiant-intelligence-rates-vulnerabilities-intelligence",
+      "dateFound": "2026-05-17"
     }
   ]
 }

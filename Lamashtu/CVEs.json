@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-77"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2024-7399",
@@ -36,7 +36,7 @@
         "CWE-22",
         "CWE-434"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2024-57728",
@@ -54,7 +54,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2024-57726",
@@ -72,7 +72,7 @@
       "cwes": [
         "CWE-862"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2026-39987",
@@ -90,7 +90,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2026-33825",
@@ -108,7 +108,7 @@
       "cwes": [
         "CWE-1220"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2026-20122",
@@ -126,7 +126,7 @@
       "cwes": [
         "CWE-648"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2026-20133",
@@ -144,7 +144,7 @@
       "cwes": [
         "CWE-200"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2025-2749",
@@ -163,7 +163,7 @@
         "CWE-22",
         "CWE-434"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2023-27351",
@@ -181,7 +181,7 @@
       "cwes": [
         "CWE-287"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2025-48700",
@@ -199,7 +199,7 @@
       "cwes": [
         "CWE-79"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2026-20128",
@@ -217,7 +217,7 @@
       "cwes": [
         "CWE-257"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2025-32975",
@@ -235,7 +235,7 @@
       "cwes": [
         "CWE-287"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     },
     {
       "id": "CVE-2024-27199",
@@ -253,7 +253,7 @@
       "cwes": [
         "CWE-23"
       ],
-      "dateEnriched": "2026-06-13"
+      "dateEnriched": "2026-06-14"
     }
   ]
 }

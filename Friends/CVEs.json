@@ -1,0 +1,35 @@
+{
+  "group": "Friends Ransomware",
+  "cves": [
+    {
+      "id": "CVE-2020-5902",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2018-15982",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2018-20250",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2023-34362",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2015-3113",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-10789",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
+      "dateFound": "2026-07-09"
+    }
+  ]
+}

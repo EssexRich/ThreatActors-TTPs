@@ -80,6 +80,46 @@
         "CWE-502"
       ],
       "dateEnriched": "2026-07-08"
+    },
+    {
+      "id": "CVE-2026-20253",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-42945",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-41940",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-31431",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-3143",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-3055",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-4368",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-21643",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-07-09"
     }
   ]
 }

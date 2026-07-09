@@ -1,0 +1,10 @@
+{
+  "group": "UAT-7810 (China-nexus)",
+  "cves": [
+    {
+      "id": "CVE-2025-2492",
+      "source": "https://blog.talosintelligence.com/uat-7810/",
+      "dateFound": "2026-07-09"
+    }
+  ]
+}

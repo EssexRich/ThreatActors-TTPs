@@ -1,5 +1,5 @@
 {
-  "group": "Ghost (Cring)",
+  "group": "Ghost",
   "cves": [
     {
       "id": "CVE-2018-13379",
@@ -197,6 +197,31 @@
         "CWE-20"
       ],
       "dateEnriched": "2026-07-08"
+    },
+    {
+      "id": "CVE-2023-4966",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2023-34362",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2021-34527",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2021-35211",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2019-11510",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-07-09"
     }
   ]
 }

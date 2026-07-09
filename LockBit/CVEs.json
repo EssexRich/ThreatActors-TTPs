@@ -247,6 +247,11 @@
       "notes": "https://source.android.com/docs/security/bulletin/2025-12-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48633",
       "cwes": [],
       "dateEnriched": "2026-07-08"
+    },
+    {
+      "id": "CVE-2018-13379",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-lockbit",
+      "dateFound": "2026-07-09"
     }
   ]
 }

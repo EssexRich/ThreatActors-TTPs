@@ -1,0 +1,15 @@
+{
+  "group": "BravoX",
+  "cves": [
+    {
+      "id": "CVE-2026-42897",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-12-may-18-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-20182",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-12-may-18-2026/",
+      "dateFound": "2026-07-09"
+    }
+  ]
+}

@@ -132,6 +132,11 @@
       "id": "CVE-2023-42793",
       "source": "https://ics-cert.kaspersky.com/publications/reports/2024/04/02/apt-and-financial-attacks-on-industrial-organizations-in-h2-2023/",
       "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2023-38831",
+      "source": "https://ics-cert.kaspersky.com/publications/reports/2024/04/02/apt-and-financial-attacks-on-industrial-organizations-in-h2-2023/",
+      "dateFound": "2026-07-09"
     }
   ]
 }

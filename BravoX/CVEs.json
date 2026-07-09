@@ -4,12 +4,38 @@
     {
       "id": "CVE-2026-42897",
       "source": "https://redpiranha.net/news/threat-intelligence-report-may-12-may-18-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "vulnerabilityName": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "shortDescription": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "dateAdded": "2026-05-15",
+      "dueDate": "2026-05-29",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "cwes": [
+        "CWE-79"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-20182",
       "source": "https://redpiranha.net/news/threat-intelligence-report-may-12-may-18-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "vulnerabilityName": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "shortDescription": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "dateAdded": "2026-05-14",
+      "dueDate": "2026-05-17",
+      "requiredAction": "Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-07-09"
     }
   ]
 }

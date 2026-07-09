@@ -4,27 +4,92 @@
     {
       "id": "CVE-2020-5902",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "vulnerabilityName": "F5 BIG-IP Traffic Management User Interface (TMUI) Remote Code Execution Vulnerability",
+      "shortDescription": "F5 BIG-IP Traffic Management User Interface (TMUI) contains a remote code execution vulnerability in undisclosed pages.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-5902",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2018-15982",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Adobe",
+      "product": "Flash Player",
+      "vulnerabilityName": "Adobe Flash Player Use-After-Free Vulnerability",
+      "shortDescription": "Adobe Flash Player com.adobe.tvsdk.mediacore.metadata Use After Free Vulnerability",
+      "dateAdded": "2022-02-15",
+      "dueDate": "2022-08-15",
+      "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-15982",
+      "cwes": [
+        "CWE-416"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2018-20250",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "WinRAR Absolute Path Traversal Vulnerability",
+      "shortDescription": "WinRAR Absolute Path Traversal vulnerability leads to Remote Code Execution",
+      "dateAdded": "2022-02-15",
+      "dueDate": "2022-08-15",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-20250",
+      "cwes": [
+        "CWE-36"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2023-34362",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Progress",
+      "product": "MOVEit Transfer",
+      "vulnerabilityName": "Progress MOVEit Transfer SQL Injection Vulnerability",
+      "shortDescription": "Progress MOVEit Transfer contains a SQL injection vulnerability that could allow an unauthenticated attacker to gain unauthorized access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database in addition to executing SQL statements that alter or delete database elements.",
+      "dateAdded": "2023-06-02",
+      "dueDate": "2023-06-23",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a. Please see the AA for associated IOCs. Additional information is available at: https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023.;  https://nvd.nist.gov/vuln/detail/CVE-2023-34362",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2015-3113",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-03-jul-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Adobe",
+      "product": "Flash Player",
+      "vulnerabilityName": "Adobe Flash Player Heap-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Heap-based buffer overflow vulnerability in Adobe Flash Player allows remote attackers to execute code.",
+      "dateAdded": "2022-04-13",
+      "dueDate": "2022-05-04",
+      "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2015-3113",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-10789",

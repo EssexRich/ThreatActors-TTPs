@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-35"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2021-26855",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2021-4034",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2022-47966",
@@ -69,7 +69,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://www.manageengine.com/security/advisory/CVE/cve-2022-47966.html;  https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
       "cwes": [],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2021-44228",
@@ -89,7 +89,7 @@
         "CWE-400",
         "CWE-502"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2023-48788",
@@ -107,7 +107,7 @@
       "cwes": [
         "CWE-89"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2024-3400",
@@ -126,17 +126,43 @@
         "CWE-20",
         "CWE-77"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2023-42793",
       "source": "https://ics-cert.kaspersky.com/publications/reports/2024/04/02/apt-and-financial-attacks-on-industrial-organizations-in-h2-2023/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "vulnerabilityName": "JetBrains TeamCity Authentication Bypass Vulnerability",
+      "shortDescription": "JetBrains TeamCity contains an authentication bypass vulnerability that allows for remote code execution on TeamCity Server.",
+      "dateAdded": "2023-10-04",
+      "dueDate": "2023-10-25",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/ ;  https://nvd.nist.gov/vuln/detail/CVE-2023-42793",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2023-38831",
       "source": "https://ics-cert.kaspersky.com/publications/reports/2024/04/02/apt-and-financial-attacks-on-industrial-organizations-in-h2-2023/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "RARLAB WinRAR Code Execution Vulnerability",
+      "shortDescription": "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
+      "dateAdded": "2023-08-24",
+      "dueDate": "2023-09-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "http://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=232&cHash=c5bf79590657e32554c6683296a8e8aa;  https://nvd.nist.gov/vuln/detail/CVE-2023-38831",
+      "cwes": [
+        "CWE-351"
+      ],
+      "dateEnriched": "2026-07-09"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-119"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2019-0703",
@@ -33,7 +33,7 @@
       "knownRansomwareCampaignUse": "Unknown",
       "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0703",
       "cwes": [],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2017-0005",
@@ -51,7 +51,7 @@
       "cwes": [
         "CWE-119"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2020-12271",
@@ -69,17 +69,41 @@
       "cwes": [
         "CWE-89"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2017-0199",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-attack-in-middle-east-by-apt34/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Microsoft",
+      "product": "Office and WordPad",
+      "vulnerabilityName": "Microsoft Office and WordPad Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Office and WordPad contain an unspecified vulnerability due to the way the applications parse specially crafted files. Successful exploitation allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-0199",
+      "cwes": [],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2017-11882",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-attack-in-middle-east-by-apt34/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-07-09"
     }
   ]
 }

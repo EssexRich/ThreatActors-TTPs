@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-807"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-21858",
@@ -38,7 +38,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2025-66478",
@@ -61,7 +61,7 @@
       "cwes": [
         "CWE-23"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2025-59287",
@@ -79,12 +79,25 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-07-08"
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-20253",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "vulnerabilityName": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "dateAdded": "2026-06-18",
+      "dueDate": "2026-06-21",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-42945",
@@ -94,12 +107,38 @@
     {
       "id": "CVE-2026-41940",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "vulnerabilityName": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "dateAdded": "2026-04-30",
+      "dueDate": "2026-05-03",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://support.cpanel.net/hc/en-us/articles/40073787579671-cPanel-WHM-Security-Update-04-28-2026 ; https://docs.cpanel.net/release-notes/release-notes/ ; https://docs.wpsquared.com/changelogs/versions/changelog/#13617 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41940\"",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-31431",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+      "shortDescription": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "dateAdded": "2026-05-01",
+      "dueDate": "2026-05-15",
+      "requiredAction": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh/; https://xint.io/blog/copy-fail-linux-distributions#the-fix-6 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/about/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+      "cwes": [
+        "CWE-669"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-3143",
@@ -109,7 +148,20 @@
     {
       "id": "CVE-2026-3055",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "vulnerabilityName": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
+      "shortDescription": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
+      "dateAdded": "2026-03-30",
+      "dueDate": "2026-04-02",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368 ; https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
+      "cwes": [
+        "CWE-125"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-4368",
@@ -119,7 +171,20 @@
     {
       "id": "CVE-2026-21643",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Fortinet",
+      "product": "FortiClient EMS",
+      "vulnerabilityName": "Fortinet FortiClient EMS SQL Injection Vulnerability",
+      "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
+      "dateAdded": "2026-04-13",
+      "dueDate": "2026-04-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-25-1142 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-07-09"
     }
   ]
 }

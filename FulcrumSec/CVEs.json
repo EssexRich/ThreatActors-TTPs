@@ -4,32 +4,108 @@
     {
       "id": "CVE-2026-31431",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+      "shortDescription": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "dateAdded": "2026-05-01",
+      "dueDate": "2026-05-15",
+      "requiredAction": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh/; https://xint.io/blog/copy-fail-linux-distributions#the-fix-6 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/about/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+      "cwes": [
+        "CWE-669"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-41940",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "vulnerabilityName": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "dateAdded": "2026-04-30",
+      "dueDate": "2026-05-03",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://support.cpanel.net/hc/en-us/articles/40073787579671-cPanel-WHM-Security-Update-04-28-2026 ; https://docs.cpanel.net/release-notes/release-notes/ ; https://docs.wpsquared.com/changelogs/versions/changelog/#13617 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41940\"",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2024-1708",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "vulnerabilityName": "ConnectWise ScreenConnect Path Traversal Vulnerability",
+      "shortDescription": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+      "dateAdded": "2026-04-28",
+      "dueDate": "2026-05-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8 ; https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2024-1709",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "vulnerabilityName": "ConnectWise ScreenConnect Authentication Bypass Vulnerability",
+      "shortDescription": "ConnectWise ScreenConnect contains an authentication bypass vulnerability that allows an attacker with network access to the management interface to create a new, administrator-level account on affected devices.",
+      "dateAdded": "2024-02-22",
+      "dueDate": "2024-02-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8; https://nvd.nist.gov/vuln/detail/CVE-2024-1709",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2026-32202",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Protection Mechanism Failure Vulnerability",
+      "shortDescription": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "dateAdded": "2026-04-28",
+      "dueDate": "2026-05-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-32202 ; https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
+      "cwes": [
+        "CWE-693"
+      ],
+      "dateEnriched": "2026-07-09"
     },
     {
       "id": "CVE-2025-55182",
       "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
-      "dateFound": "2026-07-09"
+      "dateFound": "2026-07-09",
+      "vendor": "Meta",
+      "product": "React Server Components",
+      "vulnerabilityName": "Meta React Server Components Remote Code Execution Vulnerability",
+      "shortDescription": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.",
+      "dateAdded": "2025-12-05",
+      "dueDate": "2025-12-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
+      "cwes": [],
+      "dateEnriched": "2026-07-09"
     }
   ]
 }

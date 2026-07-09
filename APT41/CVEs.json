@@ -102,6 +102,11 @@
         "CWE-284"
       ],
       "dateEnriched": "2026-07-08"
+    },
+    {
+      "id": "CVE-2021-26857",
+      "source": "https://blog.eclecticiq.com/multiple-apt-groups-exploit-exchange-server-vulnerabilities",
+      "dateFound": "2026-07-09"
     }
   ]
 }

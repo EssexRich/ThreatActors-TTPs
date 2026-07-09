@@ -70,6 +70,16 @@
         "CWE-89"
       ],
       "dateEnriched": "2026-07-08"
+    },
+    {
+      "id": "CVE-2017-0199",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-attack-in-middle-east-by-apt34/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2017-11882",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-attack-in-middle-east-by-apt34/",
+      "dateFound": "2026-07-09"
     }
   ]
 }

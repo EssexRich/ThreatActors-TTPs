@@ -1,0 +1,35 @@
+{
+  "group": "FulcrumSec",
+  "cves": [
+    {
+      "id": "CVE-2026-31431",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-41940",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2024-1708",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2026-32202",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-april-28-may-4-2026/",
+      "dateFound": "2026-07-09"
+    }
+  ]
+}

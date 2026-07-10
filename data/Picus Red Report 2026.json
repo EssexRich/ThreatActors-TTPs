@@ -1,9 +1,18 @@
 {
   "name": "Picus Red Report 2026",
   "techniques": [
-    "T1486"
+    "T1027",
+    "T1036",
+    "T1047",
+    "T1055",
+    "T1059",
+    "T1112",
+    "T1204",
+    "T1486",
+    "T1490",
+    "T1562"
   ],
-  "techniqueCount": 1,
+  "techniqueCount": 10,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -13,7 +22,16 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1486"
+          "T1027",
+          "T1036",
+          "T1047",
+          "T1055",
+          "T1059",
+          "T1112",
+          "T1204",
+          "T1486",
+          "T1490",
+          "T1562"
         ]
       }
     ]

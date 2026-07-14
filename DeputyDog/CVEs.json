@@ -1,0 +1,10 @@
+{
+  "group": "DeputyDog",
+  "cves": [
+    {
+      "id": "CVE-2013-3893",
+      "source": "https://www.fireeye.com/blog/threat-research/2013/09/hand-me-downs-exploit-and-infrastructure-reuse-among-apt-campaigns.html",
+      "dateFound": "2026-07-14"
+    }
+  ]
+}

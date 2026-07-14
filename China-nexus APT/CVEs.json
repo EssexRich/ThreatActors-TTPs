@@ -72,6 +72,11 @@
         "CWE-77"
       ],
       "dateEnriched": "2026-07-14"
+    },
+    {
+      "id": "CVE-2024-3400",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+      "dateFound": "2026-07-14"
     }
   ]
 }

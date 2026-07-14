@@ -1,0 +1,45 @@
+{
+  "group": "Obscura",
+  "cves": [
+    {
+      "id": "CVE-2025-38352",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-48543",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-53690",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2023-50224",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-9377",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2020-24363",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-55177",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-43300",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-2-september-8-2025/",
+      "dateFound": "2026-07-14"
+    }
+  ]
+}

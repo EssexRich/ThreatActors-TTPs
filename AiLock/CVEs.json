@@ -1,0 +1,35 @@
+{
+  "group": "AiLock",
+  "cves": [
+    {
+      "id": "CVE-2026-12569",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2026-20230",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2025-67038",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2026-34910",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2026-34909",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2026-34908",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-23-jun-29-2026/",
+      "dateFound": "2026-07-14"
+    }
+  ]
+}

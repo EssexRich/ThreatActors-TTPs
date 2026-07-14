@@ -1,0 +1,55 @@
+{
+  "group": "World Leaks",
+  "cves": [
+    {
+      "id": "CVE-2017-11882",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2020-0688",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2016-7255",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2020-14882",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2021-40444",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2020-0968",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2021-44832",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2021-45105",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2021-22986",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    },
+    {
+      "id": "CVE-2026-44963",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
+      "dateFound": "2026-07-14"
+    }
+  ]
+}

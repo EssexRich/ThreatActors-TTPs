@@ -163,6 +163,11 @@
         "CWE-351"
       ],
       "dateEnriched": "2026-07-14"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://www.darkreading.com/threat-intelligence/microsoft-russian-sandworm-apt-exploits-edge-bugs-globally",
+      "dateFound": "2026-07-14"
     }
   ]
 }

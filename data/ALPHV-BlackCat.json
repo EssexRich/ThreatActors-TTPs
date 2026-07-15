@@ -52,9 +52,10 @@
     "T1204",
     "T1218.003",
     "T1219",
-    "T1486"
+    "T1486",
+    "T1490"
   ],
-  "techniqueCount": 52,
+  "techniqueCount": 53,
   "cveCount": 0,
   "metadata": {
     "description": "| Initial Access                          | ID    | Use                                                                                                                                                 ",
@@ -141,7 +142,8 @@
         "techniques": [
           "T1068",
           "T1204",
-          "T1486"
+          "T1486",
+          "T1490"
         ]
       }
     ]

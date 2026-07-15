@@ -27,6 +27,7 @@
     "T1069",
     "T1069.002",
     "T1078",
+    "T1078.001",
     "T1082",
     "T1083",
     "T1087",
@@ -50,7 +51,7 @@
     "T1219",
     "T1486"
   ],
-  "techniqueCount": 48,
+  "techniqueCount": 49,
   "cveCount": 0,
   "metadata": {
     "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
@@ -96,6 +97,7 @@
           "T1069",
           "T1069.002",
           "T1078",
+          "T1078.001",
           "T1087",
           "T1087.002",
           "T1090",

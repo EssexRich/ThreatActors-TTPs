@@ -4,7 +4,20 @@
     {
       "id": "CVE-2013-3893",
       "source": "https://www.fireeye.com/blog/threat-research/2013/09/hand-me-downs-exploit-and-infrastructure-reuse-among-apt-campaigns.html",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "vulnerabilityName": "Microsoft Internet Explorer Resource Management Errors Vulnerability",
+      "shortDescription": "Microsoft Internet Explorer contains a memory corruption vulnerability that allows for remote code execution. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "dateAdded": "2025-08-12",
+      "dueDate": "2025-09-02",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2013/ms13-080 ; https://nvd.nist.gov/vuln/detail/CVE-2013-3893",
+      "cwes": [
+        "CWE-399"
+      ],
+      "dateEnriched": "2026-07-15"
     }
   ]
 }

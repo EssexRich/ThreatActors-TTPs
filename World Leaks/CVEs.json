@@ -4,32 +4,108 @@
     {
       "id": "CVE-2017-11882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2020-0688",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Validation Key Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Exchange Server Validation Key fails to properly create unique keys at install time, allowing for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-0688",
+      "cwes": [
+        "CWE-287"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2016-7255",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "Win32k",
+      "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Win32k kernel-mode driver fails to properly handle objects in memory which allows for privilege escalation. Successful exploitation allows an attacker to run code in kernel mode.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2016-7255",
+      "cwes": [
+        "CWE-264"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2020-14882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "vulnerabilityName": "Oracle WebLogic Server Remote Code Execution Vulnerability",
+      "shortDescription": "Oracle WebLogic Server contains an unspecified vulnerability, which is assessed to allow for remote code execution, based on this vulnerability being related to CVE-2020-14750.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-14882",
+      "cwes": [],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2021-40444",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "MSHTML",
+      "vulnerabilityName": "Microsoft MSHTML Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft MSHTML contains a unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-40444",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2020-0968",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "vulnerabilityName": "Microsoft Internet Explorer Scripting Engine Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Internet Explorer contains a memory corruption vulnerability due to how the Scripting Engine handles objects in memory, leading to remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-0968",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2021-44832",
@@ -44,7 +120,20 @@
     {
       "id": "CVE-2021-22986",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-19-jun-2026/",
-      "dateFound": "2026-07-14"
+      "dateFound": "2026-07-14",
+      "vendor": "F5",
+      "product": "BIG-IP and BIG-IQ Centralized Management",
+      "vulnerabilityName": "F5 BIG-IP and BIG-IQ Centralized Management iControl REST Remote Code Execution Vulnerability",
+      "shortDescription": "F5 BIG-IP and BIG-IQ Centralized Management contain a remote code execution vulnerability in the iControl REST interface that allows unauthenticated attackers with network access to execute system commands, create or delete files, and disable services.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-22986",
+      "cwes": [
+        "CWE-863"
+      ],
+      "dateEnriched": "2026-07-15"
     },
     {
       "id": "CVE-2026-44963",

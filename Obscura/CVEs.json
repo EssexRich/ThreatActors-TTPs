@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-367"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2025-48543",
@@ -33,7 +33,7 @@
       "knownRansomwareCampaignUse": "Unknown",
       "notes": "https://source.android.com/docs/security/bulletin/2025-09-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48543",
       "cwes": [],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2025-53690",
@@ -51,7 +51,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2023-50224",
@@ -69,7 +69,7 @@
       "cwes": [
         "CWE-290"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2025-9377",
@@ -87,7 +87,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2020-24363",
@@ -105,7 +105,7 @@
       "cwes": [
         "CWE-306"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2025-55177",
@@ -123,7 +123,7 @@
       "cwes": [
         "CWE-863"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     },
     {
       "id": "CVE-2025-43300",
@@ -141,7 +141,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-07-15"
+      "dateEnriched": "2026-07-16"
     }
   ]
 }

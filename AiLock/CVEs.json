@@ -12,13 +12,13 @@
       "dateAdded": "2026-06-25",
       "dueDate": "2026-06-28",
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "https://www.ptc.com/en/support/article/CS473270 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
       "cwes": [
         "CWE-20",
         "CWE-502"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     },
     {
       "id": "CVE-2026-20230",
@@ -36,7 +36,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     },
     {
       "id": "CVE-2025-67038",
@@ -55,7 +55,7 @@
         "CWE-78",
         "CWE-94"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     },
     {
       "id": "CVE-2026-34910",
@@ -73,7 +73,7 @@
       "cwes": [
         "CWE-20"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     },
     {
       "id": "CVE-2026-34909",
@@ -91,7 +91,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     },
     {
       "id": "CVE-2026-34908",
@@ -109,7 +109,7 @@
       "cwes": [
         "CWE-284"
       ],
-      "dateEnriched": "2026-07-24"
+      "dateEnriched": "2026-07-25"
     }
   ]
 }

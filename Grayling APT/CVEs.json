@@ -15,7 +15,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0803",
       "cwes": [],
-      "dateEnriched": "2026-08-29"
+      "dateEnriched": "2026-08-30"
     }
   ]
 }

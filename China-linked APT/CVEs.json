@@ -1,0 +1,10 @@
+{
+  "group": "China-linked APT (UNC5221, UNC5174, CL-STA-0048)",
+  "cves": [
+    {
+      "id": "CVE-2025-31324",
+      "source": "https://thehackernews.com/2025/05/china-linked-apts-exploit-sap-cve-2025.html",
+      "dateFound": "2026-09-01"
+    }
+  ]
+}

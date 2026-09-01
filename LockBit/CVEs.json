@@ -278,6 +278,11 @@
         "CWE-22"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2023-3519",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight",
+      "dateFound": "2026-09-01"
     }
   ]
 }

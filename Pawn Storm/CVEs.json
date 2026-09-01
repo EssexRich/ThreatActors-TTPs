@@ -1,0 +1,10 @@
+{
+  "group": "Pawn Storm (APT28)",
+  "cves": [
+    {
+      "id": "CVE-2026-21509",
+      "source": "https://www.trendmicro.com/en_us/research/26/c/pawn-storm-targets-govt-infra.html",
+      "dateFound": "2026-09-01"
+    }
+  ]
+}

@@ -18,6 +18,11 @@
         "CWE-502"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-20182",
+      "source": "https://blog.talosintelligence.com/category/cisco-talos-network-intrusion-prevention/",
+      "dateFound": "2026-09-01"
     }
   ]
 }

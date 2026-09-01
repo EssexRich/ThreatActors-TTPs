@@ -1,0 +1,15 @@
+{
+  "group": "Gunra",
+  "cves": [
+    {
+      "id": "CVE-2024-55591",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-24472",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+      "dateFound": "2026-09-01"
+    }
+  ]
+}

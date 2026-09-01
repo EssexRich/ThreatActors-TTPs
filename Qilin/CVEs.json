@@ -136,6 +136,11 @@
         "CWE-807"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-0257",
+      "source": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "dateFound": "2026-09-01"
     }
   ]
 }

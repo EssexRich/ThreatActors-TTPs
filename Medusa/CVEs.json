@@ -108,6 +108,26 @@
         "CWE-22"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2023-48788",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-10035",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-1731",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+      "dateFound": "2026-09-01"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "group": "APT37",
+  "cves": [
+    {
+      "id": "CVE-2018-0802",
+      "source": "https://cloud.google.com/security/resources/insights/apt-groups",
+      "dateFound": "2026-09-01"
+    }
+  ]
+}

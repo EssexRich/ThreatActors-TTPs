@@ -1,0 +1,45 @@
+{
+  "group": "3AM",
+  "cves": [
+    {
+      "id": "CVE-2026-35273",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-10520",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-11645",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-7473",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-20245",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-42271",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-50751",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-5777",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-jun-9-jun-15-2026/",
+      "dateFound": "2026-09-01"
+    }
+  ]
+}

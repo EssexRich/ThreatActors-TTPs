@@ -181,6 +181,11 @@
         "CWE-288"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2021-34473",
+      "source": "https://www.secureworks.com/blog/cobalt-mirage-conducts-ransomware-operations-in-us",
+      "dateFound": "2026-09-01"
     }
   ]
 }

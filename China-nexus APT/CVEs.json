@@ -91,6 +91,11 @@
         "CWE-77"
       ],
       "dateEnriched": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-0300",
+      "source": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
+      "dateFound": "2026-09-01"
     }
   ]
 }

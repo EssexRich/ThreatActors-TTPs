@@ -23,6 +23,101 @@
       "id": "CVE-2016-6662",
       "source": "MITRE ATT&CK",
       "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-0282",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-4428",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-22457",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-32433",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2025-24813",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-41713",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-55550",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-56145",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-34102",
+      "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-40766",
+      "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2023-27532",
+      "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2024-40711",
+      "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-20253",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-42945",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-41940",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-31431",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-3143",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-3055",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
+    },
+    {
+      "id": "CVE-2026-4368",
+      "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
+      "dateFound": "2026-09-01"
     }
   ]
 }

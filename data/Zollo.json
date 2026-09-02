@@ -1,14 +1,9 @@
 {
-  "name": "WannaCry",
+  "name": "Zollo",
   "techniques": [
-    "T1047",
-    "T1190",
-    "T1486",
-    "T1573",
-    "T1573.002",
-    "T1595"
+    "T1490"
   ],
-  "techniqueCount": 6,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -18,12 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1047",
-          "T1190",
-          "T1486",
-          "T1573",
-          "T1573.002",
-          "T1595"
+          "T1490"
         ]
       }
     ]

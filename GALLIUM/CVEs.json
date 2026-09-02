@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2016-6662",
@@ -27,67 +27,237 @@
     {
       "id": "CVE-2025-0282",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "vulnerabilityName": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contain a stack-based buffer overflow which can lead to unauthenticated remote code execution.",
+      "dateAdded": "2025-01-08",
+      "dueDate": "2025-01-15",
+      "requiredAction": "Apply mitigations as set forth in the CISA instructions linked below to include conducting hunt activities, taking remediation actions if applicable, and applying updates prior to returning a device to service.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-CVE-2025-0282 Additional References: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283 ; https://nvd.nist.gov/vuln/detail/CVE-2025-0282",
+      "cwes": [
+        "CWE-121"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2025-4428",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability in the API component that allows an authenticated attacker to remotely execute arbitrary code via crafted API requests. This vulnerability results from an insecure implementation of the Hibernate Validator open-source library, as represented by CVE-2025-35036.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM ; https://nvd.nist.gov/vuln/detail/CVE-2025-4428",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2025-22457",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Ivanti",
+      "product": "Connect Secure, Policy Secure, and ZTA Gateways",
+      "vulnerabilityName": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+      "shortDescription": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways contains a stack-based buffer overflow vulnerability that allows a remote unauthenticated attacker to achieve remote code execution. ",
+      "dateAdded": "2025-04-04",
+      "dueDate": "2025-04-11",
+      "requiredAction": "Apply mitigations as set forth in the CISA instructions linked below.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-22457 ; Additional References: https://forums.ivanti.com/s/article/April-Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-22457 ; https://nvd.nist.gov/vuln/detail/CVE-2025-22457",
+      "cwes": [
+        "CWE-121"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2025-32433",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Erlang",
+      "product": "Erlang/OTP",
+      "vulnerabilityName": "Erlang Erlang/OTP SSH Server Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Erlang Erlang/OTP SSH server contains a missing authentication for critical function vulnerability. This could allow an attacker to execute arbitrary commands without valid credentials, potentially leading to unauthenticated remote code execution (RCE). By exploiting a flaw in how SSH protocol messages are handled, a malicious actor could gain unauthorized access to affected systems. This vulnerability could affect various products that implement Erlang/OTP SSH server, including—but not limited to—Cisco, NetApp, and SUSE.",
+      "dateAdded": "2025-06-09",
+      "dueDate": "2025-06-30",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects a common open-source project, third-party library, or a protocol used by different products. For more information, please see: https://github.com/erlang/otp/security/advisories/GHSA-37cp-fgq5-7wc2 ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-erlang-otp-ssh-xyZZy ; https://nvd.nist.gov/vuln/detail/CVE-2025-32433",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2025-24813",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Apache",
+      "product": "Tomcat",
+      "vulnerabilityName": "Apache Tomcat Path Equivalence Vulnerability",
+      "shortDescription": "Apache Tomcat contains a path equivalence vulnerability that allows a remote attacker to execute code, disclose information, or inject malicious content via a partial PUT request. This vulnerability can be chained with CVE‑2026‑34486.",
+      "dateAdded": "2025-04-01",
+      "dueDate": "2025-04-22",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://lists.apache.org/thread/j5fkjv2k477os90nczf2v9l61fb0kkgq ; https://nvd.nist.gov/vuln/detail/CVE-2025-24813",
+      "cwes": [
+        "CWE-44",
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-41713",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Path Traversal Vulnerability",
+      "shortDescription": "Mitel MiCollab contains a path traversal vulnerability that could allow an attacker to gain unauthorized and unauthenticated access. This vulnerability can be chained with CVE-2024-55550, which allows an unauthenticated, remote attacker to read arbitrary files on the server.",
+      "dateAdded": "2025-01-07",
+      "dueDate": "2025-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-41713 ",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-55550",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Path Traversal Vulnerability",
+      "shortDescription": "Mitel MiCollab contains a path traversal vulnerability that could allow an authenticated attacker with administrative privileges to read local files within the system due to insufficient input sanitization. This vulnerability can be chained with CVE-2024-41713, which allows an unauthenticated, remote attacker to read arbitrary files on the server.",
+      "dateAdded": "2025-01-07",
+      "dueDate": "2025-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2024-0029 ; https://nvd.nist.gov/vuln/detail/CVE-2024-55550",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-56145",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Craft CMS",
+      "product": "Craft CMS",
+      "vulnerabilityName": "Craft CMS Code Injection Vulnerability",
+      "shortDescription": "Craft CMS contains a code injection vulnerability. Users with affected versions are vulnerable to remote code execution if their php.ini configuration has `register_argc_argv` enabled.",
+      "dateAdded": "2025-06-02",
+      "dueDate": "2025-06-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/craftcms/cms/security/advisories/GHSA-2p6p-9rc9-62j9 ; https://nvd.nist.gov/vuln/detail/CVE-2024-56145",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-34102",
       "source": "https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Adobe",
+      "product": "Commerce and Magento Open Source",
+      "vulnerabilityName": "Adobe Commerce and Magento Open Source Improper Restriction of XML External Entity Reference (XXE) Vulnerability",
+      "shortDescription": "Adobe Commerce and Magento Open Source contain an improper restriction of XML external entity reference (XXE) vulnerability that allows for remote code execution.",
+      "dateAdded": "2024-07-17",
+      "dueDate": "2024-08-07",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://helpx.adobe.com/security/products/magento/apsb24-40.html;  https://nvd.nist.gov/vuln/detail/CVE-2024-34102",
+      "cwes": [
+        "CWE-611"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-40766",
       "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "SonicWall",
+      "product": "SonicOS",
+      "vulnerabilityName": "SonicWall SonicOS Improper Access Control Vulnerability",
+      "shortDescription": "SonicWall SonicOS contains an improper access control vulnerability that could lead to unauthorized resource access and, under certain conditions, may cause the firewall to crash.",
+      "dateAdded": "2024-09-09",
+      "dueDate": "2024-09-30",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015; https://www.sonicwall.com/support/notices/gen-7-and-newer-sonicwall-firewalls-sslvpn-recent-threat-activity/kA1VN0000000RDG0A2 ; https://nvd.nist.gov/vuln/detail/CVE-2024-40766",
+      "cwes": [
+        "CWE-284"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2023-27532",
       "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Veeam",
+      "product": "Backup & Replication",
+      "vulnerabilityName": "Veeam Backup & Replication Cloud Connect Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Veeam Backup & Replication Cloud Connect component contains a missing authentication for critical function vulnerability that allows an unauthenticated user operating within the backup infrastructure network perimeter to obtain encrypted credentials stored in the configuration database. This may lead to an attacker gaining access to the backup infrastructure hosts.",
+      "dateAdded": "2023-08-22",
+      "dueDate": "2023-09-12",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.veeam.com/kb4424;  https://nvd.nist.gov/vuln/detail/CVE-2023-27532",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-40711",
       "source": "https://redcanary.com/threat-detection-report/trends/ransomware/",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Veeam",
+      "product": "Backup & Replication",
+      "vulnerabilityName": "Veeam Backup and Replication Deserialization Vulnerability",
+      "shortDescription": "Veeam Backup and Replication contains a deserialization vulnerability allowing an unauthenticated user to perform remote code execution.",
+      "dateAdded": "2024-10-17",
+      "dueDate": "2024-11-07",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.veeam.com/kb4649 ; https://nvd.nist.gov/vuln/detail/CVE-2024-40711",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-20253",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "vulnerabilityName": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "dateAdded": "2026-06-18",
+      "dueDate": "2026-06-21",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://advisory.splunk.com/advisories/SVD-2026-0603 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-42945",
@@ -97,12 +267,38 @@
     {
       "id": "CVE-2026-41940",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "vulnerabilityName": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "dateAdded": "2026-04-30",
+      "dueDate": "2026-05-03",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://support.cpanel.net/hc/en-us/articles/40073787579671-cPanel-WHM-Security-Update-04-28-2026 ; https://docs.cpanel.net/release-notes/release-notes/ ; https://docs.wpsquared.com/changelogs/versions/changelog/#13617 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41940\"",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-31431",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+      "shortDescription": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "dateAdded": "2026-05-01",
+      "dueDate": "2026-05-15",
+      "requiredAction": "\"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://lore.kernel.org/linux-cve-announce/2026042214-CVE-2026-31431-3d65@gregkh/; https://xint.io/blog/copy-fail-linux-distributions#the-fix-6 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/about/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+      "cwes": [
+        "CWE-669"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-3143",
@@ -112,7 +308,20 @@
     {
       "id": "CVE-2026-3055",
       "source": "https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "vulnerabilityName": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
+      "shortDescription": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
+      "dateAdded": "2026-03-30",
+      "dueDate": "2026-04-02",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696300&articleURL=NetScaler_ADC_and_NetScaler_Gateway_Security_Bulletin_for_CVE_2026_3055_and_CVE_2026_4368 ; https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
+      "cwes": [
+        "CWE-125"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-4368",

@@ -17,12 +17,25 @@
       "cwes": [
         "CWE-294"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2020-35730",
       "source": "https://ics-cert.kaspersky.com/publications/reports/2023/09/25/apt-and-financial-attacks-on-industrial-organizations-in-h1-2023/",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Roundcube",
+      "product": "Roundcube Webmail",
+      "vulnerabilityName": "Roundcube Webmail Cross-Site Scripting (XSS) Vulnerability",
+      "shortDescription": "Roundcube Webmail contains a cross-site scripting (XSS) vulnerability that allows an attacker to send a plain text e-mail message with Javascript in a link reference element that is mishandled by linkref_addinindex in rcube_string_replacer.php.",
+      "dateAdded": "2023-06-22",
+      "dueDate": "2023-07-13",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://roundcube.net/news/2020/12/27/security-updates-1.4.10-1.3.16-and-1.2.13; https://nvd.nist.gov/vuln/detail/CVE-2020-35730",
+      "cwes": [
+        "CWE-79"
+      ],
+      "dateEnriched": "2026-09-02"
     }
   ]
 }

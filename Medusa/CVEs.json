@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2021-34527",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-269"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2021-35211",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2023-34362",
@@ -71,7 +71,7 @@
       "cwes": [
         "CWE-89"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2023-4966",
@@ -89,7 +89,7 @@
       "cwes": [
         "CWE-119"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-57727",
@@ -107,27 +107,80 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-09-01"
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2024-1709",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "vulnerabilityName": "ConnectWise ScreenConnect Authentication Bypass Vulnerability",
+      "shortDescription": "ConnectWise ScreenConnect contains an authentication bypass vulnerability that allows an attacker with network access to the management interface to create a new, administrator-level account on affected devices.",
+      "dateAdded": "2024-02-22",
+      "dueDate": "2024-02-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8; https://nvd.nist.gov/vuln/detail/CVE-2024-1709",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2023-48788",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Fortinet",
+      "product": "FortiClient EMS",
+      "vulnerabilityName": "Fortinet FortiClient EMS SQL Injection Vulnerability",
+      "shortDescription": "Fortinet FortiClient EMS contains a SQL injection vulnerability that allows an unauthenticated attacker to execute commands as SYSTEM via specifically crafted requests.",
+      "dateAdded": "2024-03-25",
+      "dueDate": "2024-04-15",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-24-007;  https://nvd.nist.gov/vuln/detail/CVE-2023-48788",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2025-10035",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "vulnerabilityName": "Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Fortra GoAnywhere MFT contains a deserialization of untrusted data vulnerability allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortra.com/security/advisories/product-security/fi-2025-012 ; https://nvd.nist.gov/vuln/detail/CVE-2025-10035",
+      "cwes": [
+        "CWE-502",
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-09-02"
     },
     {
       "id": "CVE-2026-1731",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
-      "dateFound": "2026-09-01"
+      "dateFound": "2026-09-01",
+      "vendor": "BeyondTrust",
+      "product": "Remote Support (RS) and Privileged Remote Access (PRA)",
+      "vulnerabilityName": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
+      "shortDescription": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA)contain an OS command injection vulnerability. Successful exploitation could allow an unauthenticated remote attacker to execute operating system commands in the context of the site user. Successful exploitation requires no authentication or user interaction and may lead to system compromise, including unauthorized access, data exfiltration, and service disruption.",
+      "dateAdded": "2026-02-13",
+      "dueDate": "2026-02-16",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Please adhere to the vendor's guidelines to assess exposure and mitigate risks. Check for signs of potential compromise on all internet accessible BeyondTrust products affected by this vulnerability. For more information please: see: https://www.beyondtrust.com/trust-center/security-advisories/bt26-02 ; https://nvd.nist.gov/vuln/detail/CVE-2026-1731",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-09-02"
     }
   ]
 }

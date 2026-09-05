@@ -18,7 +18,7 @@
         "CWE-787",
         "CWE-1285"
       ],
-      "dateEnriched": "2026-09-04"
+      "dateEnriched": "2026-09-05"
     },
     {
       "id": "CVE-2022-37969",
@@ -31,13 +31,13 @@
       "dateAdded": "2022-09-14",
       "dueDate": "2022-10-05",
       "requiredAction": "Apply updates per vendor instructions.",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-37969;  https://nvd.nist.gov/vuln/detail/CVE-2022-37969",
       "cwes": [
         "CWE-20",
         "CWE-787"
       ],
-      "dateEnriched": "2026-09-04"
+      "dateEnriched": "2026-09-05"
     },
     {
       "id": "CVE-2023-23376",
@@ -55,7 +55,7 @@
       "cwes": [
         "CWE-122"
       ],
-      "dateEnriched": "2026-09-04"
+      "dateEnriched": "2026-09-05"
     },
     {
       "id": "CVE-2023-28252",
@@ -73,7 +73,7 @@
       "cwes": [
         "CWE-122"
       ],
-      "dateEnriched": "2026-09-04"
+      "dateEnriched": "2026-09-05"
     },
     {
       "id": "CVE-2024-30051",
@@ -91,7 +91,7 @@
       "cwes": [
         "CWE-122"
       ],
-      "dateEnriched": "2026-09-04"
+      "dateEnriched": "2026-09-05"
     }
   ]
 }

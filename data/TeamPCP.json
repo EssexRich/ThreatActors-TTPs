@@ -33,12 +33,13 @@
     "T1585.001",
     "T1587.001",
     "T1608.001",
+    "T1610",
     "T1657",
     "T1677",
     "T1683.001",
     "T1684.001"
   ],
-  "techniqueCount": 36,
+  "techniqueCount": 37,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -80,6 +81,7 @@
           "T1585.001",
           "T1587.001",
           "T1608.001",
+          "T1610",
           "T1657",
           "T1677",
           "T1683.001",

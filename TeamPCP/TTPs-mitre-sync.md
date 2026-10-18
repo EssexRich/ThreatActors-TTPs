@@ -38,3 +38,4 @@
 | T1677 | Poisoned Pipeline Execution | MITRE ATT&CK | 2026-08-09 |
 | T1583 | Acquire Infrastructure | MITRE ATT&CK | 2026-08-09 |
 | T1176.002 | IDE Extensions | MITRE ATT&CK | 2026-08-09 |
+| T1610 | Deploy Container | MITRE ATT&CK | 2026-10-18 |

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T07:39:37.570Z",
+  "generated": "2026-11-04T07:17:20.441Z",
   "actorCount": 302,
   "totalTechniques": 595,
   "actors": [
@@ -16550,7 +16550,7 @@
     "T1564.013": {
       "id": "T1564.013",
       "name": "Bind Mounts",
-      "description": "Adversaries may abuse bind mounts on file structures to hide their activity and artifacts from native utilities. A bind mount maps a directory or file from one location on the filesystem to another, similar to a shortcut on Windows. It’s commonly used to provide access to specific files or directories across different environments, such as inside containers or chroot environments, and requires sudo access. \n\nAdversaries may use bind mounts to map either an empty directory or a benign `/proc` directory to a malicious process’s `/proc` directory. Using the commands `mount –o bind /proc/benign-process /proc/malicious-process` (or `mount ���B`), the malicious process's `/proc` directory is overlayed with the contents of a benign process's `/proc` directory. When system utilities query process activity, such as `ps` and `top`, the kernel follows the bind mount and presents the benign directory’s contents instead of the malicious process's actual `/proc` directory. As a result, these utilities display information that appears to come from the benign process, effectively hiding the malicious process's metadata, executable, or other artifacts from detection.(Citation: Cado Security Commando Cat 2024)(Citation: Ahn Lab CoinMiner 2023)",
+      "description": "Adversaries may abuse bind mounts on file structures to hide their activity and artifacts from native utilities. A bind mount maps a directory or file from one location on the filesystem to another, similar to a shortcut on Windows. It’s commonly used to provide access to specific files or directories across different environments, such as inside containers or chroot environments, and requires sudo access. \n\nAdversaries may use bind mounts to map either an empty directory or a benign `/proc` directory to a malicious process’s `/proc` directory. Using the commands `mount –o bind /proc/benign-process /proc/malicious-process` (or `mount –B`), the malicious process's `/proc` directory is overlayed with the contents of a benign process's `/proc` directory. When system utilities query process activity, such as `ps` and `top`, the kernel follows the bind mount and presents the benign directory’s contents instead of the malicious process's actual `/proc` directory. As a result, these utilities display information that appears to come from the benign process, effectively hiding the malicious process's metadata, executable, or other artifacts from detection.(Citation: Cado Security Commando Cat 2024)(Citation: Ahn Lab CoinMiner 2023)",
       "url": "https://attack.mitre.org/techniques/T1564/013",
       "tactics": [
         "stealth"

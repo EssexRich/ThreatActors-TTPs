@@ -8,7 +8,7 @@
       "vendor": "Sitecore",
       "product": "Multiple Products",
       "vulnerabilityName": "Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability",
-      "shortDescription": "Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud contain a deserialization of untrusted data vulnerability involving the use of default machine keys. This flaw allows attackers to exploit exposed ASP.NET machine keys to achieve remote code execution. ",
+      "shortDescription": "Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud contain a deserialization of untrusted data vulnerability involving the use of default machine keys. This flaw allows attackers to exploit exposed ASP.NET machine keys to achieve remote code execution.",
       "dateAdded": "2025-09-04",
       "dueDate": "2025-09-25",
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-11-13"
+      "dateEnriched": "2026-11-14"
     }
   ]
 }

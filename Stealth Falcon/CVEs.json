@@ -7,7 +7,7 @@
       "dateFound": "2026-01-30",
       "vendor": "Microsoft",
       "product": "Windows",
-      "vulnerabilityName": " Microsoft Windows External Control of File Name or Path Vulnerability",
+      "vulnerabilityName": "Microsoft Windows External Control of File Name or Path Vulnerability",
       "shortDescription": "Microsoft Windows contains an external control of file name or path vulnerability that could allow an attacker to execute code from a remote WebDAV location specified by the WorkingDirectory attribute of Internet Shortcut files.",
       "dateAdded": "2025-06-10",
       "dueDate": "2025-07-01",
@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-73"
       ],
-      "dateEnriched": "2026-11-13"
+      "dateEnriched": "2026-11-14"
     }
   ]
 }

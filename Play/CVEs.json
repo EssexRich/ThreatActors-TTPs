@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     },
     {
       "id": "CVE-2016-6662",
@@ -40,7 +40,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     },
     {
       "id": "CVE-2020-12812",
@@ -59,7 +59,7 @@
         "CWE-178",
         "CWE-287"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     },
     {
       "id": "CVE-2022-41040",
@@ -77,7 +77,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     },
     {
       "id": "CVE-2022-41082",
@@ -95,13 +95,13 @@
       "cwes": [
         "CWE-502"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     },
     {
       "id": "CVE-2024-57727",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
       "dateFound": "2026-01-29",
-      "vendor": "SimpleHelp ",
+      "vendor": "SimpleHelp",
       "product": "SimpleHelp",
       "vulnerabilityName": "SimpleHelp Path Traversal Vulnerability",
       "shortDescription": "SimpleHelp remote support software contains multiple path traversal vulnerabilities that allow unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files may include server configuration files and hashed user passwords.",
@@ -113,7 +113,7 @@
       "cwes": [
         "CWE-22"
       ],
-      "dateEnriched": "2026-11-17"
+      "dateEnriched": "2026-11-18"
     }
   ]
 }
